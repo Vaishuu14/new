@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Austraxpc46\\source\\repos\\XUnitTesting\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EE068E24-DE4D-454C-85BB-018CFC74C3F7}|XUnitTestingExample.Test\\XUnitTestingExample.Test.csproj|c:\\users\\austraxpc46\\source\\repos\\xunittesting\\xunittestingexample.test\\controllerstest\\homecontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE068E24-DE4D-454C-85BB-018CFC74C3F7}|XUnitTestingExample.Test\\XUnitTestingExample.Test.csproj|solutionrelative:xunittestingexample.test\\controllerstest\\homecontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE068E24-DE4D-454C-85BB-018CFC74C3F7}|XUnitTestingExample.Test\\XUnitTestingExample.Test.csproj|c:\\users\\austraxpc46\\source\\repos\\xunittesting\\xunittestingexample.test\\moqservices\\mockemailservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE068E24-DE4D-454C-85BB-018CFC74C3F7}|XUnitTestingExample.Test\\XUnitTestingExample.Test.csproj|solutionrelative:xunittestingexample.test\\moqservices\\mockemailservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13E07B63-7255-4B4C-86BA-86D47D9ABC36}|XUnitTestingExample\\XUnitTestingExample.csproj|c:\\users\\austraxpc46\\source\\repos\\xunittesting\\xunittestingexample\\services\\interfaces\\iprinterserviceprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13E07B63-7255-4B4C-86BA-86D47D9ABC36}|XUnitTestingExample\\XUnitTestingExample.csproj|solutionrelative:xunittestingexample\\services\\interfaces\\iprinterserviceprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13E07B63-7255-4B4C-86BA-86D47D9ABC36}|XUnitTestingExample\\XUnitTestingExample.csproj|c:\\users\\austraxpc46\\source\\repos\\xunittesting\\xunittestingexample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13E07B63-7255-4B4C-86BA-86D47D9ABC36}|XUnitTestingExample\\XUnitTestingExample.csproj|solutionrelative:xunittestingexample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13E07B63-7255-4B4C-86BA-86D47D9ABC36}|XUnitTestingExample\\XUnitTestingExample.csproj|c:\\users\\austraxpc46\\source\\repos\\xunittesting\\xunittestingexample\\services\\printerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13E07B63-7255-4B4C-86BA-86D47D9ABC36}|XUnitTestingExample\\XUnitTestingExample.csproj|solutionrelative:xunittestingexample\\services\\printerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13E07B63-7255-4B4C-86BA-86D47D9ABC36}|XUnitTestingExample\\XUnitTestingExample.csproj|c:\\users\\austraxpc46\\source\\repos\\xunittesting\\xunittestingexample\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13E07B63-7255-4B4C-86BA-86D47D9ABC36}|XUnitTestingExample\\XUnitTestingExample.csproj|solutionrelative:xunittestingexample\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13E07B63-7255-4B4C-86BA-86D47D9ABC36}|XUnitTestingExample\\XUnitTestingExample.csproj|c:\\users\\austraxpc46\\source\\repos\\xunittesting\\xunittestingexample\\services\\interfaces\\iemailserviceprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13E07B63-7255-4B4C-86BA-86D47D9ABC36}|XUnitTestingExample\\XUnitTestingExample.csproj|solutionrelative:xunittestingexample\\services\\interfaces\\iemailserviceprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MockEmailServices.cs",
+              "DocumentMoniker": "C:\\Users\\Austraxpc46\\source\\repos\\XUnitTesting\\XUnitTestingExample.Test\\MoqServices\\MockEmailServices.cs",
+              "RelativeDocumentMoniker": "XUnitTestingExample.Test\\MoqServices\\MockEmailServices.cs",
+              "ToolTip": "C:\\Users\\Austraxpc46\\source\\repos\\XUnitTesting\\XUnitTestingExample.Test\\MoqServices\\MockEmailServices.cs",
+              "RelativeToolTip": "XUnitTestingExample.Test\\MoqServices\\MockEmailServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAwwBIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T10:03:19.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeControllerTest.cs",
+              "DocumentMoniker": "C:\\Users\\Austraxpc46\\source\\repos\\XUnitTesting\\XUnitTestingExample.Test\\ControllersTest\\HomeControllerTest.cs",
+              "RelativeDocumentMoniker": "XUnitTestingExample.Test\\ControllersTest\\HomeControllerTest.cs",
+              "ToolTip": "C:\\Users\\Austraxpc46\\source\\repos\\XUnitTesting\\XUnitTestingExample.Test\\ControllersTest\\HomeControllerTest.cs",
+              "RelativeToolTip": "XUnitTestingExample.Test\\ControllersTest\\HomeControllerTest.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAqwE4AAABlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T10:02:24.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Austraxpc46\\source\\repos\\XUnitTesting\\XUnitTestingExample\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "XUnitTestingExample\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Austraxpc46\\source\\repos\\XUnitTesting\\XUnitTestingExample\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "XUnitTestingExample\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAowB8AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T09:56:05.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Austraxpc46\\source\\repos\\XUnitTesting\\XUnitTestingExample\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "XUnitTestingExample\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\Austraxpc46\\source\\repos\\XUnitTesting\\XUnitTestingExample\\Services\\EmailService.cs",
+              "RelativeToolTip": "XUnitTestingExample\\Services\\EmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T09:54:58.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PrinterService.cs",
+              "DocumentMoniker": "C:\\Users\\Austraxpc46\\source\\repos\\XUnitTesting\\XUnitTestingExample\\Services\\PrinterService.cs",
+              "RelativeDocumentMoniker": "XUnitTestingExample\\Services\\PrinterService.cs",
+              "ToolTip": "C:\\Users\\Austraxpc46\\source\\repos\\XUnitTesting\\XUnitTestingExample\\Services\\PrinterService.cs",
+              "RelativeToolTip": "XUnitTestingExample\\Services\\PrinterService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T09:54:30.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IPrinterServiceProvider.cs",
+              "DocumentMoniker": "C:\\Users\\Austraxpc46\\source\\repos\\XUnitTesting\\XUnitTestingExample\\Services\\Interfaces\\IPrinterServiceProvider.cs",
+              "RelativeDocumentMoniker": "XUnitTestingExample\\Services\\Interfaces\\IPrinterServiceProvider.cs",
+              "ToolTip": "C:\\Users\\Austraxpc46\\source\\repos\\XUnitTesting\\XUnitTestingExample\\Services\\Interfaces\\IPrinterServiceProvider.cs",
+              "RelativeToolTip": "XUnitTestingExample\\Services\\Interfaces\\IPrinterServiceProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T09:54:28.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IEmailServiceProvider.cs",
+              "DocumentMoniker": "C:\\Users\\Austraxpc46\\source\\repos\\XUnitTesting\\XUnitTestingExample\\Services\\Interfaces\\IEmailServiceProvider.cs",
+              "RelativeDocumentMoniker": "XUnitTestingExample\\Services\\Interfaces\\IEmailServiceProvider.cs",
+              "ToolTip": "C:\\Users\\Austraxpc46\\source\\repos\\XUnitTesting\\XUnitTestingExample\\Services\\Interfaces\\IEmailServiceProvider.cs",
+              "RelativeToolTip": "XUnitTestingExample\\Services\\Interfaces\\IEmailServiceProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T09:54:21.17Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

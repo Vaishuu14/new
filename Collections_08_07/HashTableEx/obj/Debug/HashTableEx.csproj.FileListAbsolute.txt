@@ -1,0 +1,7 @@
+C:\Users\Austraxpc46\source\repos\Collections_08_07\HashTableEx\bin\Debug\HashTableEx.exe.config
+C:\Users\Austraxpc46\source\repos\Collections_08_07\HashTableEx\bin\Debug\HashTableEx.exe
+C:\Users\Austraxpc46\source\repos\Collections_08_07\HashTableEx\bin\Debug\HashTableEx.pdb
+C:\Users\Austraxpc46\source\repos\Collections_08_07\HashTableEx\obj\Debug\HashTableEx.csproj.AssemblyReference.cache
+C:\Users\Austraxpc46\source\repos\Collections_08_07\HashTableEx\obj\Debug\HashTableEx.csproj.CoreCompileInputs.cache
+C:\Users\Austraxpc46\source\repos\Collections_08_07\HashTableEx\obj\Debug\HashTableEx.exe
+C:\Users\Austraxpc46\source\repos\Collections_08_07\HashTableEx\obj\Debug\HashTableEx.pdb

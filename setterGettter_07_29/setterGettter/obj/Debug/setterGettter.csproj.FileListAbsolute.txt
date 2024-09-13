@@ -1,0 +1,7 @@
+C:\Users\Austraxpc46\source\repos\setterGettter\setterGettter\bin\Debug\setterGettter.exe.config
+C:\Users\Austraxpc46\source\repos\setterGettter\setterGettter\bin\Debug\setterGettter.exe
+C:\Users\Austraxpc46\source\repos\setterGettter\setterGettter\bin\Debug\setterGettter.pdb
+C:\Users\Austraxpc46\source\repos\setterGettter\setterGettter\obj\Debug\setterGettter.csproj.AssemblyReference.cache
+C:\Users\Austraxpc46\source\repos\setterGettter\setterGettter\obj\Debug\setterGettter.csproj.CoreCompileInputs.cache
+C:\Users\Austraxpc46\source\repos\setterGettter\setterGettter\obj\Debug\setterGettter.exe
+C:\Users\Austraxpc46\source\repos\setterGettter\setterGettter\obj\Debug\setterGettter.pdb

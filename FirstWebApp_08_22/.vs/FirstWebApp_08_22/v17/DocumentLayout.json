@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Austraxpc46\\source\\repos\\FirstWebApp_08_22\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{78B1738A-E243-41CA-9025-C829D775EAC1}|FirstWebApp_08_22\\FirstWebApp_08_22.csproj|c:\\users\\austraxpc46\\source\\repos\\firstwebapp_08_22\\firstwebapp_08_22\\controllers\\currencycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78B1738A-E243-41CA-9025-C829D775EAC1}|FirstWebApp_08_22\\FirstWebApp_08_22.csproj|solutionrelative:firstwebapp_08_22\\controllers\\currencycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78B1738A-E243-41CA-9025-C829D775EAC1}|FirstWebApp_08_22\\FirstWebApp_08_22.csproj|c:\\users\\austraxpc46\\source\\repos\\firstwebapp_08_22\\firstwebapp_08_22\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78B1738A-E243-41CA-9025-C829D775EAC1}|FirstWebApp_08_22\\FirstWebApp_08_22.csproj|solutionrelative:firstwebapp_08_22\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78B1738A-E243-41CA-9025-C829D775EAC1}|FirstWebApp_08_22\\FirstWebApp_08_22.csproj|c:\\users\\austraxpc46\\source\\repos\\firstwebapp_08_22\\firstwebapp_08_22\\data\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78B1738A-E243-41CA-9025-C829D775EAC1}|FirstWebApp_08_22\\FirstWebApp_08_22.csproj|solutionrelative:firstwebapp_08_22\\data\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78B1738A-E243-41CA-9025-C829D775EAC1}|FirstWebApp_08_22\\FirstWebApp_08_22.csproj|c:\\users\\austraxpc46\\source\\repos\\firstwebapp_08_22\\firstwebapp_08_22\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78B1738A-E243-41CA-9025-C829D775EAC1}|FirstWebApp_08_22\\FirstWebApp_08_22.csproj|solutionrelative:firstwebapp_08_22\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78B1738A-E243-41CA-9025-C829D775EAC1}|FirstWebApp_08_22\\FirstWebApp_08_22.csproj|c:\\users\\austraxpc46\\source\\repos\\firstwebapp_08_22\\firstwebapp_08_22\\data\\bookprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78B1738A-E243-41CA-9025-C829D775EAC1}|FirstWebApp_08_22\\FirstWebApp_08_22.csproj|solutionrelative:firstwebapp_08_22\\data\\bookprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78B1738A-E243-41CA-9025-C829D775EAC1}|FirstWebApp_08_22\\FirstWebApp_08_22.csproj|c:\\users\\austraxpc46\\source\\repos\\firstwebapp_08_22\\firstwebapp_08_22\\data\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78B1738A-E243-41CA-9025-C829D775EAC1}|FirstWebApp_08_22\\FirstWebApp_08_22.csproj|solutionrelative:firstwebapp_08_22\\data\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78B1738A-E243-41CA-9025-C829D775EAC1}|FirstWebApp_08_22\\FirstWebApp_08_22.csproj|c:\\users\\austraxpc46\\source\\repos\\firstwebapp_08_22\\firstwebapp_08_22\\data\\language.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78B1738A-E243-41CA-9025-C829D775EAC1}|FirstWebApp_08_22\\FirstWebApp_08_22.csproj|solutionrelative:firstwebapp_08_22\\data\\language.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78B1738A-E243-41CA-9025-C829D775EAC1}|FirstWebApp_08_22\\FirstWebApp_08_22.csproj|c:\\users\\austraxpc46\\source\\repos\\firstwebapp_08_22\\firstwebapp_08_22\\controllers\\languagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78B1738A-E243-41CA-9025-C829D775EAC1}|FirstWebApp_08_22\\FirstWebApp_08_22.csproj|solutionrelative:firstwebapp_08_22\\controllers\\languagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Currency.cs",
+              "DocumentMoniker": "C:\\Users\\Austraxpc46\\source\\repos\\FirstWebApp_08_22\\FirstWebApp_08_22\\Data\\Currency.cs",
+              "RelativeDocumentMoniker": "FirstWebApp_08_22\\Data\\Currency.cs",
+              "ToolTip": "C:\\Users\\Austraxpc46\\source\\repos\\FirstWebApp_08_22\\FirstWebApp_08_22\\Data\\Currency.cs",
+              "RelativeToolTip": "FirstWebApp_08_22\\Data\\Currency.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T06:03:12.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookPrice.cs",
+              "DocumentMoniker": "C:\\Users\\Austraxpc46\\source\\repos\\FirstWebApp_08_22\\FirstWebApp_08_22\\Data\\BookPrice.cs",
+              "RelativeDocumentMoniker": "FirstWebApp_08_22\\Data\\BookPrice.cs",
+              "ToolTip": "C:\\Users\\Austraxpc46\\source\\repos\\FirstWebApp_08_22\\FirstWebApp_08_22\\Data\\BookPrice.cs",
+              "RelativeToolTip": "FirstWebApp_08_22\\Data\\BookPrice.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T05:59:31.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Language.cs",
+              "DocumentMoniker": "C:\\Users\\Austraxpc46\\source\\repos\\FirstWebApp_08_22\\FirstWebApp_08_22\\Data\\Language.cs",
+              "RelativeDocumentMoniker": "FirstWebApp_08_22\\Data\\Language.cs",
+              "ToolTip": "C:\\Users\\Austraxpc46\\source\\repos\\FirstWebApp_08_22\\FirstWebApp_08_22\\Data\\Language.cs",
+              "RelativeToolTip": "FirstWebApp_08_22\\Data\\Language.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T05:56:01.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\Austraxpc46\\source\\repos\\FirstWebApp_08_22\\FirstWebApp_08_22\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "FirstWebApp_08_22\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\Austraxpc46\\source\\repos\\FirstWebApp_08_22\\FirstWebApp_08_22\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "FirstWebApp_08_22\\Controllers\\BooksController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAwwBAAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T06:05:18.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CurrencyController.cs",
+              "DocumentMoniker": "C:\\Users\\Austraxpc46\\source\\repos\\FirstWebApp_08_22\\FirstWebApp_08_22\\Controllers\\CurrencyController.cs",
+              "RelativeDocumentMoniker": "FirstWebApp_08_22\\Controllers\\CurrencyController.cs",
+              "ToolTip": "C:\\Users\\Austraxpc46\\source\\repos\\FirstWebApp_08_22\\FirstWebApp_08_22\\Controllers\\CurrencyController.cs",
+              "RelativeToolTip": "FirstWebApp_08_22\\Controllers\\CurrencyController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T06:24:34.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Austraxpc46\\source\\repos\\FirstWebApp_08_22\\FirstWebApp_08_22\\Data\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "FirstWebApp_08_22\\Data\\AppDBContext.cs",
+              "ToolTip": "C:\\Users\\Austraxpc46\\source\\repos\\FirstWebApp_08_22\\FirstWebApp_08_22\\Data\\AppDBContext.cs",
+              "RelativeToolTip": "FirstWebApp_08_22\\Data\\AppDBContext.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA1wBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T06:06:28.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\Austraxpc46\\source\\repos\\FirstWebApp_08_22\\FirstWebApp_08_22\\Data\\Book.cs",
+              "RelativeDocumentMoniker": "FirstWebApp_08_22\\Data\\Book.cs",
+              "ToolTip": "C:\\Users\\Austraxpc46\\source\\repos\\FirstWebApp_08_22\\FirstWebApp_08_22\\Data\\Book.cs",
+              "RelativeToolTip": "FirstWebApp_08_22\\Data\\Book.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAoAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T05:53:06.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LanguageController.cs",
+              "DocumentMoniker": "C:\\Users\\Austraxpc46\\source\\repos\\FirstWebApp_08_22\\FirstWebApp_08_22\\Controllers\\LanguageController.cs",
+              "RelativeDocumentMoniker": "FirstWebApp_08_22\\Controllers\\LanguageController.cs",
+              "ToolTip": "C:\\Users\\Austraxpc46\\source\\repos\\FirstWebApp_08_22\\FirstWebApp_08_22\\Controllers\\LanguageController.cs",
+              "RelativeToolTip": "FirstWebApp_08_22\\Controllers\\LanguageController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T06:49:34.189Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

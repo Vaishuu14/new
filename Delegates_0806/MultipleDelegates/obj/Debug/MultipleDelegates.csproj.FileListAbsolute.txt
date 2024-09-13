@@ -1,0 +1,7 @@
+C:\Users\Austraxpc46\source\repos\Delegates\MultipleDelegates\bin\Debug\MultipleDelegates.exe.config
+C:\Users\Austraxpc46\source\repos\Delegates\MultipleDelegates\bin\Debug\MultipleDelegates.exe
+C:\Users\Austraxpc46\source\repos\Delegates\MultipleDelegates\bin\Debug\MultipleDelegates.pdb
+C:\Users\Austraxpc46\source\repos\Delegates\MultipleDelegates\obj\Debug\MultipleDelegates.csproj.AssemblyReference.cache
+C:\Users\Austraxpc46\source\repos\Delegates\MultipleDelegates\obj\Debug\MultipleDelegates.csproj.CoreCompileInputs.cache
+C:\Users\Austraxpc46\source\repos\Delegates\MultipleDelegates\obj\Debug\MultipleDelegates.exe
+C:\Users\Austraxpc46\source\repos\Delegates\MultipleDelegates\obj\Debug\MultipleDelegates.pdb

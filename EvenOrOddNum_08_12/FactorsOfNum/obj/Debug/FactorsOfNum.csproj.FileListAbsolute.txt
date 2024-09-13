@@ -1,0 +1,7 @@
+C:\Users\Austraxpc46\source\repos\EvenOrOddNum_08_12\FactorsOfNum\bin\Debug\FactorsOfNum.exe.config
+C:\Users\Austraxpc46\source\repos\EvenOrOddNum_08_12\FactorsOfNum\bin\Debug\FactorsOfNum.exe
+C:\Users\Austraxpc46\source\repos\EvenOrOddNum_08_12\FactorsOfNum\bin\Debug\FactorsOfNum.pdb
+C:\Users\Austraxpc46\source\repos\EvenOrOddNum_08_12\FactorsOfNum\obj\Debug\FactorsOfNum.csproj.AssemblyReference.cache
+C:\Users\Austraxpc46\source\repos\EvenOrOddNum_08_12\FactorsOfNum\obj\Debug\FactorsOfNum.csproj.CoreCompileInputs.cache
+C:\Users\Austraxpc46\source\repos\EvenOrOddNum_08_12\FactorsOfNum\obj\Debug\FactorsOfNum.exe
+C:\Users\Austraxpc46\source\repos\EvenOrOddNum_08_12\FactorsOfNum\obj\Debug\FactorsOfNum.pdb

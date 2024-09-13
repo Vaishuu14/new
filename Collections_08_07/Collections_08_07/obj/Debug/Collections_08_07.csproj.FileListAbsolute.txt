@@ -1,0 +1,7 @@
+C:\Users\Austraxpc46\source\repos\Collections_08_07\Collections_08_07\bin\Debug\Collections_08_07.exe.config
+C:\Users\Austraxpc46\source\repos\Collections_08_07\Collections_08_07\bin\Debug\Collections_08_07.exe
+C:\Users\Austraxpc46\source\repos\Collections_08_07\Collections_08_07\bin\Debug\Collections_08_07.pdb
+C:\Users\Austraxpc46\source\repos\Collections_08_07\Collections_08_07\obj\Debug\Collections_08_07.csproj.AssemblyReference.cache
+C:\Users\Austraxpc46\source\repos\Collections_08_07\Collections_08_07\obj\Debug\Collections_08_07.csproj.CoreCompileInputs.cache
+C:\Users\Austraxpc46\source\repos\Collections_08_07\Collections_08_07\obj\Debug\Collections_08_07.exe
+C:\Users\Austraxpc46\source\repos\Collections_08_07\Collections_08_07\obj\Debug\Collections_08_07.pdb

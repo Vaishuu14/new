@@ -1,0 +1,7 @@
+C:\Users\Austraxpc46\source\repos\EvenOrOddNum_08_12\EvenOrOddNum_08_12\obj\Debug\EvenOrOddNum_08_12.csproj.AssemblyReference.cache
+C:\Users\Austraxpc46\source\repos\EvenOrOddNum_08_12\EvenOrOddNum_08_12\obj\Debug\EvenOrOddNum_08_12.csproj.CoreCompileInputs.cache
+C:\Users\Austraxpc46\source\repos\EvenOrOddNum_08_12\EvenOrOddNum_08_12\bin\Debug\EvenOrOddNum_08_12.exe.config
+C:\Users\Austraxpc46\source\repos\EvenOrOddNum_08_12\EvenOrOddNum_08_12\bin\Debug\EvenOrOddNum_08_12.exe
+C:\Users\Austraxpc46\source\repos\EvenOrOddNum_08_12\EvenOrOddNum_08_12\bin\Debug\EvenOrOddNum_08_12.pdb
+C:\Users\Austraxpc46\source\repos\EvenOrOddNum_08_12\EvenOrOddNum_08_12\obj\Debug\EvenOrOddNum_08_12.exe
+C:\Users\Austraxpc46\source\repos\EvenOrOddNum_08_12\EvenOrOddNum_08_12\obj\Debug\EvenOrOddNum_08_12.pdb

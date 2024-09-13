@@ -1,0 +1,7 @@
+C:\Users\Austraxpc46\source\repos\inputFromUser\inputFromUser\bin\Debug\inputFromUser.exe.config
+C:\Users\Austraxpc46\source\repos\inputFromUser\inputFromUser\bin\Debug\inputFromUser.exe
+C:\Users\Austraxpc46\source\repos\inputFromUser\inputFromUser\bin\Debug\inputFromUser.pdb
+C:\Users\Austraxpc46\source\repos\inputFromUser\inputFromUser\obj\Debug\inputFromUser.csproj.AssemblyReference.cache
+C:\Users\Austraxpc46\source\repos\inputFromUser\inputFromUser\obj\Debug\inputFromUser.csproj.CoreCompileInputs.cache
+C:\Users\Austraxpc46\source\repos\inputFromUser\inputFromUser\obj\Debug\inputFromUser.exe
+C:\Users\Austraxpc46\source\repos\inputFromUser\inputFromUser\obj\Debug\inputFromUser.pdb

@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Austraxpc46\\source\\repos\\WebApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{607956AF-8178-43D5-9EDC-F7C4267B6FBC}|WebApplication\\WebApplication.csproj|c:\\users\\austraxpc46\\source\\repos\\webapplication\\webapplication\\obsoleteattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{607956AF-8178-43D5-9EDC-F7C4267B6FBC}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\obsoleteattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{607956AF-8178-43D5-9EDC-F7C4267B6FBC}|WebApplication\\WebApplication.csproj|C:\\Users\\Austraxpc46\\source\\repos\\WebApplication\\webapplication\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{607956AF-8178-43D5-9EDC-F7C4267B6FBC}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{607956AF-8178-43D5-9EDC-F7C4267B6FBC}|WebApplication\\WebApplication.csproj|C:\\Users\\Austraxpc46\\source\\repos\\WebApplication\\webapplication\\debuginfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{607956AF-8178-43D5-9EDC-F7C4267B6FBC}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\debuginfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ObsoleteAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\Austraxpc46\\source\\repos\\WebApplication\\WebApplication\\ObsoleteAttribute.cs",
+              "RelativeDocumentMoniker": "WebApplication\\ObsoleteAttribute.cs",
+              "ToolTip": "C:\\Users\\Austraxpc46\\source\\repos\\WebApplication\\WebApplication\\ObsoleteAttribute.cs",
+              "RelativeToolTip": "WebApplication\\ObsoleteAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T07:32:09.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Rectangle.cs",
+              "DocumentMoniker": "C:\\Users\\Austraxpc46\\source\\repos\\WebApplication\\WebApplication\\Rectangle.cs",
+              "RelativeDocumentMoniker": "WebApplication\\Rectangle.cs",
+              "ToolTip": "C:\\Users\\Austraxpc46\\source\\repos\\WebApplication\\WebApplication\\Rectangle.cs",
+              "RelativeToolTip": "WebApplication\\Rectangle.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwBYAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T07:04:04.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DeBugInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Austraxpc46\\source\\repos\\WebApplication\\WebApplication\\DeBugInfo.cs",
+              "RelativeDocumentMoniker": "WebApplication\\DeBugInfo.cs",
+              "ToolTip": "C:\\Users\\Austraxpc46\\source\\repos\\WebApplication\\WebApplication\\DeBugInfo.cs",
+              "RelativeToolTip": "WebApplication\\DeBugInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T04:58:43.858Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

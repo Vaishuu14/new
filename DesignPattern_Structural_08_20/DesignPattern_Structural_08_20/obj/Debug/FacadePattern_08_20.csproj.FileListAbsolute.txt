@@ -1,0 +1,7 @@
+C:\Users\Austraxpc46\source\repos\DesignPattern_Structural_08_20\DesignPattern_Structural_08_20\bin\Debug\DesignPattern_Structural_08_20.exe.config
+C:\Users\Austraxpc46\source\repos\DesignPattern_Structural_08_20\DesignPattern_Structural_08_20\bin\Debug\DesignPattern_Structural_08_20.exe
+C:\Users\Austraxpc46\source\repos\DesignPattern_Structural_08_20\DesignPattern_Structural_08_20\bin\Debug\DesignPattern_Structural_08_20.pdb
+C:\Users\Austraxpc46\source\repos\DesignPattern_Structural_08_20\DesignPattern_Structural_08_20\obj\Debug\FacadePattern_08_20.csproj.AssemblyReference.cache
+C:\Users\Austraxpc46\source\repos\DesignPattern_Structural_08_20\DesignPattern_Structural_08_20\obj\Debug\FacadePattern_08_20.csproj.CoreCompileInputs.cache
+C:\Users\Austraxpc46\source\repos\DesignPattern_Structural_08_20\DesignPattern_Structural_08_20\obj\Debug\DesignPattern_Structural_08_20.exe
+C:\Users\Austraxpc46\source\repos\DesignPattern_Structural_08_20\DesignPattern_Structural_08_20\obj\Debug\DesignPattern_Structural_08_20.pdb

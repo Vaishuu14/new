@@ -1,0 +1,7 @@
+C:\Users\Austraxpc46\source\repos\ThreadPriority_08_09\ThreadPriority_08_09\bin\Debug\ThreadPriority_08_09.exe.config
+C:\Users\Austraxpc46\source\repos\ThreadPriority_08_09\ThreadPriority_08_09\bin\Debug\ThreadPriority_08_09.exe
+C:\Users\Austraxpc46\source\repos\ThreadPriority_08_09\ThreadPriority_08_09\bin\Debug\ThreadPriority_08_09.pdb
+C:\Users\Austraxpc46\source\repos\ThreadPriority_08_09\ThreadPriority_08_09\obj\Debug\ThreadPriority_08_09.csproj.AssemblyReference.cache
+C:\Users\Austraxpc46\source\repos\ThreadPriority_08_09\ThreadPriority_08_09\obj\Debug\ThreadPriority_08_09.csproj.CoreCompileInputs.cache
+C:\Users\Austraxpc46\source\repos\ThreadPriority_08_09\ThreadPriority_08_09\obj\Debug\ThreadPriority_08_09.exe
+C:\Users\Austraxpc46\source\repos\ThreadPriority_08_09\ThreadPriority_08_09\obj\Debug\ThreadPriority_08_09.pdb

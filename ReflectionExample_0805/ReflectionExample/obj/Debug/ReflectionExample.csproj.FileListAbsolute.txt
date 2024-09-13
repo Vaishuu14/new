@@ -1,0 +1,7 @@
+C:\Users\Austraxpc46\source\repos\ReflectionExample\ReflectionExample\bin\Debug\ReflectionExample.exe.config
+C:\Users\Austraxpc46\source\repos\ReflectionExample\ReflectionExample\bin\Debug\ReflectionExample.exe
+C:\Users\Austraxpc46\source\repos\ReflectionExample\ReflectionExample\bin\Debug\ReflectionExample.pdb
+C:\Users\Austraxpc46\source\repos\ReflectionExample\ReflectionExample\obj\Debug\ReflectionExample.csproj.AssemblyReference.cache
+C:\Users\Austraxpc46\source\repos\ReflectionExample\ReflectionExample\obj\Debug\ReflectionExample.csproj.CoreCompileInputs.cache
+C:\Users\Austraxpc46\source\repos\ReflectionExample\ReflectionExample\obj\Debug\ReflectionExample.exe
+C:\Users\Austraxpc46\source\repos\ReflectionExample\ReflectionExample\obj\Debug\ReflectionExample.pdb

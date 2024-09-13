@@ -1,0 +1,7 @@
+C:\Users\Austraxpc46\source\repos\Property\SimpleProperties\bin\Debug\SimpleProperties.exe.config
+C:\Users\Austraxpc46\source\repos\Property\SimpleProperties\bin\Debug\SimpleProperties.exe
+C:\Users\Austraxpc46\source\repos\Property\SimpleProperties\bin\Debug\SimpleProperties.pdb
+C:\Users\Austraxpc46\source\repos\Property\SimpleProperties\obj\Debug\SimpleProperties.csproj.AssemblyReference.cache
+C:\Users\Austraxpc46\source\repos\Property\SimpleProperties\obj\Debug\SimpleProperties.csproj.CoreCompileInputs.cache
+C:\Users\Austraxpc46\source\repos\Property\SimpleProperties\obj\Debug\SimpleProperties.exe
+C:\Users\Austraxpc46\source\repos\Property\SimpleProperties\obj\Debug\SimpleProperties.pdb

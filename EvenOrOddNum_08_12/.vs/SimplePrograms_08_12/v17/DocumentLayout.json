@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Austraxpc46\\source\\repos\\EvenOrOddNum_08_12\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9A38843A-6808-450F-8AFA-377D462C9679}|EvenOrOddNum_08_12\\Programs_08_12.csproj|c:\\users\\austraxpc46\\source\\repos\\evenoroddnum_08_12\\evenoroddnum_08_12\\swaping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A38843A-6808-450F-8AFA-377D462C9679}|EvenOrOddNum_08_12\\Programs_08_12.csproj|solutionrelative:evenoroddnum_08_12\\swaping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A38843A-6808-450F-8AFA-377D462C9679}|EvenOrOddNum_08_12\\Programs_08_12.csproj|c:\\users\\austraxpc46\\source\\repos\\evenoroddnum_08_12\\evenoroddnum_08_12\\factorofnum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A38843A-6808-450F-8AFA-377D462C9679}|EvenOrOddNum_08_12\\Programs_08_12.csproj|solutionrelative:evenoroddnum_08_12\\factorofnum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A38843A-6808-450F-8AFA-377D462C9679}|EvenOrOddNum_08_12\\Programs_08_12.csproj|c:\\users\\austraxpc46\\source\\repos\\evenoroddnum_08_12\\evenoroddnum_08_12\\largenumbetweenthreenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A38843A-6808-450F-8AFA-377D462C9679}|EvenOrOddNum_08_12\\Programs_08_12.csproj|solutionrelative:evenoroddnum_08_12\\largenumbetweenthreenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A38843A-6808-450F-8AFA-377D462C9679}|EvenOrOddNum_08_12\\Programs_08_12.csproj|c:\\users\\austraxpc46\\source\\repos\\evenoroddnum_08_12\\evenoroddnum_08_12\\evenoroddnum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A38843A-6808-450F-8AFA-377D462C9679}|EvenOrOddNum_08_12\\Programs_08_12.csproj|solutionrelative:evenoroddnum_08_12\\evenoroddnum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Swaping.cs",
+              "DocumentMoniker": "C:\\Users\\Austraxpc46\\source\\repos\\EvenOrOddNum_08_12\\EvenOrOddNum_08_12\\Swaping.cs",
+              "RelativeDocumentMoniker": "EvenOrOddNum_08_12\\Swaping.cs",
+              "ToolTip": "C:\\Users\\Austraxpc46\\source\\repos\\EvenOrOddNum_08_12\\EvenOrOddNum_08_12\\Swaping.cs",
+              "RelativeToolTip": "EvenOrOddNum_08_12\\Swaping.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T07:16:34.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LargeNumBetweenThreeNum.cs",
+              "DocumentMoniker": "C:\\Users\\Austraxpc46\\source\\repos\\EvenOrOddNum_08_12\\EvenOrOddNum_08_12\\LargeNumBetweenThreeNum.cs",
+              "RelativeDocumentMoniker": "EvenOrOddNum_08_12\\LargeNumBetweenThreeNum.cs",
+              "ToolTip": "C:\\Users\\Austraxpc46\\source\\repos\\EvenOrOddNum_08_12\\EvenOrOddNum_08_12\\LargeNumBetweenThreeNum.cs",
+              "RelativeToolTip": "EvenOrOddNum_08_12\\LargeNumBetweenThreeNum.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAmwCAAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T07:03:29.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FactorOfNum.cs",
+              "DocumentMoniker": "C:\\Users\\Austraxpc46\\source\\repos\\EvenOrOddNum_08_12\\EvenOrOddNum_08_12\\FactorOfNum.cs",
+              "RelativeDocumentMoniker": "EvenOrOddNum_08_12\\FactorOfNum.cs",
+              "ToolTip": "C:\\Users\\Austraxpc46\\source\\repos\\EvenOrOddNum_08_12\\EvenOrOddNum_08_12\\FactorOfNum.cs",
+              "RelativeToolTip": "EvenOrOddNum_08_12\\FactorOfNum.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T07:02:32.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EvenOrOddNum.cs",
+              "DocumentMoniker": "C:\\Users\\Austraxpc46\\source\\repos\\EvenOrOddNum_08_12\\EvenOrOddNum_08_12\\EvenOrOddNum.cs",
+              "RelativeDocumentMoniker": "EvenOrOddNum_08_12\\EvenOrOddNum.cs",
+              "ToolTip": "C:\\Users\\Austraxpc46\\source\\repos\\EvenOrOddNum_08_12\\EvenOrOddNum_08_12\\EvenOrOddNum.cs",
+              "RelativeToolTip": "EvenOrOddNum_08_12\\EvenOrOddNum.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T07:01:24.085Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

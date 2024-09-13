@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Austraxpc46\\source\\repos\\FibonacciExample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3A650F05-CA52-465C-B477-63C5EC439D81}|FibonacciExample\\FibonacciExample.csproj|c:\\users\\austraxpc46\\source\\repos\\fibonacciexample\\fibonacciexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A650F05-CA52-465C-B477-63C5EC439D81}|FibonacciExample\\FibonacciExample.csproj|solutionrelative:fibonacciexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Austraxpc46\\source\\repos\\FibonacciExample\\FibonacciExample\\Program.cs",
+              "RelativeDocumentMoniker": "FibonacciExample\\Program.cs",
+              "ToolTip": "C:\\Users\\Austraxpc46\\source\\repos\\FibonacciExample\\FibonacciExample\\Program.cs",
+              "RelativeToolTip": "FibonacciExample\\Program.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwB0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T05:47:48.133Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

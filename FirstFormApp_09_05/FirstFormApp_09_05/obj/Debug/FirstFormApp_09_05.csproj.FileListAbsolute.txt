@@ -1,0 +1,14 @@
+C:\Users\Austraxpc46\source\repos\FirstFormApp_09_05\FirstFormApp_09_05\bin\Debug\FirstFormApp_09_05.exe.config
+C:\Users\Austraxpc46\source\repos\FirstFormApp_09_05\FirstFormApp_09_05\bin\Debug\FirstFormApp_09_05.exe
+C:\Users\Austraxpc46\source\repos\FirstFormApp_09_05\FirstFormApp_09_05\bin\Debug\FirstFormApp_09_05.pdb
+C:\Users\Austraxpc46\source\repos\FirstFormApp_09_05\FirstFormApp_09_05\obj\Debug\FirstFormApp_09_05.csproj.AssemblyReference.cache
+C:\Users\Austraxpc46\source\repos\FirstFormApp_09_05\FirstFormApp_09_05\obj\Debug\FirstFormApp_09_05.Form1.resources
+C:\Users\Austraxpc46\source\repos\FirstFormApp_09_05\FirstFormApp_09_05\obj\Debug\FirstFormApp_09_05.Properties.Resources.resources
+C:\Users\Austraxpc46\source\repos\FirstFormApp_09_05\FirstFormApp_09_05\obj\Debug\FirstFormApp_09_05.csproj.GenerateResource.cache
+C:\Users\Austraxpc46\source\repos\FirstFormApp_09_05\FirstFormApp_09_05\obj\Debug\FirstFormApp_09_05.csproj.CoreCompileInputs.cache
+C:\Users\Austraxpc46\source\repos\FirstFormApp_09_05\FirstFormApp_09_05\obj\Debug\FirstFormApp_09_05.exe
+C:\Users\Austraxpc46\source\repos\FirstFormApp_09_05\FirstFormApp_09_05\obj\Debug\FirstFormApp_09_05.pdb
+C:\Users\Austraxpc46\source\repos\FirstFormApp_09_05\FirstFormApp_09_05\bin\Debug\FirstFormApp_09_05.exe.manifest
+C:\Users\Austraxpc46\source\repos\FirstFormApp_09_05\FirstFormApp_09_05\bin\Debug\FirstFormApp_09_05.application
+C:\Users\Austraxpc46\source\repos\FirstFormApp_09_05\FirstFormApp_09_05\obj\Debug\FirstFormApp_09_05.exe.manifest
+C:\Users\Austraxpc46\source\repos\FirstFormApp_09_05\FirstFormApp_09_05\obj\Debug\FirstFormApp_09_05.application

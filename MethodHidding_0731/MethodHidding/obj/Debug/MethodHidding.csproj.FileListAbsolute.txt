@@ -1,0 +1,7 @@
+C:\Users\Austraxpc46\source\repos\MethodHidding\MethodHidding\bin\Debug\MethodHidding.exe.config
+C:\Users\Austraxpc46\source\repos\MethodHidding\MethodHidding\bin\Debug\MethodHidding.exe
+C:\Users\Austraxpc46\source\repos\MethodHidding\MethodHidding\bin\Debug\MethodHidding.pdb
+C:\Users\Austraxpc46\source\repos\MethodHidding\MethodHidding\obj\Debug\MethodHidding.csproj.AssemblyReference.cache
+C:\Users\Austraxpc46\source\repos\MethodHidding\MethodHidding\obj\Debug\MethodHidding.csproj.CoreCompileInputs.cache
+C:\Users\Austraxpc46\source\repos\MethodHidding\MethodHidding\obj\Debug\MethodHidding.exe
+C:\Users\Austraxpc46\source\repos\MethodHidding\MethodHidding\obj\Debug\MethodHidding.pdb

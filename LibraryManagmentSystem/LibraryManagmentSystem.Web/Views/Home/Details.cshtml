@@ -1,0 +1,29 @@
+﻿@model LibraryManagmentSystem.Application.DTOs.BookDto
+
+@{
+    ViewData["Title"] = "Book Details";
+}
+
+<h1>Book Details</h1>
+
+<div>
+    <h4>@Model.Title</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            Author
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Author
+        </dd>
+        <dt class="col-sm-2">
+            Published Date
+        </dt>
+        <dd class="col-sm-10">
+            @Model.PublishedDate.ToShortDateString()
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-controller="Book" asp-action="GetAllBooks">Back to List</a>
+</div>

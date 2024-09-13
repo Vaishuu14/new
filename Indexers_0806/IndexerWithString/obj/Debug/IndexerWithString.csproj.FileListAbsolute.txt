@@ -1,0 +1,7 @@
+C:\Users\Austraxpc46\source\repos\Indexers_0806\IndexerWithString\obj\Debug\IndexerWithString.csproj.AssemblyReference.cache
+C:\Users\Austraxpc46\source\repos\Indexers_0806\IndexerWithString\obj\Debug\IndexerWithString.csproj.CoreCompileInputs.cache
+C:\Users\Austraxpc46\source\repos\Indexers_0806\IndexerWithString\bin\Debug\IndexerWithString.exe.config
+C:\Users\Austraxpc46\source\repos\Indexers_0806\IndexerWithString\bin\Debug\IndexerWithString.exe
+C:\Users\Austraxpc46\source\repos\Indexers_0806\IndexerWithString\bin\Debug\IndexerWithString.pdb
+C:\Users\Austraxpc46\source\repos\Indexers_0806\IndexerWithString\obj\Debug\IndexerWithString.exe
+C:\Users\Austraxpc46\source\repos\Indexers_0806\IndexerWithString\obj\Debug\IndexerWithString.pdb

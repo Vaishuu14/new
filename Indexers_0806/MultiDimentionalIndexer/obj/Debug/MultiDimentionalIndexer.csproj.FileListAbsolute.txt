@@ -1,0 +1,7 @@
+C:\Users\Austraxpc46\source\repos\Indexers\MultiDimentionalIndexer\bin\Debug\MultiDimentionalIndexer.exe.config
+C:\Users\Austraxpc46\source\repos\Indexers\MultiDimentionalIndexer\bin\Debug\MultiDimentionalIndexer.exe
+C:\Users\Austraxpc46\source\repos\Indexers\MultiDimentionalIndexer\bin\Debug\MultiDimentionalIndexer.pdb
+C:\Users\Austraxpc46\source\repos\Indexers\MultiDimentionalIndexer\obj\Debug\MultiDimentionalIndexer.csproj.AssemblyReference.cache
+C:\Users\Austraxpc46\source\repos\Indexers\MultiDimentionalIndexer\obj\Debug\MultiDimentionalIndexer.csproj.CoreCompileInputs.cache
+C:\Users\Austraxpc46\source\repos\Indexers\MultiDimentionalIndexer\obj\Debug\MultiDimentionalIndexer.exe
+C:\Users\Austraxpc46\source\repos\Indexers\MultiDimentionalIndexer\obj\Debug\MultiDimentionalIndexer.pdb
