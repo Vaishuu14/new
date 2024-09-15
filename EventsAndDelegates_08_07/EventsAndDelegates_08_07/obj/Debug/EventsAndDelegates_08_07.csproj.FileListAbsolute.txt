@@ -1,7 +1,0 @@
-C:\Users\Austraxpc46\source\repos\EventsAndDelegates_08_07\EventsAndDelegates_08_07\bin\Debug\EventsAndDelegates_08_07.exe.config
-C:\Users\Austraxpc46\source\repos\EventsAndDelegates_08_07\EventsAndDelegates_08_07\bin\Debug\EventsAndDelegates_08_07.exe
-C:\Users\Austraxpc46\source\repos\EventsAndDelegates_08_07\EventsAndDelegates_08_07\bin\Debug\EventsAndDelegates_08_07.pdb
-C:\Users\Austraxpc46\source\repos\EventsAndDelegates_08_07\EventsAndDelegates_08_07\obj\Debug\EventsAndDelegates_08_07.csproj.AssemblyReference.cache
-C:\Users\Austraxpc46\source\repos\EventsAndDelegates_08_07\EventsAndDelegates_08_07\obj\Debug\EventsAndDelegates_08_07.csproj.CoreCompileInputs.cache
-C:\Users\Austraxpc46\source\repos\EventsAndDelegates_08_07\EventsAndDelegates_08_07\obj\Debug\EventsAndDelegates_08_07.exe
-C:\Users\Austraxpc46\source\repos\EventsAndDelegates_08_07\EventsAndDelegates_08_07\obj\Debug\EventsAndDelegates_08_07.pdb

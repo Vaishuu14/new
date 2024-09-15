@@ -3,6 +3,22 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Welcome to the Library Management System</h1>
+
+    <!-- Image -->
+    <img src="~/images/libraryHome.jpg" alt="Library Logo" class="img-fluid my-4" />
+
+    <!-- Links for login and registration -->
+    <div class="mt-4">
+        @if (User.Identity.IsAuthenticated)
+        {
+            <p class="lead">Welcome, @User.Identity.Name!</p>
+            <a class="btn btn-warning" href="@Url.Action("Logout", "Home")">Logout</a>
+        }
+        else
+        {
+            <a class="btn btn-primary" href="@Url.Action("Login", "Home")">Login</a>
+            <a class="btn btn-secondary" href="@Url.Action("Registration", "Home")">Register</a>
+        }
+    </div>
 </div>

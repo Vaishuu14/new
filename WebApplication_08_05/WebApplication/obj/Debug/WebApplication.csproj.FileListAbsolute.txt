@@ -1,7 +1,0 @@
-C:\Users\Austraxpc46\source\repos\WebApplication\WebApplication\bin\Debug\WebApplication.exe.config
-C:\Users\Austraxpc46\source\repos\WebApplication\WebApplication\bin\Debug\WebApplication.exe
-C:\Users\Austraxpc46\source\repos\WebApplication\WebApplication\bin\Debug\WebApplication.pdb
-C:\Users\Austraxpc46\source\repos\WebApplication\WebApplication\obj\Debug\WebApplication.csproj.AssemblyReference.cache
-C:\Users\Austraxpc46\source\repos\WebApplication\WebApplication\obj\Debug\WebApplication.csproj.CoreCompileInputs.cache
-C:\Users\Austraxpc46\source\repos\WebApplication\WebApplication\obj\Debug\WebApplication.exe
-C:\Users\Austraxpc46\source\repos\WebApplication\WebApplication\obj\Debug\WebApplication.pdb

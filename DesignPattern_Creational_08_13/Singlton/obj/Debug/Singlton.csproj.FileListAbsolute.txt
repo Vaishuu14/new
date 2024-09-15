@@ -1,7 +1,0 @@
-C:\Users\Austraxpc46\source\repos\DesignPattern_Creational_08_13\Singlton\bin\Debug\Singlton.exe.config
-C:\Users\Austraxpc46\source\repos\DesignPattern_Creational_08_13\Singlton\bin\Debug\Singlton.exe
-C:\Users\Austraxpc46\source\repos\DesignPattern_Creational_08_13\Singlton\bin\Debug\Singlton.pdb
-C:\Users\Austraxpc46\source\repos\DesignPattern_Creational_08_13\Singlton\obj\Debug\Singlton.csproj.AssemblyReference.cache
-C:\Users\Austraxpc46\source\repos\DesignPattern_Creational_08_13\Singlton\obj\Debug\Singlton.csproj.CoreCompileInputs.cache
-C:\Users\Austraxpc46\source\repos\DesignPattern_Creational_08_13\Singlton\obj\Debug\Singlton.exe
-C:\Users\Austraxpc46\source\repos\DesignPattern_Creational_08_13\Singlton\obj\Debug\Singlton.pdb

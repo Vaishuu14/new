@@ -1,7 +1,0 @@
-C:\Users\Austraxpc46\source\repos\Property\AbstracProperties\bin\Debug\AbstracProperties.exe.config
-C:\Users\Austraxpc46\source\repos\Property\AbstracProperties\bin\Debug\AbstracProperties.exe
-C:\Users\Austraxpc46\source\repos\Property\AbstracProperties\bin\Debug\AbstracProperties.pdb
-C:\Users\Austraxpc46\source\repos\Property\AbstracProperties\obj\Debug\AbstracProperties.csproj.AssemblyReference.cache
-C:\Users\Austraxpc46\source\repos\Property\AbstracProperties\obj\Debug\AbstracProperties.csproj.CoreCompileInputs.cache
-C:\Users\Austraxpc46\source\repos\Property\AbstracProperties\obj\Debug\AbstracProperties.exe
-C:\Users\Austraxpc46\source\repos\Property\AbstracProperties\obj\Debug\AbstracProperties.pdb

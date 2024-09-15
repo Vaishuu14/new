@@ -1,7 +1,0 @@
-C:\Users\Austraxpc46\source\repos\string_Interpolation\string_Interpolation\bin\Debug\string_Interpolation.exe.config
-C:\Users\Austraxpc46\source\repos\string_Interpolation\string_Interpolation\bin\Debug\string_Interpolation.exe
-C:\Users\Austraxpc46\source\repos\string_Interpolation\string_Interpolation\bin\Debug\string_Interpolation.pdb
-C:\Users\Austraxpc46\source\repos\string_Interpolation\string_Interpolation\obj\Debug\string_Interpolation.csproj.AssemblyReference.cache
-C:\Users\Austraxpc46\source\repos\string_Interpolation\string_Interpolation\obj\Debug\string_Interpolation.csproj.CoreCompileInputs.cache
-C:\Users\Austraxpc46\source\repos\string_Interpolation\string_Interpolation\obj\Debug\string_Interpolation.exe
-C:\Users\Austraxpc46\source\repos\string_Interpolation\string_Interpolation\obj\Debug\string_Interpolation.pdb

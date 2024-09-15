@@ -1,7 +1,0 @@
-C:\Users\Austraxpc46\source\repos\string_operation\string_operation\bin\Debug\string_operation.exe.config
-C:\Users\Austraxpc46\source\repos\string_operation\string_operation\bin\Debug\string_operation.exe
-C:\Users\Austraxpc46\source\repos\string_operation\string_operation\bin\Debug\string_operation.pdb
-C:\Users\Austraxpc46\source\repos\string_operation\string_operation\obj\Debug\string_operation.csproj.AssemblyReference.cache
-C:\Users\Austraxpc46\source\repos\string_operation\string_operation\obj\Debug\string_operation.csproj.CoreCompileInputs.cache
-C:\Users\Austraxpc46\source\repos\string_operation\string_operation\obj\Debug\string_operation.exe
-C:\Users\Austraxpc46\source\repos\string_operation\string_operation\obj\Debug\string_operation.pdb

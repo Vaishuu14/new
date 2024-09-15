@@ -1,7 +1,0 @@
-C:\Users\Austraxpc46\source\repos\fileReadAndWrite\fileReadAndWrite\bin\Debug\fileReadAndWrite.exe.config
-C:\Users\Austraxpc46\source\repos\fileReadAndWrite\fileReadAndWrite\bin\Debug\fileReadAndWrite.exe
-C:\Users\Austraxpc46\source\repos\fileReadAndWrite\fileReadAndWrite\bin\Debug\fileReadAndWrite.pdb
-C:\Users\Austraxpc46\source\repos\fileReadAndWrite\fileReadAndWrite\obj\Debug\fileReadAndWrite.csproj.AssemblyReference.cache
-C:\Users\Austraxpc46\source\repos\fileReadAndWrite\fileReadAndWrite\obj\Debug\fileReadAndWrite.csproj.CoreCompileInputs.cache
-C:\Users\Austraxpc46\source\repos\fileReadAndWrite\fileReadAndWrite\obj\Debug\fileReadAndWrite.exe
-C:\Users\Austraxpc46\source\repos\fileReadAndWrite\fileReadAndWrite\obj\Debug\fileReadAndWrite.pdb

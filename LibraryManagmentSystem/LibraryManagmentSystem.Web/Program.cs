@@ -91,6 +91,7 @@ builder.Services.AddScoped<IReservationRepository, ReservationRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IFineCalculationService, FineCalculationService>();
+builder.Services.AddScoped<IUserService, UserService>();
 
 // Register services
 //builder.Services.AddScoped<IFineCalculationService, FineCalculationService>();

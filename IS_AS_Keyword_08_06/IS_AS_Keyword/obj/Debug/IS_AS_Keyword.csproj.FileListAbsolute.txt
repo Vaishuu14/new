@@ -1,7 +1,0 @@
-C:\Users\Austraxpc46\source\repos\IS_AS_Keyword_08_06\IS_AS_Keyword\bin\Debug\IS_AS_Keyword.exe.config
-C:\Users\Austraxpc46\source\repos\IS_AS_Keyword_08_06\IS_AS_Keyword\bin\Debug\IS_AS_Keyword.exe
-C:\Users\Austraxpc46\source\repos\IS_AS_Keyword_08_06\IS_AS_Keyword\bin\Debug\IS_AS_Keyword.pdb
-C:\Users\Austraxpc46\source\repos\IS_AS_Keyword_08_06\IS_AS_Keyword\obj\Debug\IS_AS_Keyword.csproj.AssemblyReference.cache
-C:\Users\Austraxpc46\source\repos\IS_AS_Keyword_08_06\IS_AS_Keyword\obj\Debug\IS_AS_Keyword.csproj.CoreCompileInputs.cache
-C:\Users\Austraxpc46\source\repos\IS_AS_Keyword_08_06\IS_AS_Keyword\obj\Debug\IS_AS_Keyword.exe
-C:\Users\Austraxpc46\source\repos\IS_AS_Keyword_08_06\IS_AS_Keyword\obj\Debug\IS_AS_Keyword.pdb

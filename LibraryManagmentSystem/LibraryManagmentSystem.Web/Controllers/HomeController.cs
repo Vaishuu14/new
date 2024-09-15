@@ -1,21 +1,20 @@
-﻿using LibraryManagmentSystem.Web.Models;
-using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
-
+﻿using LibraryManagmentSystem.Application.Services;
+using LibraryManagmentSystem.Domain.Entities;
+using LibraryManagmentSystem.Domain.Interfaces;
 using LibraryManagmentSystem.Web.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using System.Diagnostics;
+using System.Threading.Tasks;
 
 namespace LibraryManagmentSystem.Web.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly IUserService _userService;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(IUserService userService)
         {
-            _logger = logger;
+            _userService = userService;
         }
 
         public IActionResult Index()
@@ -26,6 +25,51 @@ namespace LibraryManagmentSystem.Web.Controllers
         public IActionResult Privacy()
         {
             return View();
+        }
+
+        [HttpGet]
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Login(Login model)
+        {
+            try
+            {
+                var user = await _userService.AuthenticateUserAsync(model);
+                // Set authentication cookies or session here
+                // Example: HttpContext.SignInAsync(IdentityConstants.ApplicationScheme, ...)
+                return RedirectToAction("Index"); // Redirect to a logged-in user's homepage or dashboard
+            }
+            catch (UnauthorizedAccessException)
+            {
+                ModelState.AddModelError("", "Invalid username or password.");
+                return View(model);
+            }
+        }
+
+        [HttpGet]
+        public IActionResult Registration()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Registration(Registration model)
+        {
+            try
+            {
+                var user = await _userService.RegisterUserAsync(model);
+                // Optionally, sign in the user after registration
+                return RedirectToAction("Login"); // Redirect to login page
+            }
+            catch (InvalidOperationException ex)
+            {
+                ModelState.AddModelError("", ex.Message);
+                return View(model);
+            }
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

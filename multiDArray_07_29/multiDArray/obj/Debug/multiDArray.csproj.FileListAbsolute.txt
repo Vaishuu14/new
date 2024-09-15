@@ -1,7 +1,0 @@
-C:\Users\Austraxpc46\source\repos\multiDArray\multiDArray\bin\Debug\multiDArray.exe.config
-C:\Users\Austraxpc46\source\repos\multiDArray\multiDArray\bin\Debug\multiDArray.exe
-C:\Users\Austraxpc46\source\repos\multiDArray\multiDArray\bin\Debug\multiDArray.pdb
-C:\Users\Austraxpc46\source\repos\multiDArray\multiDArray\obj\Debug\multiDArray.csproj.AssemblyReference.cache
-C:\Users\Austraxpc46\source\repos\multiDArray\multiDArray\obj\Debug\multiDArray.csproj.CoreCompileInputs.cache
-C:\Users\Austraxpc46\source\repos\multiDArray\multiDArray\obj\Debug\multiDArray.exe
-C:\Users\Austraxpc46\source\repos\multiDArray\multiDArray\obj\Debug\multiDArray.pdb

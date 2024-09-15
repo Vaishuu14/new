@@ -1,7 +1,0 @@
-C:\Users\Austraxpc46\source\repos\BehaviouralPatterns_08_21\TemplateMethod_08_21\bin\Debug\TemplateMethod_08_21.exe.config
-C:\Users\Austraxpc46\source\repos\BehaviouralPatterns_08_21\TemplateMethod_08_21\bin\Debug\TemplateMethod_08_21.exe
-C:\Users\Austraxpc46\source\repos\BehaviouralPatterns_08_21\TemplateMethod_08_21\bin\Debug\TemplateMethod_08_21.pdb
-C:\Users\Austraxpc46\source\repos\BehaviouralPatterns_08_21\TemplateMethod_08_21\obj\Debug\TemplateMethod_08_21.csproj.AssemblyReference.cache
-C:\Users\Austraxpc46\source\repos\BehaviouralPatterns_08_21\TemplateMethod_08_21\obj\Debug\TemplateMethod_08_21.csproj.CoreCompileInputs.cache
-C:\Users\Austraxpc46\source\repos\BehaviouralPatterns_08_21\TemplateMethod_08_21\obj\Debug\TemplateMethod_08_21.exe
-C:\Users\Austraxpc46\source\repos\BehaviouralPatterns_08_21\TemplateMethod_08_21\obj\Debug\TemplateMethod_08_21.pdb

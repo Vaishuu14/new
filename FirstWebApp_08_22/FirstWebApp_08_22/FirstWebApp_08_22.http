@@ -1,6 +1,0 @@
-@FirstWebApp_08_22_HostAddress = http://localhost:5158
-
-GET {{FirstWebApp_08_22_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

@@ -1,7 +1,0 @@
-C:\Users\Austraxpc46\source\repos\IfElseIf_Statement\IfElseIf_Statement\bin\Debug\IfElseIf_Statement.exe.config
-C:\Users\Austraxpc46\source\repos\IfElseIf_Statement\IfElseIf_Statement\bin\Debug\IfElseIf_Statement.exe
-C:\Users\Austraxpc46\source\repos\IfElseIf_Statement\IfElseIf_Statement\bin\Debug\IfElseIf_Statement.pdb
-C:\Users\Austraxpc46\source\repos\IfElseIf_Statement\IfElseIf_Statement\obj\Debug\IfElseIf_Statement.csproj.AssemblyReference.cache
-C:\Users\Austraxpc46\source\repos\IfElseIf_Statement\IfElseIf_Statement\obj\Debug\IfElseIf_Statement.csproj.CoreCompileInputs.cache
-C:\Users\Austraxpc46\source\repos\IfElseIf_Statement\IfElseIf_Statement\obj\Debug\IfElseIf_Statement.exe
-C:\Users\Austraxpc46\source\repos\IfElseIf_Statement\IfElseIf_Statement\obj\Debug\IfElseIf_Statement.pdb

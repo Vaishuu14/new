@@ -1,7 +1,0 @@
-C:\Users\Austraxpc46\source\repos\Indexers\OtherExample\bin\Debug\OtherExample.exe.config
-C:\Users\Austraxpc46\source\repos\Indexers\OtherExample\bin\Debug\OtherExample.exe
-C:\Users\Austraxpc46\source\repos\Indexers\OtherExample\bin\Debug\OtherExample.pdb
-C:\Users\Austraxpc46\source\repos\Indexers\OtherExample\obj\Debug\OtherExample.csproj.AssemblyReference.cache
-C:\Users\Austraxpc46\source\repos\Indexers\OtherExample\obj\Debug\OtherExample.csproj.CoreCompileInputs.cache
-C:\Users\Austraxpc46\source\repos\Indexers\OtherExample\obj\Debug\OtherExample.exe
-C:\Users\Austraxpc46\source\repos\Indexers\OtherExample\obj\Debug\OtherExample.pdb

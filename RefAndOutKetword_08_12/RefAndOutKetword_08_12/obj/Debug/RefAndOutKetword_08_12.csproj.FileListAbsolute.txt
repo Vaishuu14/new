@@ -1,7 +1,0 @@
-C:\Users\Austraxpc46\source\repos\RefAndOutKetword_08_12\RefAndOutKetword_08_12\bin\Debug\RefAndOutKetword_08_12.exe.config
-C:\Users\Austraxpc46\source\repos\RefAndOutKetword_08_12\RefAndOutKetword_08_12\bin\Debug\RefAndOutKetword_08_12.exe
-C:\Users\Austraxpc46\source\repos\RefAndOutKetword_08_12\RefAndOutKetword_08_12\bin\Debug\RefAndOutKetword_08_12.pdb
-C:\Users\Austraxpc46\source\repos\RefAndOutKetword_08_12\RefAndOutKetword_08_12\obj\Debug\RefAndOutKetword_08_12.csproj.AssemblyReference.cache
-C:\Users\Austraxpc46\source\repos\RefAndOutKetword_08_12\RefAndOutKetword_08_12\obj\Debug\RefAndOutKetword_08_12.csproj.CoreCompileInputs.cache
-C:\Users\Austraxpc46\source\repos\RefAndOutKetword_08_12\RefAndOutKetword_08_12\obj\Debug\RefAndOutKetword_08_12.exe
-C:\Users\Austraxpc46\source\repos\RefAndOutKetword_08_12\RefAndOutKetword_08_12\obj\Debug\RefAndOutKetword_08_12.pdb

@@ -1,7 +1,0 @@
-C:\Users\Austraxpc46\source\repos\switch_case\switch_case\bin\Debug\switch_case.exe.config
-C:\Users\Austraxpc46\source\repos\switch_case\switch_case\bin\Debug\switch_case.exe
-C:\Users\Austraxpc46\source\repos\switch_case\switch_case\bin\Debug\switch_case.pdb
-C:\Users\Austraxpc46\source\repos\switch_case\switch_case\obj\Debug\switch_case.csproj.AssemblyReference.cache
-C:\Users\Austraxpc46\source\repos\switch_case\switch_case\obj\Debug\switch_case.csproj.CoreCompileInputs.cache
-C:\Users\Austraxpc46\source\repos\switch_case\switch_case\obj\Debug\switch_case.exe
-C:\Users\Austraxpc46\source\repos\switch_case\switch_case\obj\Debug\switch_case.pdb

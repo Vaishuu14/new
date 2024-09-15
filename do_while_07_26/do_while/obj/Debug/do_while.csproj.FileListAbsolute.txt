@@ -1,7 +1,0 @@
-C:\Users\Austraxpc46\source\repos\do_while\do_while\bin\Debug\do_while.exe.config
-C:\Users\Austraxpc46\source\repos\do_while\do_while\bin\Debug\do_while.exe
-C:\Users\Austraxpc46\source\repos\do_while\do_while\bin\Debug\do_while.pdb
-C:\Users\Austraxpc46\source\repos\do_while\do_while\obj\Debug\do_while.csproj.AssemblyReference.cache
-C:\Users\Austraxpc46\source\repos\do_while\do_while\obj\Debug\do_while.csproj.CoreCompileInputs.cache
-C:\Users\Austraxpc46\source\repos\do_while\do_while\obj\Debug\do_while.exe
-C:\Users\Austraxpc46\source\repos\do_while\do_while\obj\Debug\do_while.pdb

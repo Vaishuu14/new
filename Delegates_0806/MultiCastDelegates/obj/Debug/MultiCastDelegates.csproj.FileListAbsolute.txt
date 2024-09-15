@@ -1,7 +1,0 @@
-C:\Users\Austraxpc46\source\repos\Delegates\MultiCastDelegates\bin\Debug\MultiCastDelegates.exe.config
-C:\Users\Austraxpc46\source\repos\Delegates\MultiCastDelegates\bin\Debug\MultiCastDelegates.exe
-C:\Users\Austraxpc46\source\repos\Delegates\MultiCastDelegates\bin\Debug\MultiCastDelegates.pdb
-C:\Users\Austraxpc46\source\repos\Delegates\MultiCastDelegates\obj\Debug\MultiCastDelegates.csproj.AssemblyReference.cache
-C:\Users\Austraxpc46\source\repos\Delegates\MultiCastDelegates\obj\Debug\MultiCastDelegates.csproj.CoreCompileInputs.cache
-C:\Users\Austraxpc46\source\repos\Delegates\MultiCastDelegates\obj\Debug\MultiCastDelegates.exe
-C:\Users\Austraxpc46\source\repos\Delegates\MultiCastDelegates\obj\Debug\MultiCastDelegates.pdb

@@ -1,7 +1,0 @@
-C:\Users\Austraxpc46\source\repos\SortedList_08_08\SortedList_08_08\bin\Debug\SortedList_08_08.exe.config
-C:\Users\Austraxpc46\source\repos\SortedList_08_08\SortedList_08_08\bin\Debug\SortedList_08_08.exe
-C:\Users\Austraxpc46\source\repos\SortedList_08_08\SortedList_08_08\bin\Debug\SortedList_08_08.pdb
-C:\Users\Austraxpc46\source\repos\SortedList_08_08\SortedList_08_08\obj\Debug\SortedList_08_08.csproj.AssemblyReference.cache
-C:\Users\Austraxpc46\source\repos\SortedList_08_08\SortedList_08_08\obj\Debug\SortedList_08_08.csproj.CoreCompileInputs.cache
-C:\Users\Austraxpc46\source\repos\SortedList_08_08\SortedList_08_08\obj\Debug\SortedList_08_08.exe
-C:\Users\Austraxpc46\source\repos\SortedList_08_08\SortedList_08_08\obj\Debug\SortedList_08_08.pdb

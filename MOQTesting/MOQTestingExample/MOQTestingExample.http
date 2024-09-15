@@ -1,6 +1,0 @@
-@MOQTestingExample_HostAddress = http://localhost:5139
-
-GET {{MOQTestingExample_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

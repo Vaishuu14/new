@@ -10,6 +10,10 @@ using Microsoft.Extensions.Logging;
 using System.Threading.Tasks;
 using System.Diagnostics;
 using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.Routing;
+using System;
+using Microsoft.AspNetCore.Http.HttpResults;
+using static System.Collections.Specialized.BitVector32;
 
 
 namespace LibraryManagmentSystem.Web.Controllers
@@ -30,11 +34,10 @@ namespace LibraryManagmentSystem.Web.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            var query = new GetBooksQuery();
-            var result =  _mediator.Send(query);
-            return Ok(result);
+            var books = await _mediator.Send(new GetBooksQuery());
+            return View(books);
         }
 
         [HttpGet("{id}")]
@@ -85,3 +88,14 @@ namespace LibraryManagmentSystem.Web.Controllers
         //}
     }
 }
+
+//             <th>Actions</th>
+
+//< td >
+//        < a asp - controller = "BookDto" asp - action = "GetBookById" asp - route - id = "@book.Id" class= "btn btn-info" > Details </ a >
+//        < a asp - controller = "BookDto" asp - action = "UpdateBook" asp - route - id = "@book.Id" class= "btn btn-warning" > Edit </ a >
+//        < a asp - controller = "BookDto" asp - action = "DeleteBook" asp - route - id = "@book.Id" class= "btn btn-danger" > Delete </ a >
+//</ td >
+
+
+//< a asp - controller = "Book" asp - action = "CreateBook" class= "btn btn-primary" > Create New Book</a>

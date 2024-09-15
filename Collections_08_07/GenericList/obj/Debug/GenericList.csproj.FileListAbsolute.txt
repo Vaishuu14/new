@@ -1,7 +1,0 @@
-C:\Users\Austraxpc46\source\repos\Collections_08_07\GenericList\bin\Debug\GenericList.exe.config
-C:\Users\Austraxpc46\source\repos\Collections_08_07\GenericList\bin\Debug\GenericList.exe
-C:\Users\Austraxpc46\source\repos\Collections_08_07\GenericList\bin\Debug\GenericList.pdb
-C:\Users\Austraxpc46\source\repos\Collections_08_07\GenericList\obj\Debug\GenericList.csproj.AssemblyReference.cache
-C:\Users\Austraxpc46\source\repos\Collections_08_07\GenericList\obj\Debug\GenericList.csproj.CoreCompileInputs.cache
-C:\Users\Austraxpc46\source\repos\Collections_08_07\GenericList\obj\Debug\GenericList.exe
-C:\Users\Austraxpc46\source\repos\Collections_08_07\GenericList\obj\Debug\GenericList.pdb

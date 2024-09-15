@@ -1,7 +1,0 @@
-C:\Users\Austraxpc46\source\repos\DesignPattern_Creational_08_13\BuilderPattern\bin\Debug\BuilderPattern.exe.config
-C:\Users\Austraxpc46\source\repos\DesignPattern_Creational_08_13\BuilderPattern\bin\Debug\BuilderPattern.exe
-C:\Users\Austraxpc46\source\repos\DesignPattern_Creational_08_13\BuilderPattern\bin\Debug\BuilderPattern.pdb
-C:\Users\Austraxpc46\source\repos\DesignPattern_Creational_08_13\BuilderPattern\obj\Debug\BuilderPattern.csproj.AssemblyReference.cache
-C:\Users\Austraxpc46\source\repos\DesignPattern_Creational_08_13\BuilderPattern\obj\Debug\BuilderPattern.csproj.CoreCompileInputs.cache
-C:\Users\Austraxpc46\source\repos\DesignPattern_Creational_08_13\BuilderPattern\obj\Debug\BuilderPattern.exe
-C:\Users\Austraxpc46\source\repos\DesignPattern_Creational_08_13\BuilderPattern\obj\Debug\BuilderPattern.pdb

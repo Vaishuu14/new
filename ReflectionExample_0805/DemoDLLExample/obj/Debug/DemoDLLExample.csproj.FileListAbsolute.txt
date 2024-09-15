@@ -1,6 +1,0 @@
-C:\Users\Austraxpc46\source\repos\ReflectionExample\DemoDLLExample\bin\Debug\DemoDLLExample.dll
-C:\Users\Austraxpc46\source\repos\ReflectionExample\DemoDLLExample\bin\Debug\DemoDLLExample.pdb
-C:\Users\Austraxpc46\source\repos\ReflectionExample\DemoDLLExample\obj\Debug\DemoDLLExample.csproj.AssemblyReference.cache
-C:\Users\Austraxpc46\source\repos\ReflectionExample\DemoDLLExample\obj\Debug\DemoDLLExample.csproj.CoreCompileInputs.cache
-C:\Users\Austraxpc46\source\repos\ReflectionExample\DemoDLLExample\obj\Debug\DemoDLLExample.dll
-C:\Users\Austraxpc46\source\repos\ReflectionExample\DemoDLLExample\obj\Debug\DemoDLLExample.pdb

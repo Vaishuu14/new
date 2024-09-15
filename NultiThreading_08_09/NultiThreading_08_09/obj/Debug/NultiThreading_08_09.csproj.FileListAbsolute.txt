@@ -1,7 +1,0 @@
-C:\Users\Austraxpc46\source\repos\NultiThreading_08_09\NultiThreading_08_09\bin\Debug\NultiThreading_08_09.exe.config
-C:\Users\Austraxpc46\source\repos\NultiThreading_08_09\NultiThreading_08_09\bin\Debug\NultiThreading_08_09.exe
-C:\Users\Austraxpc46\source\repos\NultiThreading_08_09\NultiThreading_08_09\bin\Debug\NultiThreading_08_09.pdb
-C:\Users\Austraxpc46\source\repos\NultiThreading_08_09\NultiThreading_08_09\obj\Debug\NultiThreading_08_09.csproj.AssemblyReference.cache
-C:\Users\Austraxpc46\source\repos\NultiThreading_08_09\NultiThreading_08_09\obj\Debug\NultiThreading_08_09.csproj.CoreCompileInputs.cache
-C:\Users\Austraxpc46\source\repos\NultiThreading_08_09\NultiThreading_08_09\obj\Debug\NultiThreading_08_09.exe
-C:\Users\Austraxpc46\source\repos\NultiThreading_08_09\NultiThreading_08_09\obj\Debug\NultiThreading_08_09.pdb

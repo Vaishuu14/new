@@ -1,7 +1,0 @@
-C:\Users\Austraxpc46\source\repos\Delegates\SingalCastDelegates\bin\Debug\SingalCastDelegates.exe.config
-C:\Users\Austraxpc46\source\repos\Delegates\SingalCastDelegates\bin\Debug\SingalCastDelegates.exe
-C:\Users\Austraxpc46\source\repos\Delegates\SingalCastDelegates\bin\Debug\SingalCastDelegates.pdb
-C:\Users\Austraxpc46\source\repos\Delegates\SingalCastDelegates\obj\Debug\SingalCastDelegates.csproj.AssemblyReference.cache
-C:\Users\Austraxpc46\source\repos\Delegates\SingalCastDelegates\obj\Debug\SingalCastDelegates.csproj.CoreCompileInputs.cache
-C:\Users\Austraxpc46\source\repos\Delegates\SingalCastDelegates\obj\Debug\SingalCastDelegates.exe
-C:\Users\Austraxpc46\source\repos\Delegates\SingalCastDelegates\obj\Debug\SingalCastDelegates.pdb

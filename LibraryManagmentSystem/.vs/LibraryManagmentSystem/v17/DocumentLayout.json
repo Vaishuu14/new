@@ -1,17 +1,57 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Austraxpc46\\source\\repos\\LibraryManagmentSystem\\",
+  "WorkspaceRootPath": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|c:\\users\\austraxpc46\\source\\repos\\librarymanagmentsystem\\librarymanagmentsystem.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|c:\\users\\vaishnavi s\\source\\repos\\librarysystem\\librarymanagmentsystem\\librarymanagmentsystem.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|solutionrelative:librarymanagmentsystem.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|c:\\users\\vaishnavi s\\source\\repos\\librarysystem\\librarymanagmentsystem\\librarymanagmentsystem.web\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|solutionrelative:librarymanagmentsystem.web\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|c:\\users\\vaishnavi s\\source\\repos\\librarysystem\\librarymanagmentsystem\\librarymanagmentsystem.web\\views\\home\\registration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|solutionrelative:librarymanagmentsystem.web\\views\\home\\registration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A7858F-AD11-4AF1-BBBD-CC816BC094C3}|LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj|c:\\users\\vaishnavi s\\source\\repos\\librarysystem\\librarymanagmentsystem\\librarymanagmentsystem.domain\\entities\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89A7858F-AD11-4AF1-BBBD-CC816BC094C3}|LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj|solutionrelative:librarymanagmentsystem.domain\\entities\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|c:\\users\\vaishnavi s\\source\\repos\\librarysystem\\librarymanagmentsystem\\librarymanagmentsystem.web\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|solutionrelative:librarymanagmentsystem.web\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|c:\\users\\vaishnavi s\\source\\repos\\librarysystem\\librarymanagmentsystem\\librarymanagmentsystem.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|solutionrelative:librarymanagmentsystem.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|c:\\users\\vaishnavi s\\source\\repos\\librarysystem\\librarymanagmentsystem\\librarymanagmentsystem.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|solutionrelative:librarymanagmentsystem.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|c:\\users\\vaishnavi s\\source\\repos\\librarysystem\\librarymanagmentsystem\\librarymanagmentsystem.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|solutionrelative:librarymanagmentsystem.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82D55913-3BBA-465A-A9DD-65D9351387A2}|LibraryManagmentSystem.Application\\LibraryManagmentSystem.Application.csproj|c:\\users\\austraxpc46\\source\\repos\\librarymanagmentsystem\\librarymanagmentsystem.application\\handlers\\queryhandler\\getbooksqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|c:\\users\\vaishnavi s\\source\\repos\\librarysystem\\librarymanagmentsystem\\librarymanagmentsystem.web\\wwwroot\\css\\dark-theme.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|solutionrelative:librarymanagmentsystem.web\\wwwroot\\css\\dark-theme.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|c:\\users\\vaishnavi s\\source\\repos\\librarysystem\\librarymanagmentsystem\\librarymanagmentsystem.web\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|solutionrelative:librarymanagmentsystem.web\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82D55913-3BBA-465A-A9DD-65D9351387A2}|LibraryManagmentSystem.Application\\LibraryManagmentSystem.Application.csproj|c:\\users\\vaishnavi s\\source\\repos\\librarysystem\\librarymanagmentsystem\\librarymanagmentsystem.application\\handlers\\queryhandler\\getbooksqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82D55913-3BBA-465A-A9DD-65D9351387A2}|LibraryManagmentSystem.Application\\LibraryManagmentSystem.Application.csproj|solutionrelative:librarymanagmentsystem.application\\handlers\\queryhandler\\getbooksqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82D55913-3BBA-465A-A9DD-65D9351387A2}|LibraryManagmentSystem.Application\\LibraryManagmentSystem.Application.csproj|c:\\users\\austraxpc46\\source\\repos\\librarymanagmentsystem\\librarymanagmentsystem.application\\dtos\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{82D55913-3BBA-465A-A9DD-65D9351387A2}|LibraryManagmentSystem.Application\\LibraryManagmentSystem.Application.csproj|c:\\users\\vaishnavi s\\source\\repos\\librarysystem\\librarymanagmentsystem\\librarymanagmentsystem.application\\queries\\bookqueries\\getbooksquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82D55913-3BBA-465A-A9DD-65D9351387A2}|LibraryManagmentSystem.Application\\LibraryManagmentSystem.Application.csproj|solutionrelative:librarymanagmentsystem.application\\queries\\bookqueries\\getbooksquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82D55913-3BBA-465A-A9DD-65D9351387A2}|LibraryManagmentSystem.Application\\LibraryManagmentSystem.Application.csproj|c:\\users\\vaishnavi s\\source\\repos\\librarysystem\\librarymanagmentsystem\\librarymanagmentsystem.application\\dtos\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82D55913-3BBA-465A-A9DD-65D9351387A2}|LibraryManagmentSystem.Application\\LibraryManagmentSystem.Application.csproj|solutionrelative:librarymanagmentsystem.application\\dtos\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,41 +66,171 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Registration.cs",
+              "DocumentMoniker": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Domain\\Entities\\Registration.cs",
+              "RelativeDocumentMoniker": "LibraryManagmentSystem.Domain\\Entities\\Registration.cs",
+              "ToolTip": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Domain\\Entities\\Registration.cs",
+              "RelativeToolTip": "LibraryManagmentSystem.Domain\\Entities\\Registration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T18:21:45.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "LibraryManagmentSystem.Web\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "LibraryManagmentSystem.Web\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAiwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-15T17:23:27.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagmentSystem.Web\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "LibraryManagmentSystem.Web\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-15T17:01:01.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Registration.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Views\\Home\\Registration.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagmentSystem.Web\\Views\\Home\\Registration.cshtml",
+              "ToolTip": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Views\\Home\\Registration.cshtml",
+              "RelativeToolTip": "LibraryManagmentSystem.Web\\Views\\Home\\Registration.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-15T16:22:09.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagmentSystem.Web\\Views\\Home\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "LibraryManagmentSystem.Web\\Views\\Home\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-15T16:21:31.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "LibraryManagmentSystem.Web\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "LibraryManagmentSystem.Web\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAA9wDgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T14:49:23.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Program.cs",
+              "RelativeDocumentMoniker": "LibraryManagmentSystem.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Program.cs",
+              "RelativeToolTip": "LibraryManagmentSystem.Web\\Program.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAgwF0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T12:20:21.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "dark-theme.css",
+              "DocumentMoniker": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\wwwroot\\css\\dark-theme.css",
+              "RelativeDocumentMoniker": "LibraryManagmentSystem.Web\\wwwroot\\css\\dark-theme.css",
+              "ToolTip": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\wwwroot\\css\\dark-theme.css",
+              "RelativeToolTip": "LibraryManagmentSystem.Web\\wwwroot\\css\\dark-theme.css",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-15T14:10:20.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagmentSystem.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "LibraryManagmentSystem.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-15T13:43:57.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "LibraryManagmentSystem.Web\\Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Controllers\\BookController.cs",
+              "RelativeToolTip": "LibraryManagmentSystem.Web\\Controllers\\BookController.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAAAFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T12:58:34.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GetBooksQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Application\\Queries\\BookQueries\\GetBooksQuery.cs",
+              "RelativeDocumentMoniker": "LibraryManagmentSystem.Application\\Queries\\BookQueries\\GetBooksQuery.cs",
+              "ToolTip": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Application\\Queries\\BookQueries\\GetBooksQuery.cs",
+              "RelativeToolTip": "LibraryManagmentSystem.Application\\Queries\\BookQueries\\GetBooksQuery.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T12:55:04.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "BookDto.cs",
-              "DocumentMoniker": "C:\\Users\\Austraxpc46\\source\\repos\\LibraryManagmentSystem\\LibraryManagmentSystem.Application\\DTOs\\BookDto.cs",
+              "DocumentMoniker": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Application\\DTOs\\BookDto.cs",
               "RelativeDocumentMoniker": "LibraryManagmentSystem.Application\\DTOs\\BookDto.cs",
-              "ToolTip": "C:\\Users\\Austraxpc46\\source\\repos\\LibraryManagmentSystem\\LibraryManagmentSystem.Application\\DTOs\\BookDto.cs",
+              "ToolTip": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Application\\DTOs\\BookDto.cs",
               "RelativeToolTip": "LibraryManagmentSystem.Application\\DTOs\\BookDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-13T12:42:03.947Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "GetBooksQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Austraxpc46\\source\\repos\\LibraryManagmentSystem\\LibraryManagmentSystem.Application\\Handlers\\QueryHandler\\GetBooksQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Application\\Handlers\\QueryHandler\\GetBooksQueryHandler.cs",
               "RelativeDocumentMoniker": "LibraryManagmentSystem.Application\\Handlers\\QueryHandler\\GetBooksQueryHandler.cs",
-              "ToolTip": "C:\\Users\\Austraxpc46\\source\\repos\\LibraryManagmentSystem\\LibraryManagmentSystem.Application\\Handlers\\QueryHandler\\GetBooksQueryHandler.cs",
+              "ToolTip": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Application\\Handlers\\QueryHandler\\GetBooksQueryHandler.cs",
               "RelativeToolTip": "LibraryManagmentSystem.Application\\Handlers\\QueryHandler\\GetBooksQueryHandler.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAxwBoAAAA0AAAA",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBsAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-13T12:25:44.092Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Austraxpc46\\source\\repos\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Program.cs",
-              "RelativeDocumentMoniker": "LibraryManagmentSystem.Web\\Program.cs",
-              "ToolTip": "C:\\Users\\Austraxpc46\\source\\repos\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Program.cs",
-              "RelativeToolTip": "LibraryManagmentSystem.Web\\Program.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAgwDcAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T12:20:21.352Z",
               "EditorCaption": ""
             }
           ]

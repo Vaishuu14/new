@@ -1,7 +1,0 @@
-C:\Users\Austraxpc46\source\repos\FibonacciExample\FibonacciExample\bin\Debug\FibonacciExample.exe.config
-C:\Users\Austraxpc46\source\repos\FibonacciExample\FibonacciExample\bin\Debug\FibonacciExample.exe
-C:\Users\Austraxpc46\source\repos\FibonacciExample\FibonacciExample\bin\Debug\FibonacciExample.pdb
-C:\Users\Austraxpc46\source\repos\FibonacciExample\FibonacciExample\obj\Debug\FibonacciExample.csproj.AssemblyReference.cache
-C:\Users\Austraxpc46\source\repos\FibonacciExample\FibonacciExample\obj\Debug\FibonacciExample.csproj.CoreCompileInputs.cache
-C:\Users\Austraxpc46\source\repos\FibonacciExample\FibonacciExample\obj\Debug\FibonacciExample.exe
-C:\Users\Austraxpc46\source\repos\FibonacciExample\FibonacciExample\obj\Debug\FibonacciExample.pdb
