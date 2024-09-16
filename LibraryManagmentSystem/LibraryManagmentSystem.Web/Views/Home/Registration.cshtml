@@ -1,8 +1,8 @@
 ﻿@model LibraryManagmentSystem.Domain.Entities.Registration
+<div class="text-lg-start">
+<h2 style="margin-left: 25%; color: white">Register</h2>
 
-<h2>Register</h2>
-
-<form asp-action="Registration" method="post">
+<form asp-action="Registration" method="post" style="margin-left: 25%; color: white">
     <div class="form-group">
         <label asp-for="UserName" class="control-label"></label>
         <input asp-for="UserName" class="form-control" />
@@ -18,7 +18,7 @@
         <input asp-for="Email" class="form-control" />
         <span asp-validation-for="Email" class="text-danger"></span>
     </div>
-    <div class="form-group">
+    <div class="form-group" style="margin-bottom: 15px;">
         <label asp-for="Role" class="control-label"></label>
         <input asp-for="Role" class="form-control" />
         <span asp-validation-for="Role" class="text-danger"></span>
@@ -28,6 +28,8 @@
     </div>
 </form>
 
-<p>
+<p style="margin-left: 25%; color: white">
     Already have an account? <a asp-action="Login">Login here</a>
 </p>
+
+    </div>

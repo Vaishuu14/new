@@ -19,13 +19,11 @@ namespace LibraryManagmentSystem.Infrastructure.Repositories
 
         public async Task<User> AuthenticateUserAsync(Login model)
         {
-            // Ensure to add proper hashing and security measures for passwords
+            // Authenticate user logic
             var user = await _userRepository.GetUserByUserNameAndPasswordAsync(model.UserName, model.Password);
-
             if (user == null)
             {
-                // Handle authentication failure
-                throw new UnauthorizedAccessException("Invalid username or password.");
+                throw new UnauthorizedAccessException();
             }
 
             return user;

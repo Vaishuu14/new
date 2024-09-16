@@ -19,6 +19,9 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-image:url("../images/libraryHome.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
 }
 /* Example CSS to style the image */
 img {
@@ -29,4 +32,38 @@ img {
 .img-fluid {
     width: 100%;
     height: auto;
+}
+.bg-white {
+    --bs-bg-opacity: 1;
+    background-color: rgb(136 5 5) !important;
+}
+.display-4{
+    color:white;
+}
+.btn-secondary {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+.navbar-light .navbar-brand {
+    color: #f8f9fa;
+}
+.navbar-toggler-icon{
+    background-color:white;
+}
+.navbar-light .navbar-brand:hover{
+    color: #f8f9fa;
+}
+.text-dark {
+    --bs-text-opacity: 1;
+    color: #f8f9fa !important;
+}
+form {
+color: white;
+width: 50%;
+margin-left: 25%;
+}
+.text-muted {
+    --bs-text-opacity: 1;
+    color: white !important;
 }

@@ -78,24 +78,6 @@ namespace LibraryManagmentSystem.Web.Controllers
             return NoContent(); // Return 204 No Content if the delete is successful
         }
 
-        // Get all books 
-        //[HttpGet]
-        //public async Task<IActionResult> GetAllBooks()
-        //{
-        //    var query = new GetBooksQuery();
-        //    var result = await _mediator.Send(query);
-        //    return Ok(result);
-        //}
+       
     }
 }
-
-//             <th>Actions</th>
-
-//< td >
-//        < a asp - controller = "BookDto" asp - action = "GetBookById" asp - route - id = "@book.Id" class= "btn btn-info" > Details </ a >
-//        < a asp - controller = "BookDto" asp - action = "UpdateBook" asp - route - id = "@book.Id" class= "btn btn-warning" > Edit </ a >
-//        < a asp - controller = "BookDto" asp - action = "DeleteBook" asp - route - id = "@book.Id" class= "btn btn-danger" > Delete </ a >
-//</ td >
-
-
-//< a asp - controller = "Book" asp - action = "CreateBook" class= "btn btn-primary" > Create New Book</a>
