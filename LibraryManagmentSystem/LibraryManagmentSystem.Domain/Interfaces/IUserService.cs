@@ -9,7 +9,8 @@ namespace LibraryManagmentSystem.Domain.Interfaces
 {
     public interface IUserService
     {
-        Task<User> AuthenticateUserAsync(Login model);
+        Task<User> GetUserByUsernameAsync(string username);
+        Task<string> AuthenticateAsync(string username, string password);
         Task<User> RegisterUserAsync(Registration model);
         Task<User> GetUserByIdAsync(int userId);
     }

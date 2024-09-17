@@ -1,24 +1,15 @@
 ﻿@model LibraryManagmentSystem.Application.DTOs.BookDto
 
-@{
-    ViewData["Title"] = "Delete Book";
-}
-
-<h1>Delete Book</h1>
-
-<h3>Are you sure you want to delete this book?</h3>
+<h2>Delete Book</h2>
 <div>
-    <h4>@Model.Title</h4>
-    <dl class="row">
-        <dt class="col-sm-3">Author</dt>
-        <dd class="col-sm-9">@Model.Author</dd>
-        <dt class="col-sm-3">Published Date</dt>
-        <dd class="col-sm-9">@Model.PublishedDate.ToShortDateString()</dd>
-    </dl>
+    <h3>Are you sure you want to delete this book?</h3>
+    <div>
+        <h4>@Model.Title</h4>
+        <p>Author: @Model.Author</p>
+    </div>
+    <form asp-action="DeleteConfirmed">
+        <input type="hidden" asp-for="Id" />
+        <button type="submit" class="btn btn-danger">Delete</button>
+        <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+    </form>
 </div>
-
-<form asp-action="DeleteBook" method="post">
-    <input type="hidden" asp-for="Id" />
-    <button type="submit" class="btn btn-danger">Delete</button>
-    <a asp-controller="Book" asp-action="GetAllBooks" class="btn btn-secondary">Cancel</a>
-</form>

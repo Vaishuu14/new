@@ -9,7 +9,9 @@ namespace LibraryManagmentSystem.Domain.Interfaces
 {
     public interface IUserRepository
     {
-        Task<User> GetUserByUserNameAndPasswordAsync(string userName,string password);
+        Task<User> GetUserByUserNameAsync(string userName);
+        Task<User> GetUserByUserNameAndPasswordAsync(string userName, string password);
+        Task AddUserAsync(User user);
         Task<User> GetUserByIdAsync(int userId);
     }
 }

@@ -1,6 +1,5 @@
 ﻿using AutoMapper;
 using LibraryManagmentSystem.Application.Commands;
-using LibraryManagmentSystem.Application.Queries;
 using LibraryManagmentSystem.Application.Commands.BookCommands;
 using LibraryManagmentSystem.Application.Queries.BookQueries;
 using MediatR;
@@ -8,19 +7,12 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System.Threading.Tasks;
-using System.Diagnostics;
-using Microsoft.Extensions.Logging;
-using Microsoft.AspNetCore.Routing;
-using System;
-using Microsoft.AspNetCore.Http.HttpResults;
-using static System.Collections.Specialized.BitVector32;
-
 
 namespace LibraryManagmentSystem.Web.Controllers
 {
-    //[Authorize]
+    [Authorize]
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("Book")]
     public class BookController : Controller
     {
         private readonly IMediator _mediator;
@@ -34,50 +26,76 @@ namespace LibraryManagmentSystem.Web.Controllers
             _logger = logger;
         }
 
+        [HttpGet("")]
         public async Task<IActionResult> Index()
         {
+            //if (!User.Identity.IsAuthenticated)
+            //{
+            //    _logger.LogWarning("User is not authenticated.");
+            //    return Unauthorized();
+            //}
+
             var books = await _mediator.Send(new GetBooksQuery());
             return View(books);
         }
 
-        [HttpGet("{id}")]
-        public async Task<IActionResult> GetBookById(int id)
+        [Authorize(Roles = "Admin")]
+        [HttpGet("Add")]
+        public IActionResult Add()
+        {
+            return View();
+        }
+
+        [Authorize(Roles = "Admin")]
+        [HttpPost("Add")]
+        public async Task<IActionResult> Add(CreateBookCommand command)
+        {
+            var result = await _mediator.Send(command);
+            return RedirectToAction("Index");
+        }
+
+        [Authorize(Roles = "Admin")]
+        [HttpGet("Edit/{id}")]
+        public async Task<IActionResult> Edit(int id)
         {
             var query = new GetBookByIdQuery(id);
             var result = await _mediator.Send(query);
-            return Ok(result);
+            return View(result);
         }
 
-        [HttpPost]
-        public async Task<IActionResult> CreateBook([FromBody] CreateBookCommand command)
+        [Authorize(Roles = "Admin")]
+        [HttpPost("Edit")]
+        public async Task<IActionResult> Edit(UpdateBookCommand command)
         {
             var result = await _mediator.Send(command);
-            return CreatedAtAction(nameof(GetBookById), new { id = result.Id }, result);
+            return RedirectToAction("Index");
         }
 
-
-        // Update an existing book
-        [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateBook(int id, [FromBody] UpdateBookCommand command)
+        [Authorize(Roles = "Admin")]
+        [HttpGet("Delete/{id}")]
+        public async Task<IActionResult> Delete(int id)
         {
-            if (id != command.Id)
-            {
-                return BadRequest("ID in URL does not match ID in body.");
-            }
-
-            var result = await _mediator.Send(command);
-            return result != null ? Ok(result) : NotFound();
+            var query = new GetBookByIdQuery(id);
+            var result = await _mediator.Send(query);
+            return View(result);
         }
 
-        // Delete a book
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteBook(int id)
+        [Authorize(Roles = "Admin")]
+        [HttpPost("Delete/{id}")]
+        public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var command = new DeleteBookCommand(id);
             await _mediator.Send(command);
-            return NoContent(); // Return 204 No Content if the delete is successful
+            return RedirectToAction("Index");
         }
 
-       
+        [Authorize(Roles = "Member,Admin")]
+        [HttpGet("Details/{id}")]
+        public async Task<IActionResult> Details(int id)
+        {
+            var query = new GetBookByIdQuery(id);
+            var result = await _mediator.Send(query);
+            return View(result);
+        }
     }
 }

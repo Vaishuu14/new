@@ -16,11 +16,17 @@ using Microsoft.Extensions.Configuration;
 using System.Reflection;
 using LibraryManagmentSystem.Application.Handlers.QueryHandler;
 using Newtonsoft.Json;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authorization;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.PropertyNamingPolicy = null;
+    });
 
 builder.Services.AddMediatR(cfg =>
 {
@@ -28,11 +34,6 @@ builder.Services.AddMediatR(cfg =>
     // Register additional assemblies if needed
     cfg.RegisterServicesFromAssembly(typeof(GetBooksQueryHandler).Assembly);
 });
-
-
-
-
-
 
 // Register AutoMapper manually
 builder.Services.AddSingleton(provider =>
@@ -48,17 +49,18 @@ builder.Services.AddSingleton(provider =>
 builder.Services.AddDbContext<LibraryDBContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("AppDb")));
 
-var jwtSettings = builder.Configuration.GetSection("Jwt");
-var key = Encoding.ASCII.GetBytes(jwtSettings["Key"]);
 
 builder.Services.AddControllers()
     .AddNewtonsoftJson(options =>
     {
         // Configure Newtonsoft.Json options
-        options.SerializerSettings.Formatting = Newtonsoft.Json.Formatting.Indented;
-        options.SerializerSettings.NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore;
+        options.SerializerSettings.Formatting = Formatting.Indented;
+        options.SerializerSettings.NullValueHandling = NullValueHandling.Ignore;
         options.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
     });
+
+var jwtSettings = builder.Configuration.GetSection("Jwt");
+var key = Encoding.ASCII.GetBytes(jwtSettings["Key"]);
 
 // Configure JWT authentication
 builder.Services.AddAuthentication(options =>
@@ -66,23 +68,43 @@ builder.Services.AddAuthentication(options =>
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
     options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
 })
-.AddJwtBearer(options =>
+.AddJwtBearer(x =>
 {
-    options.RequireHttpsMetadata = false;
-    options.SaveToken = true;
-    options.TokenValidationParameters = new TokenValidationParameters
+    x.RequireHttpsMetadata = false;
+    x.SaveToken = true;
+    x.TokenValidationParameters = new TokenValidationParameters
     {
+        ValidateIssuerSigningKey = true,
+        IssuerSigningKey = new SymmetricSecurityKey(key),
         ValidateIssuer = true,
         ValidateAudience = true,
-        ValidateLifetime = true,
-        ValidateIssuerSigningKey = true,
-        ValidIssuer = builder.Configuration["Jwt:Issuer"],
-        ValidAudience = builder.Configuration["Jwt:Audience"],
-        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+        ValidIssuer = jwtSettings["Issuer"],
+        ValidAudience = jwtSettings["Audience"]
     };
 });
 
-// Register repositories
+builder.Services.Configure<LibraryManagmentSystem.Domain.Entities.JwtOptions>(options =>
+{
+    options.ExpirationMinutes = jwtSettings.GetValue<int>("ExpirationMinutes");
+});
+
+// Add Cookie authentication
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(options =>
+    {
+        options.LoginPath = "/Home/Login";
+        options.LogoutPath = "/Account/Logout";
+        options.AccessDeniedPath = "/Account/AccessDenied";
+    });
+
+// Configure authorization services
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("Admin", policy => policy.RequireRole("Admin"));
+    options.AddPolicy("Member", policy => policy.RequireRole("Member"));
+});
+
+// Register repositories and services
 builder.Services.AddScoped<IBookRepository, BookRepository>();
 builder.Services.AddScoped<IMemberRepository, MemberRepository>();
 builder.Services.AddScoped<ILoanRepository, LoanRepository>();
@@ -92,10 +114,6 @@ builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IFineCalculationService, FineCalculationService>();
 builder.Services.AddScoped<IUserService, UserService>();
-
-// Register services
-//builder.Services.AddScoped<IFineCalculationService, FineCalculationService>();
-//builder.Services.AddScoped<IAuthService, AuthService>();
 
 var app = builder.Build();
 
@@ -119,8 +137,3 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
-
-
-
-
-

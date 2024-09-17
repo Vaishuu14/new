@@ -19,10 +19,20 @@ namespace LibraryManagmentSystem.Infrastructure.Repositories
             _context = context;
         }
 
-        public async Task<User> GetUserByUserNameAndPasswordAsync(string username, string password)
+        public async Task<User> GetUserByUserNameAsync(string userName)
         {
-            return await _context.Users
-                .SingleOrDefaultAsync(u => u.UserName == username && u.Password == password);
+            return await _context.Users.FirstOrDefaultAsync(u => u.UserName == userName);
+        }
+
+        public async Task<User> GetUserByUserNameAndPasswordAsync(string userName, string password)
+        {
+            return await _context.Users.FirstOrDefaultAsync(u => u.UserName == userName && u.Password == password);
+        }
+
+        public async Task AddUserAsync(User user)
+        {
+            _context.Users.Add(user);
+            await _context.SaveChangesAsync();
         }
 
         public async Task<User> GetUserByIdAsync(int userId)

@@ -1,0 +1,47 @@
+﻿@model LibraryManagmentSystem.Application.Commands.MemberCommands.CreateMemberCommand
+
+@{
+    ViewBag.Title = "Add Member";
+    Layout = "_LayoutWithoutNavBar";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="~/css/add-member.css" />
+</head>
+<body>
+    <div class="container">
+        <h2 class="text-center mb-4">Add New Member</h2>
+
+        <div class="card">
+            <div class="card-header">
+                <i class="bi bi-person-plus"></i> Add Member
+            </div>
+            <div class="card-body">
+                <form asp-action="Add" method="post">
+                    <div class="form-group mb-3">
+                        <label asp-for="FirstName" class="form-label"></label>
+                        <input asp-for="FirstName" class="form-control" placeholder="First Name" />
+                        <span asp-validation-for="FirstName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="LastName" class="form-label"></label>
+                        <input asp-for="LastName" class="form-control" placeholder="Last Name" />
+                        <span asp-validation-for="LastName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="Email" class="form-label"></label>
+                        <input asp-for="Email" class="form-control" placeholder="Email" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                    <div class="form-group text-center">
+                        <input type="submit" value="Add Member" class="btn btn-primary" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
