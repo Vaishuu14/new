@@ -1,7 +1,7 @@
-﻿@model LibraryManagmentSystem.Application.DTOs.BookDto
+﻿@model LibraryManagmentSystem.Application.Commands.BookCommands.CreateBookCommand
 
 <h2>Add Book</h2>
-<form asp-action="Add">
+<form asp-action="Add" method="post">
     <div class="form-group">
         <label asp-for="Title"></label>
         <input asp-for="Title" class="form-control" />
@@ -11,6 +11,16 @@
         <label asp-for="Author"></label>
         <input asp-for="Author" class="form-control" />
         <span asp-validation-for="Author" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="ISBN"></label>
+        <input asp-for="ISBN" class="form-control" />
+        <span asp-validation-for="ISBN" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="PublishedDate"></label>
+        <input asp-for="PublishedDate" class="form-control" type="date" />
+        <span asp-validation-for="PublishedDate" class="text-danger"></span>
     </div>
     <button type="submit" class="btn btn-primary">Add</button>
 </form>

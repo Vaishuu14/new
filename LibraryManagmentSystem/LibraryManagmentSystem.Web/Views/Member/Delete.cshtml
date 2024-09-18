@@ -34,21 +34,20 @@
                     <dt class="col-sm-3">Contact Number</dt>
                     <dd class="col-sm-9">@Model.ContactNumber</dd>
                     <dt class="col-sm-3">Membership Date</dt>
-                    <dd class="col-sm-9">@Model.MembershipDate.ToString("yyyy-MM-dd")</dd>
+                    <dd class="col-sm-9">@Model.DateOfMembership.ToString("yyyy-MM-dd")</dd>
                 </dl>
             </div>
         </div>
 
-        <form asp-action="DeleteConfirmed" method="post">
-            <input type="hidden" asp-for="Id" />
-            <div class="form-group">
-                <button type="submit" class="btn btn-danger">
-                    <i class="bi bi-trash"></i> Delete
-                </button>
-                <a href="@Url.Action("Index", "Member")" class="btn btn-secondary">
-                    <i class="bi bi-arrow-left"></i> Cancel
-                </a>
-            </div>
+        <form asp-action="Delete" method="post" asp-route-id="@Model.Id">
+            @Html.AntiForgeryToken()
+            <input type="hidden" name="id" value="@Model.Id" />
+            <button type="submit" class="btn btn-danger">
+                <i class="bi bi-trash"></i> Delete
+            </button>
+            <a href="@Url.Action("Index", "Member")" class="btn btn-secondary">
+                <i class="bi bi-arrow-left"></i> Cancel
+            </a>
         </form>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>

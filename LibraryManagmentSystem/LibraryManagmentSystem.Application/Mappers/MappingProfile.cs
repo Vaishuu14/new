@@ -18,12 +18,36 @@ namespace LibraryManagmentSystem.Application.Mappers
         {
             // Mapping between Book and BookDto
             CreateMap<Book, BookDto>().ReverseMap();
+            CreateMap<CreateBookCommand, Book>().ReverseMap();
+            CreateMap<UpdateBookCommand , Book>().ReverseMap();
 
-           
+            CreateMap<BookDto, UpdateBookCommand>()
+            .ForMember(dest => dest.Title, opt => opt.MapFrom(src => src.Title))
+            .ForMember(dest => dest.Author, opt => opt.MapFrom(src => src.Author))
+            .ForMember(dest => dest.ISBN, opt => opt.MapFrom(src => src.ISBN))
+            .ForMember(dest => dest.PublishedDate, opt => opt.MapFrom(src => src.PublishedDate))
+            .ForMember(dest => dest.NumberOfCopies, opt => opt.MapFrom(src => src.NumberOfCopies));
+
+
+
 
             // Mapping between Member and MemberDto
             CreateMap<Member, MemberDto>().ReverseMap();
-           
+            CreateMap<CreateMemberCommand, Member>().ReverseMap();
+            CreateMap<UpdateMemberCommand, Member>().ReverseMap();
+            CreateMap<DeleteMemberCommand, Member>().ReverseMap();
+
+
+            CreateMap<MemberDto, UpdateMemberCommand>()
+            .ForMember(dest => dest.FirstName, opt => opt.MapFrom(src => src.FirstName))
+            .ForMember(dest => dest.LastName, opt => opt.MapFrom(src => src.LastName))
+            .ForMember(dest => dest.Email, opt => opt.MapFrom(src => src.Email))
+            .ForMember(dest => dest.ContactNumber, opt => opt.MapFrom(src => src.ContactNumber))
+            .ForMember(dest => dest.DateOfMembership, opt => opt.MapFrom(src => src.DateOfMembership));
+
+
+
+
 
             // Mapping between Loan and LoanDto
             CreateMap<Loan, LoanDto>().ReverseMap();

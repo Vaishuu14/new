@@ -11,10 +11,10 @@ namespace LibraryManagmentSystem.Application.Queries.MemberQueries
     public class GetMemberByIdQuery : IRequest<MemberDto>
     {
         public int Id { get; set; }
-        public GetMemberByIdQuery(int id)
-        {
-            Id = id;
-        }
+        //public GetMemberByIdQuery(int id)
+        //{
+        //    Id = id;
+        //}
 
     }
 }

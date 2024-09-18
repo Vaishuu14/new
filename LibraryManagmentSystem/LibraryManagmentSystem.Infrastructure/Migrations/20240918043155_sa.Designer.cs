@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LibraryManagmentSystem.Infrastructure.Migrations
 {
     [DbContext(typeof(LibraryDBContext))]
-    [Migration("20240917035515_Init")]
-    partial class Init
+    [Migration("20240918043155_sa")]
+    partial class sa
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

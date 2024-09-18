@@ -18,6 +18,20 @@
     }
 
 
+.table th, .table td {
+    text-align: center;
+}
+
+.btn {
+    margin-right: 5px;
+}
+
+.table-dark th, .table-dark td {
+    color: #f8f9fa;
+}
+
+
+
 /*member*/
 
 .member-nav-bar {

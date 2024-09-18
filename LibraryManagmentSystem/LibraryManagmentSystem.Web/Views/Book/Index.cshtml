@@ -1,39 +1,50 @@
 ﻿@model IEnumerable<LibraryManagmentSystem.Application.DTOs.BookDto>
 
-<h2>Books</h2>
-<table class="table">
-    <thead>
-        <tr>
-            <th>Title</th>
-            <th>Author</th>
-            <th>Actions</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var book in Model)
-        {
-            <tr>
-                <td>@book.Title</td>
-                <td>@book.Author</td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@book.Id">Edit</a> |
-                    <a asp-action="Delete" asp-route-id="@book.Id">Delete</a> |
-                    <a asp-action="Details" asp-route-id="@book.Id">Details</a>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
-<a asp-action="Add" class="btn btn-primary">Add New Book</a>
-@section Scripts {
-    <script>
-        $(document).ready(function () {
-            $('a[data-target]').click(function (e) {
-                e.preventDefault();
-                var target = $(this).data('target');
-                $('.content-section').removeClass('active');
-                $('#' + target).addClass('active');
-            });
-        });
-    </script>
+@{
+    ViewBag.Title = "Books";
+     Layout = "_LayoutWithoutNavBar";
 }
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/custom.css" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div class="container mt-4">
+        <h2 class="mb-4">Books</h2>
+        <div class="table-responsive">
+            <table class="table table-striped table-bordered">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var book in Model)
+                    {
+                        <tr>
+                            <td>@book.Title</td>
+                            <td>@book.Author</td>
+                            <td>
+                                <a class="btn btn-warning btn-sm" asp-action="Edit" asp-route-id="@book.Id">Edit</a>
+                                <a class="btn btn-danger btn-sm text-white" asp-action="Delete" asp-route-id="@book.Id">Delete</a>
+                                <a class="btn btn-info btn-sm text-white" asp-action="Details" asp-route-id="@book.Id">Details</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        <a class="btn btn-primary" asp-action="Add">Add New Book</a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

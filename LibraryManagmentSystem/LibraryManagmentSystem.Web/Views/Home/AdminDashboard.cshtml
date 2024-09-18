@@ -60,111 +60,28 @@
                     </div>
                 </div>
                 <h3>Recent Activities</h3>
-                <ul class="list-group">
-                    <li class="list-group-item">Book "The Great Gatsby" was issued to member John Doe.</li>
-                    <li class="list-group-item">New book "1984" by George Orwell added to the collection.</li>
-                    <li class="list-group-item">Member Jane Smith returned "To Kill a Mockingbird".</li>
-                </ul>
+               
             </div>
 
-            <div id="book-management-content" class="content-section">
+            <div id="book-management-content" class="content-section" >
                 <h2>Book Management</h2>
-                <nav class="navbar navbar-expand-lg book-nav-bar mb-4">
+                <nav class="navbar navbar-expand-lg member-nav-bar mb-4">
                     <div class="container-fluid">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#memberNavbarNav" aria-controls="memberNavbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-                        <div class="collapse navbar-collapse" id="navbarNav">
+                        <div class="collapse navbar-collapse" id="memberNavbarNav">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a class="nav-link" asp-controller="Book" asp-action="Add">Add Book</a>
+                                    <a class="nav-link" asp-controller="Book" asp-action="Index">Books</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" asp-controller="Book" asp-action="Index">View Books</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" asp-controller="Book" asp-action="Edit">Edit Book</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" asp-controller="Book" asp-action="Delete">Delete Book</a>
-                                </li>
+
                             </ul>
                         </div>
                     </div>
-                </nav>
-
-
-                <div id="add-book-content" class="content-section">
-                    <h3>Add New Books</h3>
-                    <form asp-controller="Book" asp-action="Add" method="post">
-                        <div class="mb-3">
-                            <label class="form-label">Title</label>
-                            <input type="text" name="Title" class="form-control" />
-                        </div>
-                        <div class="mb-3">
-                            <label class="form-label">Author</label>
-                            <input type="text" name="Author" class="form-control" />
-                        </div>
-                        <div class="mb-3">
-                            <label class="form-label">ISBN</label>
-                            <input type="text" name="ISBN" class="form-control" />
-                        </div>
-                        <div class="mb-3">
-                            <label class="form-label">Category</label>
-                            <input type="text" name="Category" class="form-control" />
-                        </div>
-                        <div class="mb-3">
-                            <label class="form-label">Number of Copies</label>
-                            <input type="number" name="NumberOfCopies" class="form-control" />
-                        </div>
-                        <button type="submit" class="btn btn-primary">Add Book</button>
-                    </form>
-                </div>
-
-                <div id="update-book-content" class="content-section">
-                    <h3>Update Book Information</h3>
-                    <form asp-controller="Book" asp-action="Edit" method="post">
-                        <div class="mb-3">
-                            <label class="form-label">Book ID</label>
-                            <input type="number" name="Id" class="form-control" />
-                        </div>
-                        <div class="mb-3">
-                            <label class="form-label">Title</label>
-                            <input type="text" name="Title" class="form-control" />
-                        </div>
-                        <div class="mb-3">
-                            <label class="form-label">Author</label>
-                            <input type="text" name="Author" class="form-control" />
-                        </div>
-                        <div class="mb-3">
-                            <label class="form-label">ISBN</label>
-                            <input type="text" name="ISBN" class="form-control" />
-                        </div>
-                        <div class="mb-3">
-                            <label class="form-label">Category</label>
-                            <input type="text" name="Category" class="form-control" />
-                        </div>
-                        <div class="mb-3">
-                            <label class="form-label">Number of Copies</label>
-                            <input type="number" name="NumberOfCopies" class="form-control" />
-                        </div>
-                        <button type="submit" class="btn btn-primary">Update Book</button>
-                    </form>
-                </div>
-
-                <div id="remove-book-content" class="content-section">
-                    <h3>Remove Books</h3>
-                    <form asp-controller="Book" asp-action="Delete" method="post">
-                        <div class="mb-3">
-                            <label class="form-label">Book ID</label>
-                            <input type="number" name="Id" class="form-control" />
-                        </div>
-                        <button type="submit" class="btn btn-danger">Remove Book</button>
-                    </form>
-                </div>
+                </nav>           
             </div>
-
-            <!-- Member Management Content -->
+             <!-- Member Management Content -->
             <div id="member-management-content" class="content-section">
                 <h2>Member Management</h2>
                 <nav class="navbar navbar-expand-lg member-nav-bar mb-4">
@@ -174,8 +91,8 @@
                         </button>
                         <div class="collapse navbar-collapse" id="memberNavbarNav">
                             <ul class="navbar-nav">
-                                <li class="nav-item" style="">
-                                    <a class="nav-link" asp-controller="Member" asp-action="Add">Add Member</a>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-controller="Member" asp-action="Create">Add Member</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" asp-controller="Member" asp-action="Index">View Members</a>
@@ -190,80 +107,7 @@
                         </div>
                     </div>
                 </nav>
-
-                <!-- Member Management Forms -->
-                <div id="add-member-content" class="content-section">
-                    <h3>Add New Member</h3>
-                    <form asp-controller="Member" asp-action="Add" method="post">
-                        <div class="mb-3">
-                            <label class="form-label">First Name</label>
-                            <input type="text" name="FirstName" class="form-control" />
-                        </div>
-                        <div class="mb-3">
-                            <label class="form-label">Last Name</label>
-                            <input type="text" name="LastName" class="form-control" />
-                        </div>
-                        <div class="mb-3">
-                            <label class="form-label">Email</label>
-                            <input type="email" name="Email" class="form-control" />
-                        </div>
-                       @*  <div class="mb-3">
-                            <label class="form-label">Contact Number</label>
-                            <input type="text" name="ContactNumber" class="form-control" />
-                        </div>
-                        <div class="mb-3">
-                            <label class="form-label">Date of Membership</label>
-                            <input type="date" name="DateOfMembership" class="form-control" />
-                        </div> *@
-                        <button type="submit" class="btn btn-primary">Add Member</button>
-                    </form>
-                </div>
-
-                <div id="update-member-content" class="content-section">
-                    <h3>Update Member Information</h3>
-                    <form asp-controller="Member" asp-action="Edit" method="post">
-                        <div class="mb-3">
-                            <label class="form-label">Member ID</label>
-                            <input type="number" name="Id" class="form-control" />
-                        </div>
-                        <div class="mb-3">
-                            <label class="form-label">First Name</label>
-                            <input type="text" name="FirstName" class="form-control" />
-                        </div>
-                        <div class="mb-3">
-                            <label class="form-label">Last Name</label>
-                            <input type="text" name="LastName" class="form-control" />
-                        </div>
-                        <div class="mb-3">
-                            <label class="form-label">Email</label>
-                            <input type="email" name="Email" class="form-control" />
-                        </div>
-                        <div class="mb-3">
-                            <label class="form-label">Contact Number</label>
-                            <input type="text" name="ContactNumber" class="form-control" />
-                        </div>
-                        <div class="mb-3">
-                            <label class="form-label">Date of Membership</label>
-                            <input type="date" name="DateOfMembership" class="form-control" />
-                        </div>
-                        <button type="submit" class="btn btn-primary">Update Member</button>
-                    </form>
-                </div>
-
-                <div id="remove-member-content" class="content-section">
-                    <h3>Remove Members</h3>
-                    <form asp-controller="Member" asp-action="Delete" method="post">
-                        <div class="mb-3">
-                            <label class="form-label">Member ID</label>
-                            <input type="number" name="Id" class="form-control" />
-                        </div>
-                        <button type="submit" class="btn btn-danger">Remove Member</button>
-                    </form>
-                </div>
             </div>
-
-
-
         </main>
     </div>
 </div>
@@ -281,45 +125,31 @@
                     contentSections.forEach(section => {
                         section.classList.remove("active");
                     });
-                    document.getElementById(targetId).classList.add("active");
+
+                    if (targetId === "book-management-content") {
+                        fetch("/Book")
+                            .then(response => response.text())
+                            .then(html => {
+                                document.getElementById(targetId).innerHTML = html;
+                                document.getElementById(targetId).classList.add("active");
+                            })
+                            .catch(error => console.error('Error loading content:', error));
+                    } else if (targetId === "member-management-content") {
+                        fetch("/Member")
+                            .then(response => response.text())
+                            .then(html => {
+                                document.getElementById(targetId).innerHTML = html;
+                                document.getElementById(targetId).classList.add("active");
+                            })
+                            .catch(error => console.error('Error loading content:', error));
+                    } else {
+                        document.getElementById(targetId).classList.add("active");
+                    }
+
                     sidebarLinks.forEach(l => l.classList.remove("active"));
                     link.classList.add("active");
                 });
             });
         });
     </script>
-    <script>
-        document.getElementById('addBookForm').addEventListener('submit', async function (event) {
-            event.preventDefault();
-
-            const bookData = {
-                title: document.getElementById('bookTitle').value,
-                author: document.getElementById('bookAuthor').value
-            };
-
-            try {
-                const response = await fetch('/api/book/add', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'Authorization': 'Bearer ' + localStorage.getItem('token')
-                    },
-                    body: JSON.stringify(bookData)
-                });
-
-                if (response.status === 401) {
-                    alert('Unauthorized');
-                    return;
-                }
-
-                const data = await response.json();
-                console.log(data);
-            } catch (error) {
-                console.error('Error:', error);
-            }
-        });
-    </script>
-   
-    
-    
 }

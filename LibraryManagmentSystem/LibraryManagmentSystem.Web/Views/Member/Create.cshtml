@@ -8,7 +8,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="~/css/add-member.css" />
+    <link rel="stylesheet" href="~/css/create-member.css" />
 </head>
 <body>
     <div class="container">
@@ -19,7 +19,7 @@
                 <i class="bi bi-person-plus"></i> Add Member
             </div>
             <div class="card-body">
-                <form asp-action="Add" method="post">
+                <form asp-action="Create" method="post">
                     <div class="form-group mb-3">
                         <label asp-for="FirstName" class="form-label"></label>
                         <input asp-for="FirstName" class="form-control" placeholder="First Name" />
@@ -35,6 +35,16 @@
                         <input asp-for="Email" class="form-control" placeholder="Email" />
                         <span asp-validation-for="Email" class="text-danger"></span>
                     </div>
+                    <div class="form-group">
+                        <label asp-for="ContactNumber"></label>
+                        <input asp-for="ContactNumber" class="form-control" />
+                         <span asp-validation-for="ContactNumber" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                       <label asp-for="DateOfMembership"></label>
+                      <input asp-for="DateOfMembership" class="form-control" />
+                      <span asp-validation-for="DateOfMembership" class="text-danger"></span>
+                     </div>
                     <div class="form-group text-center">
                         <input type="submit" value="Add Member" class="btn btn-primary" />
                     </div>

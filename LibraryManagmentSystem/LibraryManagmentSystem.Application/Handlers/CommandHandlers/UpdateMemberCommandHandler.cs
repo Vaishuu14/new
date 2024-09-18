@@ -23,12 +23,23 @@ namespace LibraryManagmentSystem.Application.Handlers.CommandHandlers
 
         public async Task<Unit> Handle(UpdateMemberCommand request, CancellationToken cancellationToken)
         {
-
+            // Fetch the existing member from the repository
             var member = await _memberRepository.GetByIdAsync(request.Id);
-           // var member = _mapper.Map<Core.Entities.Member>(request);
 
+            // Check if member exists
+            if (member == null)
+            {
+                // Optionally, you can throw an exception or handle this case as per your requirement
+                throw new KeyNotFoundException($"Member with ID {request.Id} not found.");
+            }
+
+            // Map the properties from the command to the existing member
             _mapper.Map(request, member);
-             await _memberRepository.UpdateAsync(member);
+
+            // Update the member in the repository
+            await _memberRepository.UpdateAsync(member);
+
+            // Return Unit.Value to signify successful completion
             return Unit.Value;
         }
 

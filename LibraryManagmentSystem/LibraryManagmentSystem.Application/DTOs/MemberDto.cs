@@ -13,6 +13,6 @@ namespace LibraryManagmentSystem.Application.DTOs
         public string LastName { get; set; }
         public string Email { get; set; }
         public string ContactNumber { get; set; }
-        public DateTime MembershipDate { get; set; }
+        public DateTime DateOfMembership { get; set; }
     }
 }
