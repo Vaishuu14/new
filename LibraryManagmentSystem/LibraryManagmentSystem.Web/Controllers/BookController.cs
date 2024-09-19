@@ -53,7 +53,9 @@ namespace LibraryManagmentSystem.Web.Controllers
             }
 
             var result = await _mediator.Send(command);
-            return RedirectToAction("Index");
+            TempData["SuccessMessage"] = "Book added successfully!";
+            return RedirectToAction("Add");
+           // return RedirectToAction("Index");
         }
 
 

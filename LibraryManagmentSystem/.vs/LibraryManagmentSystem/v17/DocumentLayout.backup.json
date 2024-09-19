@@ -3,56 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|c:\\users\\vaishnavi s\\source\\repos\\librarysystem\\librarymanagmentsystem\\librarymanagmentsystem.web\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|solutionrelative:librarymanagmentsystem.web\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{716F57E2-209D-47E9-8733-E7628A5EDCC6}|LibraryManagmentSystem.Infrastructure\\LibraryManagmentSystem.Infrastructure.csproj|c:\\users\\vaishnavi s\\source\\repos\\librarysystem\\librarymanagmentsystem\\librarymanagmentsystem.infrastructure\\repositories\\memberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{716F57E2-209D-47E9-8733-E7628A5EDCC6}|LibraryManagmentSystem.Infrastructure\\LibraryManagmentSystem.Infrastructure.csproj|solutionrelative:librarymanagmentsystem.infrastructure\\repositories\\memberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89A7858F-AD11-4AF1-BBBD-CC816BC094C3}|LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj|c:\\users\\vaishnavi s\\source\\repos\\librarysystem\\librarymanagmentsystem\\librarymanagmentsystem.domain\\interfaces\\imemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89A7858F-AD11-4AF1-BBBD-CC816BC094C3}|LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj|solutionrelative:librarymanagmentsystem.domain\\interfaces\\imemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|c:\\users\\vaishnavi s\\source\\repos\\librarysystem\\librarymanagmentsystem\\librarymanagmentsystem.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|solutionrelative:librarymanagmentsystem.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|c:\\users\\vaishnavi s\\source\\repos\\librarysystem\\librarymanagmentsystem\\librarymanagmentsystem.web\\views\\member\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|solutionrelative:librarymanagmentsystem.web\\views\\member\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|c:\\users\\vaishnavi s\\source\\repos\\librarysystem\\librarymanagmentsystem\\librarymanagmentsystem.web\\views\\home\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|solutionrelative:librarymanagmentsystem.web\\views\\home\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|c:\\users\\vaishnavi s\\source\\repos\\librarysystem\\librarymanagmentsystem\\librarymanagmentsystem.web\\wwwroot\\css\\add-member.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|solutionrelative:librarymanagmentsystem.web\\wwwroot\\css\\add-member.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{89A7858F-AD11-4AF1-BBBD-CC816BC094C3}|LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj|c:\\users\\vaishnavi s\\source\\repos\\librarysystem\\librarymanagmentsystem\\librarymanagmentsystem.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89A7858F-AD11-4AF1-BBBD-CC816BC094C3}|LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj|solutionrelative:librarymanagmentsystem.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|c:\\users\\vaishnavi s\\source\\repos\\librarysystem\\librarymanagmentsystem\\librarymanagmentsystem.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|solutionrelative:librarymanagmentsystem.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{716F57E2-209D-47E9-8733-E7628A5EDCC6}|LibraryManagmentSystem.Infrastructure\\LibraryManagmentSystem.Infrastructure.csproj|c:\\users\\vaishnavi s\\source\\repos\\librarysystem\\librarymanagmentsystem\\librarymanagmentsystem.infrastructure\\repositories\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{716F57E2-209D-47E9-8733-E7628A5EDCC6}|LibraryManagmentSystem.Infrastructure\\LibraryManagmentSystem.Infrastructure.csproj|solutionrelative:librarymanagmentsystem.infrastructure\\repositories\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|c:\\users\\vaishnavi s\\source\\repos\\librarysystem\\librarymanagmentsystem\\librarymanagmentsystem.web\\wwwroot\\css\\details-member.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|solutionrelative:librarymanagmentsystem.web\\wwwroot\\css\\details-member.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|c:\\users\\vaishnavi s\\source\\repos\\librarysystem\\librarymanagmentsystem\\librarymanagmentsystem.web\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|solutionrelative:librarymanagmentsystem.web\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|c:\\users\\vaishnavi s\\source\\repos\\librarysystem\\librarymanagmentsystem\\librarymanagmentsystem.web\\views\\member\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|solutionrelative:librarymanagmentsystem.web\\views\\member\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{89A7858F-AD11-4AF1-BBBD-CC816BC094C3}|LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj|c:\\users\\vaishnavi s\\source\\repos\\librarysystem\\librarymanagmentsystem\\librarymanagmentsystem.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89A7858F-AD11-4AF1-BBBD-CC816BC094C3}|LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj|solutionrelative:librarymanagmentsystem.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|c:\\users\\vaishnavi s\\source\\repos\\librarysystem\\librarymanagmentsystem\\librarymanagmentsystem.web\\wwwroot\\css\\delete-member.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|solutionrelative:librarymanagmentsystem.web\\wwwroot\\css\\delete-member.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|c:\\users\\vaishnavi s\\source\\repos\\librarysystem\\librarymanagmentsystem\\librarymanagmentsystem.web\\views\\member\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|solutionrelative:librarymanagmentsystem.web\\views\\member\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|c:\\users\\vaishnavi s\\source\\repos\\librarysystem\\librarymanagmentsystem\\librarymanagmentsystem.web\\views\\member\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|solutionrelative:librarymanagmentsystem.web\\views\\member\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|c:\\users\\vaishnavi s\\source\\repos\\librarysystem\\librarymanagmentsystem\\librarymanagmentsystem.web\\wwwroot\\css\\members.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|solutionrelative:librarymanagmentsystem.web\\wwwroot\\css\\members.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|c:\\users\\vaishnavi s\\source\\repos\\librarysystem\\librarymanagmentsystem\\librarymanagmentsystem.web\\views\\member\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|solutionrelative:librarymanagmentsystem.web\\views\\member\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82D55913-3BBA-465A-A9DD-65D9351387A2}|LibraryManagmentSystem.Application\\LibraryManagmentSystem.Application.csproj|c:\\users\\vaishnavi s\\source\\repos\\librarysystem\\librarymanagmentsystem\\librarymanagmentsystem.application\\mappers\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82D55913-3BBA-465A-A9DD-65D9351387A2}|LibraryManagmentSystem.Application\\LibraryManagmentSystem.Application.csproj|solutionrelative:librarymanagmentsystem.application\\mappers\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|c:\\users\\vaishnavi s\\source\\repos\\librarysystem\\librarymanagmentsystem\\librarymanagmentsystem.web\\views\\member\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|solutionrelative:librarymanagmentsystem.web\\views\\member\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|c:\\users\\vaishnavi s\\source\\repos\\librarysystem\\librarymanagmentsystem\\librarymanagmentsystem.web\\views\\member\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|solutionrelative:librarymanagmentsystem.web\\views\\member\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,175 +58,162 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MemberRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Infrastructure\\Repositories\\MemberRepository.cs",
-              "RelativeDocumentMoniker": "LibraryManagmentSystem.Infrastructure\\Repositories\\MemberRepository.cs",
-              "ToolTip": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Infrastructure\\Repositories\\MemberRepository.cs",
-              "RelativeToolTip": "LibraryManagmentSystem.Infrastructure\\Repositories\\MemberRepository.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAwC4AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T15:42:09.6Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "LibraryManagmentSystem.Web\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "LibraryManagmentSystem.Web\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAIQAAAAAAAAAAAAywAAAAAAAAAAAAAAAAA==",
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Infrastructure\\Repositories\\UserService.cs",
+              "RelativeDocumentMoniker": "LibraryManagmentSystem.Infrastructure\\Repositories\\UserService.cs",
+              "ToolTip": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Infrastructure\\Repositories\\UserService.cs",
+              "RelativeToolTip": "LibraryManagmentSystem.Infrastructure\\Repositories\\UserService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T15:35:59.293Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Add.cshtml",
-              "DocumentMoniker": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Views\\Member\\Add.cshtml",
-              "RelativeDocumentMoniker": "LibraryManagmentSystem.Web\\Views\\Member\\Add.cshtml",
-              "ToolTip": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Views\\Member\\Add.cshtml",
-              "RelativeToolTip": "LibraryManagmentSystem.Web\\Views\\Member\\Add.cshtml",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAowC8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-17T15:22:06.144Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "add-member.css",
-              "DocumentMoniker": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\wwwroot\\css\\add-member.css",
-              "RelativeDocumentMoniker": "LibraryManagmentSystem.Web\\wwwroot\\css\\add-member.css",
-              "ToolTip": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\wwwroot\\css\\add-member.css",
-              "RelativeToolTip": "LibraryManagmentSystem.Web\\wwwroot\\css\\add-member.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-09-17T15:21:51.397Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Program.cs",
-              "RelativeDocumentMoniker": "LibraryManagmentSystem.Web\\Program.cs",
-              "ToolTip": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Program.cs",
-              "RelativeToolTip": "LibraryManagmentSystem.Web\\Program.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAowBwAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T15:08:37.49Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "details-member.css",
-              "DocumentMoniker": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\wwwroot\\css\\details-member.css",
-              "RelativeDocumentMoniker": "LibraryManagmentSystem.Web\\wwwroot\\css\\details-member.css",
-              "ToolTip": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\wwwroot\\css\\details-member.css",
-              "RelativeToolTip": "LibraryManagmentSystem.Web\\wwwroot\\css\\details-member.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-09-17T14:55:27.49Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "delete-member.css",
-              "DocumentMoniker": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\wwwroot\\css\\delete-member.css",
-              "RelativeDocumentMoniker": "LibraryManagmentSystem.Web\\wwwroot\\css\\delete-member.css",
-              "ToolTip": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\wwwroot\\css\\delete-member.css",
-              "RelativeToolTip": "LibraryManagmentSystem.Web\\wwwroot\\css\\delete-member.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-09-17T14:52:54.197Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "members.css",
-              "DocumentMoniker": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\wwwroot\\css\\members.css",
-              "RelativeDocumentMoniker": "LibraryManagmentSystem.Web\\wwwroot\\css\\members.css",
-              "ToolTip": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\wwwroot\\css\\members.css",
-              "RelativeToolTip": "LibraryManagmentSystem.Web\\wwwroot\\css\\members.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-09-17T14:51:07.541Z",
+              "WhenOpened": "2024-09-18T17:53:39.645Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MemberController.cs",
-              "DocumentMoniker": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Controllers\\MemberController.cs",
-              "RelativeDocumentMoniker": "LibraryManagmentSystem.Web\\Controllers\\MemberController.cs",
-              "ToolTip": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Controllers\\MemberController.cs",
-              "RelativeToolTip": "LibraryManagmentSystem.Web\\Controllers\\MemberController.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAiwCAAAABBAAAAAAAAAA==",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "LibraryManagmentSystem.Web\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "LibraryManagmentSystem.Web\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAAwJEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T14:04:06.884Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IMemberRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Domain\\Interfaces\\IMemberRepository.cs",
-              "RelativeDocumentMoniker": "LibraryManagmentSystem.Domain\\Interfaces\\IMemberRepository.cs",
-              "ToolTip": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Domain\\Interfaces\\IMemberRepository.cs",
-              "RelativeToolTip": "LibraryManagmentSystem.Domain\\Interfaces\\IMemberRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAiwBUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T15:39:49.62Z",
+              "WhenOpened": "2024-09-18T17:48:16.609Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "AdminDashboard.cshtml",
-              "DocumentMoniker": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Views\\Home\\AdminDashboard.cshtml",
-              "RelativeDocumentMoniker": "LibraryManagmentSystem.Web\\Views\\Home\\AdminDashboard.cshtml",
-              "ToolTip": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Views\\Home\\AdminDashboard.cshtml",
-              "RelativeToolTip": "LibraryManagmentSystem.Web\\Views\\Home\\AdminDashboard.cshtml",
-              "ViewState": "AgIAADgBAAAAAAAAAAAYwEEBAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-17T13:55:55.261Z",
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "LibraryManagmentSystem.Domain\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "LibraryManagmentSystem.Domain\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T17:42:10.651Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "LibraryManagmentSystem.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "LibraryManagmentSystem.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T17:41:32.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MemberController.cs",
+              "DocumentMoniker": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Controllers\\MemberController.cs",
+              "RelativeDocumentMoniker": "LibraryManagmentSystem.Web\\Controllers\\MemberController.cs",
+              "ToolTip": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Controllers\\MemberController.cs",
+              "RelativeToolTip": "LibraryManagmentSystem.Web\\Controllers\\MemberController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T17:20:57.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Views\\Member\\Details.cshtml",
               "RelativeDocumentMoniker": "LibraryManagmentSystem.Web\\Views\\Member\\Details.cshtml",
               "ToolTip": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Views\\Member\\Details.cshtml",
               "RelativeToolTip": "LibraryManagmentSystem.Web\\Views\\Member\\Details.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAoAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-17T13:54:51.506Z",
+              "WhenOpened": "2024-09-18T17:10:13.608Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Views\\Member\\Index.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagmentSystem.Web\\Views\\Member\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Views\\Member\\Index.cshtml",
+              "RelativeToolTip": "LibraryManagmentSystem.Web\\Views\\Member\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-18T17:07:31.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Views\\Member\\Edit.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagmentSystem.Web\\Views\\Member\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Views\\Member\\Edit.cshtml",
+              "RelativeToolTip": "LibraryManagmentSystem.Web\\Views\\Member\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-18T17:04:47.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Views\\Home\\AdminDashboard.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagmentSystem.Web\\Views\\Home\\AdminDashboard.cshtml",
+              "ToolTip": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Views\\Home\\AdminDashboard.cshtml",
+              "RelativeToolTip": "LibraryManagmentSystem.Web\\Views\\Home\\AdminDashboard.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowBwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-18T14:51:36.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Application\\Mappers\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "LibraryManagmentSystem.Application\\Mappers\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Application\\Mappers\\MappingProfile.cs",
+              "RelativeToolTip": "LibraryManagmentSystem.Application\\Mappers\\MappingProfile.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowCQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T17:25:52.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Views\\Member\\Delete.cshtml",
               "RelativeDocumentMoniker": "LibraryManagmentSystem.Web\\Views\\Member\\Delete.cshtml",
               "ToolTip": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Views\\Member\\Delete.cshtml",
               "RelativeToolTip": "LibraryManagmentSystem.Web\\Views\\Member\\Delete.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-17T13:53:46.783Z",
+              "WhenOpened": "2024-09-18T17:03:56.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Views\\Member\\Create.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagmentSystem.Web\\Views\\Member\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Vaishnavi S\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Views\\Member\\Create.cshtml",
+              "RelativeToolTip": "LibraryManagmentSystem.Web\\Views\\Member\\Create.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-18T17:00:05.833Z",
               "EditorCaption": ""
             }
           ]

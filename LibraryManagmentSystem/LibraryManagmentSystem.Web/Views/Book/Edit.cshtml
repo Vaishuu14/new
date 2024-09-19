@@ -1,48 +1,65 @@
 ﻿@model LibraryManagmentSystem.Application.Commands.BookCommands.UpdateBookCommand
+@{
+    
+    Layout = "_LayoutWithoutNavBar";
+}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white">
+                    <h2 class="mb-0">Edit Book</h2>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Edit" method="post">
+                        <input type="hidden" name="_method" value="PUT" />
+                        <input type="hidden" asp-for="Id" />
 
-<h2>Edit Book</h2>
- <form asp-action="Edit" method="post">
-      <input type="hidden" name="_method" value="PUT" />
-      <input type="hidden" asp-for="Id" />
+                        <div class="form-group mb-3">
+                            <label asp-for="Title" class="form-label"></label>
+                            <input asp-for="Title" class="form-control" placeholder="Enter book title" />
+                            <span asp-validation-for="Title" class="text-danger"></span>
+                        </div>
 
-                    <div class="form-group mb-3">
-                        <label asp-for="Title" class="form-label"></label>
-                        <input asp-for="Title" class="form-control" placeholder="First Name" />
-                        <span asp-validation-for="Title" class="text-danger"></span>
-                    </div>
+                        <div class="form-group mb-3">
+                            <label asp-for="Author" class="form-label"></label>
+                            <input asp-for="Author" class="form-control" placeholder="Enter author's name" />
+                            <span asp-validation-for="Author" class="text-danger"></span>
+                        </div>
 
-                    <div class="form-group mb-3">
-                        <label asp-for="Author" class="form-label"></label>
-                        <input asp-for="Author" class="form-control" placeholder="Last Name" />
-                        <span asp-validation-for="Author" class="text-danger"></span>
-                    </div>
+                        <div class="form-group mb-3">
+                            <label asp-for="ISBN" class="form-label"></label>
+                            <input asp-for="ISBN" class="form-control" placeholder="Enter ISBN number" />
+                            <span asp-validation-for="ISBN" class="text-danger"></span>
+                        </div>
 
-                    <div class="form-group">
-                        <label asp-for="ISBN" class="form-label"></label>
-                        <input asp-for="ISBN" class="form-control" placeholder="Email" />
-                        <span asp-validation-for="ISBN" class="text-danger"></span>
-                    </div>
+                        <div class="form-group mb-3">
+                            <label asp-for="PublishedDate" class="form-label"></label>
+                            <input asp-for="PublishedDate" class="form-control" type="date" placeholder="Select published date" />
+                            <span asp-validation-for="PublishedDate" class="text-danger"></span>
+                        </div>
 
-                    <div class="form-group">
-                        <label asp-for="PublishedDate" class="form-label"></label>
-                        <input asp-for="PublishedDate" class="form-control" placeholder="ContactNumber" />
-                        <span asp-validation-for="PublishedDate" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="NumberOfCopies" class="form-label"></label>
-                        <input asp-for="NumberOfCopies" class="form-control" placeholder="DateOfMembership" />
-                        <span asp-validation-for="NumberOfCopies" class="text-danger"></span>
-                    </div>
+                        <div class="form-group mb-3">
+                            <label asp-for="NumberOfCopies" class="form-label"></label>
+                            <input asp-for="NumberOfCopies" class="form-control" placeholder="Enter number of copies" />
+                            <span asp-validation-for="NumberOfCopies" class="text-danger"></span>
+                        </div>
 
-
-                    <div class="form-group text-center">
-                        <input type="submit" value="Save Changes" class="btn btn-primary" />
-                    </div>
-                </form>
+                        <div class="form-group text-center">
+                            <button type="submit" class="btn btn-primary btn-lg">Save Changes</button>
+                        </div>
+                        <div class="d-flex justify-content-start mt-3">
+                            <a href="@Url.Action("Index", "Book")" class="btn btn-secondary">
+                                <i class="bi bi-arrow-left"></i> Back to List
+                            </a>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+</div>
 
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+}

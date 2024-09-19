@@ -2,28 +2,38 @@
 
 @{
     ViewData["Title"] = "Book Details";
+    
+     Layout = "_LayoutWithoutNavBar";
+
 }
 
-<h1>Book Details</h1>
-
-<div>
-    <h4>@Model.Title</h4>
-    <hr />
-    <dl class="row">
-        <dt class="col-sm-2">
-            Author
-        </dt>
-        <dd class="col-sm-10">
-            @Model.Author
-        </dd>
-        <dt class="col-sm-2">
-            Published Date
-        </dt>
-        <dd class="col-sm-10">
-            @Model.PublishedDate.ToShortDateString()
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-controller="Book" asp-action="GetAllBooks">Back to List</a>
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <h1 class="mb-0">Book Details</h1>
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title">@Model.Title</h4>
+                    <hr />
+                    <dl class="row">
+                        <dt class="col-sm-4 font-weight-bold">
+                            Author:
+                        </dt>
+                        <dd class="col-sm-8">
+                            @Model.Author
+                        </dd>
+                        <dt class="col-sm-4 font-weight-bold">
+                            Published Date:
+                        </dt>
+                        <dd class="col-sm-8">
+                            @Model.PublishedDate.ToShortDateString()
+                        </dd>
+                    </dl>
+                    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
