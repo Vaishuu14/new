@@ -32,7 +32,7 @@ namespace LibraryManagmentSystem.Infrastructure.Repositories
 
         public async Task AddReservationAsync(Reservation reservation)
         {
-            await _context.Reservation.AddAsync(reservation);
+            _context.Reservation.Add(reservation);
             await _context.SaveChangesAsync();
         }
 

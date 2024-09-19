@@ -2,6 +2,7 @@
 using LibraryManagmentSystem.Application.Commands.BookCommands;
 using LibraryManagmentSystem.Application.Commands.LoanCommands;
 using LibraryManagmentSystem.Application.Commands.MemberCommands;
+using LibraryManagmentSystem.Application.Commands.ReservationCommands;
 using LibraryManagmentSystem.Application.DTOs;
 using LibraryManagmentSystem.Domain.Entities;
 using System;
@@ -59,6 +60,17 @@ namespace LibraryManagmentSystem.Application.Mappers
 
             // Mapping between Reservation and ReservationDto 
             CreateMap<Reservation, ReservationDto>().ReverseMap();
+            CreateMap<CreateReservationCommand, Reservation>().ReverseMap();
+            CreateMap<UpdateReservationCommand, Reservation>().ReverseMap();
+            CreateMap<CancelReservationCommand, Reservation>().ReverseMap();
+
+            CreateMap<ReservationDto, UpdateReservationCommand>()
+            .ForMember(dest => dest.BookId, opt => opt.MapFrom(src => src.BookId))
+            .ForMember(dest => dest.MemberId, opt => opt.MapFrom(src => src.MemberId))
+          //  .ForMember(dest => dest.ReservationDate, opt => opt.MapFrom(src => src.ReservationDate))
+            .ForMember(dest => dest.ExpirationDate, opt => opt.MapFrom(src => src.ExpirationDate));
+  
+
 
             CreateMap<User , UserDto>().ReverseMap();
         }
