@@ -35,16 +35,16 @@ namespace LibraryManagmentSystem.Web.Controllers
         }
 
 
-        // [Authorize(Roles = "Admin")]
-        [HttpGet("Add")]
-        public IActionResult Add()
+        
+        [HttpGet("Create")]
+        public IActionResult Create()
         {
             return View();
         }
 
-        // [Authorize(Roles = "Admin")]
-        [HttpPost("Add")]
-        public async Task<IActionResult> Add([FromForm] CreateBookCommand command)
+       
+        [HttpPost("Create")]
+        public async Task<IActionResult> Create([FromForm] CreateBookCommand command)
         {
             if (!ModelState.IsValid)
             {
@@ -54,25 +54,22 @@ namespace LibraryManagmentSystem.Web.Controllers
 
             var result = await _mediator.Send(command);
             TempData["SuccessMessage"] = "Book added successfully!";
-            return RedirectToAction("Add");
+            return RedirectToAction("Create");
            // return RedirectToAction("Index");
         }
 
 
 
-        // [Authorize(Roles = "Admin")]
-        // GET: /Book/Edit/5
+       
+        // GET: /Book/Edit/{id}
         [HttpGet("Edit/{id}")]
         public async Task<IActionResult> Edit(int id)
         {
             var bookDto = await _bookService.GetByIdAsync(id);
-           // var bookDto = await _mediator.Send(query);
-
             if (bookDto == null)
             {
                 return NotFound();
             }
-
             var updateBookCommand = _mapper.Map<UpdateBookCommand>(bookDto);
             return View(updateBookCommand);
         }
@@ -91,7 +88,8 @@ namespace LibraryManagmentSystem.Web.Controllers
 
 
 
-        // [Authorize(Roles = "Admin")]
+
+       
         [HttpGet("Delete/{id}")]
         public async Task<IActionResult> Delete(int id)
         {
@@ -100,7 +98,7 @@ namespace LibraryManagmentSystem.Web.Controllers
             return View(result);
         }
 
-        //[Authorize(Roles = "Admin")]
+       
         [HttpPost("Delete/{id}")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
@@ -109,7 +107,7 @@ namespace LibraryManagmentSystem.Web.Controllers
             return RedirectToAction("Index");
         }
 
-        //[Authorize(Roles = "Member,Admin")]
+       
         [HttpGet("Details/{id}")]
         public async Task<IActionResult> Details(int id)
         {

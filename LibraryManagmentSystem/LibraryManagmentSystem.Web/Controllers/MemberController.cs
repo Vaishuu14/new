@@ -1,83 +1,65 @@
 ﻿using AutoMapper;
 using LibraryManagmentSystem.Application.Commands;
-using LibraryManagmentSystem.Application.Commands.BookCommands;
 using LibraryManagmentSystem.Application.Commands.MemberCommands;
-using LibraryManagmentSystem.Application.Queries;
 using LibraryManagmentSystem.Application.Queries.MemberQueries;
-using LibraryManagmentSystem.Domain.Entities;
 using LibraryManagmentSystem.Domain.Interfaces;
-using LibraryManagmentSystem.Web.Models;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
+using Microsoft.Extensions.Logging;
 using System.Threading.Tasks;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
-using Microsoft.AspNetCore.Mvc.ViewFeatures;
-using LibraryManagmentSystem.Application.DTOs;
 
 namespace LibraryManagmentSystem.Web.Controllers
 {
-    //[Authorize(Roles = "Admin")] // Ensure only Admins can access this controller
+    //[Authorize]
+    [ApiController]
+    [Route("Member")]
     public class MemberController : Controller
     {
-        private readonly IMapper _mapper;
         private readonly IMediator _mediator;
+        private readonly IMapper _mapper;
         private readonly IMemberRepository _memberService;
 
-        public MemberController(IMapper mapper, IMediator mediator, IMemberRepository memberService)
+        public MemberController(IMediator mediator, IMapper mapper, IMemberRepository memberService)
         {
-            _mapper = mapper;
             _mediator = mediator;
+            _mapper = mapper;
             _memberService = memberService;
         }
 
-        // GET: /Member
+        [HttpGet("")]
         public async Task<IActionResult> Index()
         {
-            var query = new GetMembersQuery();
-            var members = await _mediator.Send(query);
-            var memberViewModels = _mapper.Map<IEnumerable<Member>>(members);
-            return View(memberViewModels);
+            var members = await _mediator.Send(new GetMembersQuery());
+            return PartialView("Index", members);
         }
 
-        // GET: /Member/Details/5
-        public async Task<IActionResult> Details(int id)
-        {
-            var query = new GetMemberByIdQuery { Id = id };
-            var member = await _mediator.Send(query);
-
-            if (member == null)
-            {
-                return NotFound();
-            }
-
-            var memberDto = _mapper.Map<MemberDto>(member); // Map Member to MemberDto
-            return View(memberDto);
-        }
-
-
-        // GET: /Member/Create
+        
+        [HttpGet("Create")]
         public IActionResult Create()
         {
-            return View(new CreateMemberCommand());
+            return View();
         }
 
-        // POST: /Member/Create
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(CreateMemberCommand command)
+       
+        [HttpPost("Create")]
+        public async Task<IActionResult> Create([FromForm] CreateMemberCommand command)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
-                await _mediator.Send(command);
-                return RedirectToAction(nameof(Index));
+                // Return the view with validation errors if model state is invalid
+                return View(command);
             }
-            return View(command);
+
+            var result = await _mediator.Send(command);
+            TempData["SuccessMessage"] = "Member added successfully!";
+            return RedirectToAction("Create");
+            // return RedirectToAction("Index");
         }
 
-
-        // GET: /Member/Edit/5
+       
+        // GET: /Member/Edit/{id}
+        [HttpGet("Edit/{id}")]
         public async Task<IActionResult> Edit(int id)
         {
             var memberDto = await _memberService.GetByIdAsync(id);
@@ -85,12 +67,12 @@ namespace LibraryManagmentSystem.Web.Controllers
             {
                 return NotFound();
             }
-
             var updateMemberCommand = _mapper.Map<UpdateMemberCommand>(memberDto);
             return View(updateMemberCommand);
         }
 
-        [HttpPost]
+        // POST: /Member/Edit
+        [HttpPost("Edit")]
         public async Task<IActionResult> Edit(UpdateMemberCommand command)
         {
             if (ModelState.IsValid)
@@ -98,22 +80,34 @@ namespace LibraryManagmentSystem.Web.Controllers
                 await _mediator.Send(command);
                 return RedirectToAction(nameof(Index));
             }
-
             return View(command);
         }
 
-
-
-        // POST: /Member/Delete/5
-        [HttpPost]
+       
+        [HttpGet("Delete/{id}")]
         public async Task<IActionResult> Delete(int id)
         {
-            var command = new DeleteMemberCommand { Id = id }; // Ensure correct command for deleting a member
-            await _mediator.Send(command);
-            return RedirectToAction(nameof(Index));
+            var query = new GetMemberByIdQuery { Id=id};
+            var result = await _mediator.Send(query);
+            return View(result);
         }
 
+       
+        [HttpPost("Delete/{id}")]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            var command = new DeleteMemberCommand{ Id = id };
+            await _mediator.Send(command);
+            return RedirectToAction("Index");
+        }
 
-
+        
+        [HttpGet("Details/{id}")]
+        public async Task<IActionResult> Details(int id)
+        {
+            var query = new GetMemberByIdQuery{ Id = id };
+            var result = await _mediator.Send(query);
+            return View(result);
+        }
     }
 }

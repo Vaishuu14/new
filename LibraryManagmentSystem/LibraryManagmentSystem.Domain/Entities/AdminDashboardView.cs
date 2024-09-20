@@ -10,6 +10,7 @@ namespace LibraryManagmentSystem.Domain.Entities
     {
         public int TotalBooks { get; set; }
         public int TotalMembers { get; set; }
+
         
     }
 }

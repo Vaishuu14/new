@@ -5894,11 +5894,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Austraxpc46\\Source\\Repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj",
+      "projectUniqueName": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj",
       "projectName": "LibraryManagmentSystem.Web",
-      "projectPath": "C:\\Users\\Austraxpc46\\Source\\Repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj",
+      "projectPath": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj",
       "packagesPath": "C:\\Users\\Austraxpc46\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Austraxpc46\\Source\\Repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\obj\\",
+      "outputPath": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Austraxpc46\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5916,11 +5916,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Austraxpc46\\Source\\Repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Application\\LibraryManagmentSystem.Application.csproj": {
-              "projectPath": "C:\\Users\\Austraxpc46\\Source\\Repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Application\\LibraryManagmentSystem.Application.csproj"
+            "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Application\\LibraryManagmentSystem.Application.csproj": {
+              "projectPath": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Application\\LibraryManagmentSystem.Application.csproj"
             },
-            "C:\\Users\\Austraxpc46\\Source\\Repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Infrastructure\\LibraryManagmentSystem.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Austraxpc46\\Source\\Repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Infrastructure\\LibraryManagmentSystem.Infrastructure.csproj"
+            "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Infrastructure\\LibraryManagmentSystem.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Infrastructure\\LibraryManagmentSystem.Infrastructure.csproj"
             }
           }
         }

@@ -5837,11 +5837,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Austraxpc46\\Source\\Repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Infrastructure\\LibraryManagmentSystem.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Infrastructure\\LibraryManagmentSystem.Infrastructure.csproj",
       "projectName": "LibraryManagmentSystem.Infrastructure",
-      "projectPath": "C:\\Users\\Austraxpc46\\Source\\Repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Infrastructure\\LibraryManagmentSystem.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Infrastructure\\LibraryManagmentSystem.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Austraxpc46\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Austraxpc46\\Source\\Repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Austraxpc46\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5859,8 +5859,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Austraxpc46\\Source\\Repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj": {
-              "projectPath": "C:\\Users\\Austraxpc46\\Source\\Repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj"
+            "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj": {
+              "projectPath": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj"
             }
           }
         }

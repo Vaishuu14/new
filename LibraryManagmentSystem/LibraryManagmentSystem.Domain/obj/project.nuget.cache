@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6W0nGLnJfok=",
+  "dgSpecHash": "KcTWtdqNjjw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Austraxpc46\\Source\\Repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Austraxpc46\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Austraxpc46\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

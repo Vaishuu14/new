@@ -1,103 +1,100 @@
 ﻿using AutoMapper;
-using LibraryManagmentSystem.Application.Commands;
-using LibraryManagmentSystem.Application.DTOs;
-using LibraryManagmentSystem.Application.Queries;
 using LibraryManagmentSystem.Application.Commands.ReservationCommands;
 using LibraryManagmentSystem.Application.Queries.ReservationQueries;
+using LibraryManagmentSystem.Domain.Interfaces;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
 using System.Threading.Tasks;
-using LibraryManagmentSystem.Domain.Interfaces;
-using LibraryManagmentSystem.Domain.Entities;
 
-[Route("[controller]")]
-public class ReservationController : Controller
+namespace LibraryManagmentSystem.Web.Controllers
 {
-    private readonly IMediator _mediator;
-    private readonly IMapper _mapper;
-    private readonly IReservationRepository _reservationrepo;
-
-    public ReservationController(IMediator mediator, IMapper mapper , IReservationRepository reservationrepo)
+    [ApiController]
+    [Route("Reservation")]
+    public class ReservationController : Controller
     {
-        _mediator = mediator;
-        _mapper = mapper;
-        _reservationrepo = reservationrepo;
-    }
+        private readonly IMediator _mediator;
+        private readonly IMapper _mapper;
+        private readonly IReservationRepository _reservationService;
 
-    [HttpGet("")]
-    public async Task<IActionResult> Index()
-    {
-        var reservations = await _mediator.Send(new GetReservationsQuery());
-        return View(reservations);
-    }
-
-    public async Task<IActionResult> Create()
-    {
-        // Return the view with an empty CreateReservationCommand model
-        return View(new CreateReservationCommand());
-    }
-
-    [HttpPost]
-    [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Create(CreateReservationCommand command)
-    {
-        if (ModelState.IsValid)
+        public ReservationController(IMediator mediator, IMapper mapper, IReservationRepository reservationService)
         {
-            var reservation = _mapper.Map<Reservation>(command);
-            await _reservationrepo.AddReservationAsync(reservation);
-            return RedirectToAction(nameof(Index));
+            _mediator = mediator;
+            _mapper = mapper;
+            _reservationService = reservationService;
         }
 
-        // Log or inspect validation errors
-        foreach (var error in ModelState.Values.SelectMany(v => v.Errors))
+        [HttpGet("")]
+        public async Task<IActionResult> Index()
         {
-            // Log error.ErrorMessage or use a breakpoint
+            var reservations = await _mediator.Send(new GetReservationsQuery());
+            return PartialView("Index", reservations);
         }
 
-        return View(command);
-    }
-
-
-    [HttpGet("Edit/{id}")]
-    public async Task<IActionResult> Edit(int id)
-    {
-        var reservation = await _mediator.Send(new GetReservationByIdQuery(id));
-        if (reservation == null)
+        [HttpGet("Create")]
+        public IActionResult Create()
         {
-            return NotFound();
-        }
-        var reservationDto = _mapper.Map<UpdateReservationCommand>(reservation);
-        return View(reservationDto);
-    }
-
-    [HttpPost("Edit/{id}")]
-    [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Edit(int id, UpdateReservationCommand reservationDto)
-    {
-        if (id != reservationDto.Id)
-        {
-            return NotFound();
+            return View();
         }
 
-        if (ModelState.IsValid)
+        [HttpPost("Create")]
+        public async Task<IActionResult> Create([FromForm] CreateReservationCommand command)
         {
-            var command = _mapper.Map<UpdateReservationCommand>(reservationDto);
+            if (!ModelState.IsValid)
+            {
+                // Return the view with validation errors if model state is invalid
+                return View(command);
+            }
+
+            var result = await _mediator.Send(command);
+            TempData["SuccessMessage"] = "Reservation added successfully!";
+            return RedirectToAction("Create");
+        }
+
+        [HttpGet("Edit/{id}")]
+        public async Task<IActionResult> Edit(int id)
+        {
+            var reservationDto = await _reservationService.GetReservationByIdAsync(id);
+            if (reservationDto == null)
+            {
+                return NotFound();
+            }
+            var updateReservationCommand = _mapper.Map<UpdateReservationCommand>(reservationDto);
+            return View(updateReservationCommand);
+        }
+
+        [HttpPost("Edit")]
+        public async Task<IActionResult> Edit(UpdateReservationCommand command)
+        {
+            if (ModelState.IsValid)
+            {
+                await _mediator.Send(command);
+                return RedirectToAction(nameof(Index));
+            }
+            return View(command);
+        }
+
+        [HttpGet("Delete/{id}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var query = new GetReservationByIdQuery(id);
+            var result = await _mediator.Send(query);
+            return View(result);
+        }
+
+        [HttpPost("Delete/{id}")]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            var command = new CancelReservationCommand { Id=id};
             await _mediator.Send(command);
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction("Index");
         }
-        return View(reservationDto);
-    }
 
-
-    [HttpGet("Details/{id}")]
-    public async Task<IActionResult> Details(int id)
-    {
-        var reservation = await _mediator.Send(new GetReservationByIdQuery(id));
-        if (reservation == null)
+        [HttpGet("Details/{id}")]
+        public async Task<IActionResult> Details(int id)
         {
-            return NotFound();
+            var query = new GetReservationByIdQuery(id);
+            var result = await _mediator.Send(query);
+            return View(result);
         }
-        return View(reservation);
     }
 }
