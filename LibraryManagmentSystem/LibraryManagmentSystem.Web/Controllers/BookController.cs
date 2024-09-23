@@ -2,6 +2,7 @@
 using LibraryManagmentSystem.Application.Commands;
 using LibraryManagmentSystem.Application.Commands.BookCommands;
 using LibraryManagmentSystem.Application.Queries.BookQueries;
+using LibraryManagmentSystem.Domain.Entities;
 using LibraryManagmentSystem.Domain.Interfaces;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
@@ -95,17 +96,21 @@ namespace LibraryManagmentSystem.Web.Controllers
         {
             var query = new GetBookByIdQuery(id);
             var result = await _mediator.Send(query);
+            if (result == null)
+            {
+                return NotFound();
+            }
             return View(result);
         }
 
        
-        [HttpPost("Delete/{id}")]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            var command = new DeleteBookCommand(id);
-            await _mediator.Send(command);
-            return RedirectToAction("Index");
-        }
+        //[HttpPost("Delete/{id}")]
+        //public async Task<IActionResult> DeleteConfirmed(int id)
+        //{
+        //    var command = new DeleteBookCommand(id);
+        //    await _mediator.Send(command);
+        //    return RedirectToAction("Index");
+        //}
 
        
         [HttpGet("Details/{id}")]
@@ -113,6 +118,10 @@ namespace LibraryManagmentSystem.Web.Controllers
         {
             var query = new GetBookByIdQuery(id);
             var result = await _mediator.Send(query);
+            if (result == null)
+            {
+                return NotFound(); // Return NotFound if the book doesn't exist
+            }
             return View(result);
         }
     }

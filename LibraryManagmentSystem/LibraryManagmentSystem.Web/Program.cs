@@ -49,7 +49,10 @@ builder.Services.AddSingleton(provider =>
 builder.Services.AddDbContext<LibraryDBContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("AppDb")));
 
-
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("MemberPolicy", policy => policy.RequireRole("Member"));
+});
 
 builder.Services.AddControllers()
     .AddNewtonsoftJson(options =>

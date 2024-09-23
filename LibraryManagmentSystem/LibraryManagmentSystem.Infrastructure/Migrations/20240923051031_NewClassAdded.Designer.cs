@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LibraryManagmentSystem.Infrastructure.Migrations
 {
     [DbContext(typeof(LibraryDBContext))]
-    [Migration("20240922121857_init")]
-    partial class init
+    [Migration("20240923051031_NewClassAdded")]
+    partial class NewClassAdded
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -128,6 +128,32 @@ namespace LibraryManagmentSystem.Infrastructure.Migrations
                     b.HasIndex("LoanId");
 
                     b.ToTable("Fines");
+                });
+
+            modelBuilder.Entity("LibraryManagmentSystem.Domain.Entities.IssuedBook", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("BookId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("IssueDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BookId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("IssuedBooks");
                 });
 
             modelBuilder.Entity("LibraryManagmentSystem.Domain.Entities.Loan", b =>
@@ -282,6 +308,25 @@ namespace LibraryManagmentSystem.Infrastructure.Migrations
                         .IsRequired();
 
                     b.Navigation("Loan");
+                });
+
+            modelBuilder.Entity("LibraryManagmentSystem.Domain.Entities.IssuedBook", b =>
+                {
+                    b.HasOne("LibraryManagmentSystem.Domain.Entities.Book", "Book")
+                        .WithMany()
+                        .HasForeignKey("BookId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("LibraryManagmentSystem.Domain.Entities.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Book");
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("LibraryManagmentSystem.Domain.Entities.Loan", b =>

@@ -78,22 +78,32 @@ namespace LibraryManagmentSystem.Web.Controllers
         {
             var query = new GetReservationByIdQuery(id);
             var result = await _mediator.Send(query);
+            if(result == null)
+            {
+            return NotFound(); 
+
+            }
             return View(result);
         }
 
-        [HttpPost("Delete/{id}")]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            var command = new CancelReservationCommand { Id=id};
-            await _mediator.Send(command);
-            return RedirectToAction("Index");
-        }
+        //[HttpPost("Delete/{id}")]
+        //public async Task<IActionResult> DeleteConfirmed(int id)
+        //{
+        //    var command = new CancelReservationCommand { Id=id};
+        //    await _mediator.Send(command);
+        //    return RedirectToAction("Index");
+        //}
 
         [HttpGet("Details/{id}")]
         public async Task<IActionResult> Details(int id)
         {
             var query = new GetReservationByIdQuery(id);
             var result = await _mediator.Send(query);
+            if (result == null)
+            {
+
+                return NotFound();
+            }
             return View(result);
         }
     }

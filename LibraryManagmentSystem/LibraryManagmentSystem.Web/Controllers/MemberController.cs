@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using LibraryManagmentSystem.Application.Commands;
 using LibraryManagmentSystem.Application.Commands.MemberCommands;
+using LibraryManagmentSystem.Application.DTOs;
 using LibraryManagmentSystem.Application.Queries.MemberQueries;
 using LibraryManagmentSystem.Domain.Interfaces;
 using MediatR;
@@ -89,17 +90,21 @@ namespace LibraryManagmentSystem.Web.Controllers
         {
             var query = new GetMemberByIdQuery { Id=id};
             var result = await _mediator.Send(query);
+            if (result == null)
+            {
+                return NotFound(); // Return NotFoundResult if the member does not exist
+            }
             return View(result);
         }
 
        
-        [HttpPost("Delete/{id}")]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            var command = new DeleteMemberCommand{ Id = id };
-            await _mediator.Send(command);
-            return RedirectToAction("Index");
-        }
+        //[HttpPost("Delete/{id}")]
+        //public async Task<IActionResult> DeleteConfirmed(int id)
+        //{
+        //    var command = new DeleteMemberCommand{ Id = id };
+        //    await _mediator.Send(command);
+        //    return RedirectToAction("Index");
+        //}
 
         
         [HttpGet("Details/{id}")]
@@ -107,6 +112,10 @@ namespace LibraryManagmentSystem.Web.Controllers
         {
             var query = new GetMemberByIdQuery{ Id = id };
             var result = await _mediator.Send(query);
+            if (result == null)
+            {
+                return NotFound(); // Return NotFoundResult if the member does not exist
+            }
             return View(result);
         }
     }

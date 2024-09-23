@@ -7,8 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="DomainServices\**" />
     <Compile Remove="UseCases\**" />
+    <EmbeddedResource Remove="DomainServices\**" />
     <EmbeddedResource Remove="UseCases\**" />
+    <None Remove="DomainServices\**" />
     <None Remove="UseCases\**" />
   </ItemGroup>
 
@@ -32,12 +35,6 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="8.0.2" />
-  </ItemGroup>
-
-	
-
-  <ItemGroup>
-    <Folder Include="DomainServices\" />
   </ItemGroup>
 
 </Project>

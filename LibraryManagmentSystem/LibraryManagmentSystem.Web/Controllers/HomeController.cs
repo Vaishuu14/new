@@ -52,7 +52,6 @@ namespace LibraryManagmentSystem.Web.Controllers
         {
             try
             {
-                // Call AuthenticateAsync to get the JWT token
                 var token = await _authService.AuthenticateAsync(model.UserName, model.Password);
 
                 if (token == null)
@@ -61,17 +60,14 @@ namespace LibraryManagmentSystem.Web.Controllers
                     return View(model);
                 }
 
-                // Set the token in the response if needed
-                // For example, storing the token in a cookie or a response header
                 Response.Cookies.Append("AuthToken", token, new CookieOptions
                 {
                     HttpOnly = true,
-                    Secure = true, // Set to true if using HTTPS
+                    Secure = true,
                     Expires = DateTimeOffset.UtcNow.AddMinutes(60)
                 });
 
-                // Assuming user object contains role information
-                var user = await _userService.GetUserByUsernameAsync(model.UserName); // Retrieve user info
+                var user = await _userService.GetUserByUsernameAsync(model.UserName);
 
                 if (user.Role == "Admin")
                 {
@@ -82,7 +78,6 @@ namespace LibraryManagmentSystem.Web.Controllers
                     return RedirectToAction("MemberDashboard", "Home");
                 }
 
-                // Default redirection if role is not recognized
                 return RedirectToAction("Index");
             }
             catch (UnauthorizedAccessException)
@@ -92,12 +87,11 @@ namespace LibraryManagmentSystem.Web.Controllers
             }
             catch (Exception ex)
             {
-                // Log the exception and return a generic error message
-                // You might want to log the error here
                 ModelState.AddModelError("", "An unexpected error occurred.");
                 return View(model);
             }
         }
+
 
 
 
@@ -129,11 +123,52 @@ namespace LibraryManagmentSystem.Web.Controllers
         //new
 
         [HttpGet]
-        public IActionResult MemberBookDetails(int id)
+        public async Task<IActionResult> MemberBookDetails(int id)
         {
-            // Redirect to the BookController's Details action
-            return RedirectToAction("Details", "Book", new { id });
+            var book = await _bookRepository.GetByIdAsync(id);
+            if (book == null)
+            {
+                return NotFound();
+            }
+            return View(book);  // Assuming the view is located at Views/Home/MemberBookDetails.cshtml
         }
+
+        [Authorize(Roles = "Member")]
+        [HttpGet]
+        public async Task<IActionResult> IssueBook(int id) // This is the GET method
+        {
+            var book = await _bookRepository.GetByIdAsync(id);
+            if (book == null)
+            {
+                return NotFound();
+            }
+
+            return View(book); // Return the IssueBook view with the book details
+        }
+
+        [Authorize(Roles = "Member")]
+        [HttpPost]
+        public async Task<IActionResult> IssueBookPost(int bookId) // Change the name here
+        {
+            var userName = User.Identity.Name;
+            var member = await _userService.GetUserByUsernameAsync(userName);
+
+            if (member == null || member.Role != "Member")
+            {
+                return Unauthorized();
+            }
+
+            var book = await _bookRepository.GetByIdAsync(bookId);
+            if (book == null)
+            {
+                return NotFound();
+            }
+
+            await _bookRepository.IssueBookAsync(book, member);
+            TempData["SuccessMessage"] = "Book issued successfully!";
+            return RedirectToAction("MemberDashboard");
+        }
+
 
 
 

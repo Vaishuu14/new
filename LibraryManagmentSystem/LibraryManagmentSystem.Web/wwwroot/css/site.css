@@ -19,9 +19,6 @@ html {
 
 body {
   margin-bottom: 60px;
-  /*background-image:url("../images/libraryHome.jpg");
-  background-repeat:no-repeat;
-  background-size:cover;*/
   padding: 0px;
 }
 .bg-image {
@@ -31,11 +28,14 @@ body {
     background-position: center;
     width: 100%;
     height: 500px; /* You must set a specified height */
+    
 }
+
+
 
 /* Example CSS to style the image */
 
-.bg-white {
+    .bg-white {
     --bs-bg-opacity: 1;
     background-color: rgb(136 5 5) !important;
 }
@@ -75,7 +75,7 @@ margin-left: 25%;
     position: fixed; /* Fixes the sidebar position */
     top: 0;
     left: 0;
-    background-color: #f8f9fa; /* Light background color */
+    background-color: rgb(50 53 56) !important; /* Light background color */
     box-shadow: 2px 0 5px rgba(0,0,0,0.1); /* Optional shadow for better separation */
 }
 
@@ -118,3 +118,26 @@ margin-left: 25%;
     color: black;
     font-size: 20px;
 }
+
+
+/* member dashboard*/
+
+.btn-warning {
+    background-color: #0ebfe1;
+    border-color: #000;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800; /* Darker shade on hover */
+    border-color: #d39e00; /* Darker border on hover */
+}
+.btn-danger {
+    color: #000;
+    background-color: #e9ecef;
+    border-color: #000;
+}
+    .btn-danger:hover {
+        color: #000;
+        background-color: #e9ecef;
+        border-color: #000;
+    }

@@ -2,28 +2,57 @@
 
 @{
     ViewData["Title"] = "Member Dashboard";
+    Layout = "_LayoutWithoutNavBar";
 }
 
-<h2>Books</h2>
+<div class="container mt-5">
+    <div class="card shadow-lg">
+        <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+            <h2 class="mb-0">@ViewData["Title"]</h2>
+            <div class="ms-auto">
+                <form asp-action="Logout" method="post" class="mb-0">
+                    <button type="submit" class="btn btn-danger btn-sm">Logout</button>
+                </form>
+            </div>
+        </div>
+        <div class="card-body">
+            <h3 class="mb-4">Available Books</h3>
+            <table class="table table-hover table-bordered">
+                <thead class="thead-light">
+                    <tr>
+                        <th scope="col">Title</th>
+                        <th scope="col">Author</th>
+                        <th scope="col">Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (!Model.Any())
+                    {
+                        <tr>
+                            <td colspan="3" class="text-center">No books available.</td>
+                        </tr>
+                    }
+                    else
+                    {
+                        @foreach (var book in Model)
+                        {
+                            <tr>
+                                <td>@book.Title</td>
+                                <td>@book.Author</td>
+                                <td>
+                                    <a asp-action="MemberBookDetails" asp-route-id="@book.Id" class="btn btn-info btn-sm">View Details</a>
+                                </td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>Title</th>
-            <th>Author</th>
-            <th>Details</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var book in Model)
-        {
-            <tr>
-                <td>@book.Title</td>
-                <td>@book.Author</td>
-                <td>
-                    <a asp-action="MemberBookDetails" asp-route-id="@book.Id">View Details</a>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
+@section Scripts {
+    <script>
+        // Add any additional scripts if needed
+    </script>
+}

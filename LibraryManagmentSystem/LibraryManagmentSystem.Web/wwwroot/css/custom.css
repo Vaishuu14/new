@@ -29,6 +29,10 @@
 .table-dark th, .table-dark td {
     color: #f8f9fa;
 }
+.custom-container {
+    max-width: 800px; /* Set your desired width */
+    margin: 0 auto; /* Center the container */
+}
 
 
 
