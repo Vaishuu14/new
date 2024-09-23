@@ -33,7 +33,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" asp-area="" asp-controller="Account" asp-action="Logout">
+                        <a class="nav-link" href="#" data-target="logout-content">
                             <i class="bi bi-box-arrow-right"></i> Logout
                         </a>
                     </li>
@@ -127,6 +127,16 @@
                     </div>
                 </nav>
             </div>
+            <!-- Logout Section -->
+            <div id="logout-content" class="content-section text-center">
+                <h2 class="text-danger mb-4"><i class="bi bi-box-arrow-right"></i> Logout</h2>
+                <p class="lead">Are you sure you want to logout?</p>
+                <form asp-controller="Home" asp-action="Logout" method="post" class="d-inline-block" style="margin-left: 0%;">
+                    <button type="submit" class="btn btn-lg btn-danger px-4 py-2" >
+                        <i class="bi bi-door-open"></i> Confirm Logout
+                    </button>
+                </form>
+            </div>
         </main>
     </div>
 </div>
@@ -169,6 +179,8 @@
                                 document.getElementById(targetId).classList.add("active");
                             })
                             .catch(error => console.error('Error loading content:', error));
+                    } else if (targetId === "logout-content") {
+                        document.getElementById(targetId).classList.add("active");
                     } else {
                         document.getElementById(targetId).classList.add("active");
                     }

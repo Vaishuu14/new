@@ -11,6 +11,13 @@
                 <div class="card-header text-center bg-primary text-white">
                     <h2 class="fw-bold">Login</h2>
                 </div>
+                @if (TempData["LogoutMessage"] != null)
+                {
+                    <div class="alert alert-success">
+                        @TempData["LogoutMessage"]
+                    </div>
+                }
+
                 <div class="card-body">
                     <form asp-action="Login" method="post">
                         <div class="form-group mb-3">
@@ -35,5 +42,8 @@
         </div>
     </div>
 </div>
+
+
+
 
 

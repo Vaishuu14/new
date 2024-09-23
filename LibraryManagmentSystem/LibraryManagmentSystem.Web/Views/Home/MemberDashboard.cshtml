@@ -1,19 +1,29 @@
-﻿@{
+﻿@model IEnumerable<LibraryManagmentSystem.Domain.Entities.Book>
+
+@{
     ViewData["Title"] = "Member Dashboard";
-     Layout = "_LayoutWithoutNavBar";
 }
 
+<h2>Books</h2>
 
-<h2>Member Dashboard</h2>
-
-<h3>Search Books</h3>
-
-<form asp-action="GetBookById" method="get">
-    <div class="form-group">
-        <label>Search by ID</label>
-        <input type="text" name="id" class="form-control" />
-    </div>
-    <div class="form-group">
-        <input type="submit" value="Search" class="btn btn-primary" />
-    </div>
-</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Details</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var book in Model)
+        {
+            <tr>
+                <td>@book.Title</td>
+                <td>@book.Author</td>
+                <td>
+                    <a asp-action="MemberBookDetails" asp-route-id="@book.Id">View Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

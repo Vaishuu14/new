@@ -15,6 +15,8 @@ namespace LibraryManagmentSystem.Domain.Interfaces
         Task AddReservationAsync(Reservation reservation);
         Task UpdateReservationAsync(Reservation reservation);
         Task DeleteReservationAsync(int id);
+       
+
 
     }
 }

@@ -3,6 +3,7 @@ using LibraryManagmentSystem.Domain.Entities;
 using LibraryManagmentSystem.Domain.Interfaces;
 using LibraryManagmentSystem.Web.Models;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using System.Threading.Tasks;
@@ -116,9 +117,22 @@ namespace LibraryManagmentSystem.Web.Controllers
             return View(viewModel);
         }
 
-        public IActionResult MemberDashboard()
+
+        //new
+        [HttpGet]
+        public async Task<IActionResult> MemberDashboard()
         {
-            return View();
+            var books = await _bookRepository.GetAllAsync();
+            return View(books);  // Assuming the view is located at Views/Home/MemberDashboard.cshtml
+        }
+
+        //new
+
+        [HttpGet]
+        public IActionResult MemberBookDetails(int id)
+        {
+            // Redirect to the BookController's Details action
+            return RedirectToAction("Details", "Book", new { id });
         }
 
 
@@ -154,7 +168,20 @@ namespace LibraryManagmentSystem.Web.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
-        
 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Logout()
+        {
+            // Remove the authentication token from cookies
+            Response.Cookies.Delete("AuthToken");
+
+            // Optionally, sign out from ASP.NET Identity (if used)
+            // await _signInManager.SignOutAsync();
+
+            TempData["LogoutMessage"] = "You have been logged out successfully.";
+            return RedirectToAction("Login" , "Home");
+        }
+       
     }
 }
