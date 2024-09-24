@@ -97,16 +97,16 @@ namespace LibraryManagmentSystem.Web.Controllers
             return View(result);
         }
 
-       
-        //[HttpPost("Delete/{id}")]
-        //public async Task<IActionResult> DeleteConfirmed(int id)
-        //{
-        //    var command = new DeleteMemberCommand{ Id = id };
-        //    await _mediator.Send(command);
-        //    return RedirectToAction("Index");
-        //}
 
-        
+        [HttpPost("Delete/{id}")]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            var command = new DeleteMemberCommand { Id = id };
+            await _mediator.Send(command);
+            return RedirectToAction("Index");
+        }
+
+
         [HttpGet("Details/{id}")]
         public async Task<IActionResult> Details(int id)
         {

@@ -40,7 +40,7 @@ builder.Services.AddSingleton(provider =>
 {
     var config = new MapperConfiguration(cfg =>
     {
-        cfg.AddProfile<MappingProfile>(); // Register your profile
+        cfg.AddProfile<MappingProfile>(); 
     });
     return config.CreateMapper();
 });
@@ -119,6 +119,7 @@ builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IFineCalculationService, FineCalculationService>();
 builder.Services.AddScoped<IUserService, UserService>();
 
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -132,6 +133,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+
 
 app.UseAuthentication();
 app.UseAuthorization();

@@ -56,18 +56,7 @@ namespace LibraryManagmentSystem.Infrastructure.Repositories
             return await _context.Books.CountAsync();
         }
 
-        public async Task IssueBookAsync(Book book, User member)
-        {
-            // Assuming there's an entity called IssuedBook
-            var issuedBook = new IssuedBook
-            {
-                BookId = book.Id,
-                UserId = member.Id,
-                IssueDate = DateTime.Now
-            };
-            _context.IssuedBooks.Add(issuedBook);
-            await _context.SaveChangesAsync();
-        }
+       
 
     }
 }

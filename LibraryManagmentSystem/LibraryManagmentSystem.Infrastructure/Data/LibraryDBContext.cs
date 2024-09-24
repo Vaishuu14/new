@@ -21,7 +21,7 @@ namespace LibraryManagmentSystem.Infrastructure.Data
         public DbSet<Fine> Fines { get; set; }
 
         public DbSet<User> Users { get; set; }
-        public DbSet<IssuedBook> IssuedBooks { get; set; }
+       
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

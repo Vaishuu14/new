@@ -44,20 +44,20 @@ namespace LibraryManagmentSystem.Web.Controllers
         }
 
        
-        [HttpPost("Create")]
-        public async Task<IActionResult> Create([FromForm] CreateBookCommand command)
-        {
-            if (!ModelState.IsValid)
-            {
-                // Return the view with validation errors if model state is invalid
-                return View(command);
-            }
+        //[HttpPost("Create")]
+        //public async Task<IActionResult> Create([FromForm] CreateBookCommand command)
+        //{
+        //    if (!ModelState.IsValid)
+        //    {
+        //        // Return the view with validation errors if model state is invalid
+        //        return View(command);
+        //    }
 
-            var result = await _mediator.Send(command);
-            TempData["SuccessMessage"] = "Book added successfully!";
-            return RedirectToAction("Create");
-           // return RedirectToAction("Index");
-        }
+        //    var result = await _mediator.Send(command);
+        //    TempData["SuccessMessage"] = "Book added successfully!";
+        //    return RedirectToAction("Create");
+        //   // return RedirectToAction("Index");
+        //}
 
 
 
@@ -103,16 +103,16 @@ namespace LibraryManagmentSystem.Web.Controllers
             return View(result);
         }
 
-       
-        //[HttpPost("Delete/{id}")]
-        //public async Task<IActionResult> DeleteConfirmed(int id)
-        //{
-        //    var command = new DeleteBookCommand(id);
-        //    await _mediator.Send(command);
-        //    return RedirectToAction("Index");
-        //}
 
-       
+        [HttpPost("Delete/{id}")]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            var command = new DeleteBookCommand(id);
+            await _mediator.Send(command);
+            return RedirectToAction("Index");
+        }
+
+
         [HttpGet("Details/{id}")]
         public async Task<IActionResult> Details(int id)
         {

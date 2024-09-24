@@ -133,43 +133,7 @@ namespace LibraryManagmentSystem.Web.Controllers
             return View(book);  // Assuming the view is located at Views/Home/MemberBookDetails.cshtml
         }
 
-        [Authorize(Roles = "Member")]
-        [HttpGet]
-        public async Task<IActionResult> IssueBook(int id) // This is the GET method
-        {
-            var book = await _bookRepository.GetByIdAsync(id);
-            if (book == null)
-            {
-                return NotFound();
-            }
-
-            return View(book); // Return the IssueBook view with the book details
-        }
-
-        [Authorize(Roles = "Member")]
-        [HttpPost]
-        public async Task<IActionResult> IssueBookPost(int bookId) // Change the name here
-        {
-            var userName = User.Identity.Name;
-            var member = await _userService.GetUserByUsernameAsync(userName);
-
-            if (member == null || member.Role != "Member")
-            {
-                return Unauthorized();
-            }
-
-            var book = await _bookRepository.GetByIdAsync(bookId);
-            if (book == null)
-            {
-                return NotFound();
-            }
-
-            await _bookRepository.IssueBookAsync(book, member);
-            TempData["SuccessMessage"] = "Book issued successfully!";
-            return RedirectToAction("MemberDashboard");
-        }
-
-
+        
 
 
         [HttpGet]
