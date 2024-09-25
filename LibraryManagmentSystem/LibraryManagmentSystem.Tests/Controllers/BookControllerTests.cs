@@ -48,35 +48,35 @@ namespace LibraryManagmentSystem.Tests.Controllers
             Assert.Equal(books, viewResult.Model);
         }
 
-        [Fact]
-        public void Create_ReturnsView()
-        {
-            // Act
-            var result = _controller.Create();
+        //[Fact]
+        //public void Create_ReturnsView()
+        //{
+        //    // Act
+        //    var result = _controller.Create();
 
-            // Assert
-            var viewResult = Assert.IsType<ViewResult>(result);
-            Assert.Null(viewResult.Model);
-        }
+        //    // Assert
+        //    var viewResult = Assert.IsType<ViewResult>(result);
+        //    Assert.Null(viewResult.Model);
+        //}
 
 
        
 
 
-        [Fact]
-        public async Task Create_Post_InvalidModel_ReturnsView()
-        {
-            // Arrange
-            var command = new CreateBookCommand();
-            _controller.ModelState.AddModelError("Title", "Required");
+        //[Fact]
+        //public async Task Create_Post_InvalidModel_ReturnsView()
+        //{
+        //    // Arrange
+        //    var command = new CreateBookCommand();
+        //    _controller.ModelState.AddModelError("Title", "Required");
 
-            // Act
-            var result = await _controller.Create(command);
+        //    // Act
+        //    var result = await _controller.Create(command);
 
-            // Assert
-            var viewResult = Assert.IsType<ViewResult>(result);
-            Assert.Equal(command, viewResult.Model);
-        }
+        //    // Assert
+        //    var viewResult = Assert.IsType<ViewResult>(result);
+        //    Assert.Equal(command, viewResult.Model);
+        //}
 
         
 

@@ -7,7 +7,6 @@ using LibraryManagmentSystem.Application.Mappers;
 using LibraryManagmentSystem.Domain.Interfaces;
 using LibraryManagmentSystem.Infrastructure.Data;
 using LibraryManagmentSystem.Infrastructure.Repositories;
-using LibraryManagmentSystem.Application.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
@@ -49,10 +48,6 @@ builder.Services.AddSingleton(provider =>
 builder.Services.AddDbContext<LibraryDBContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("AppDb")));
 
-builder.Services.AddAuthorization(options =>
-{
-    options.AddPolicy("MemberPolicy", policy => policy.RequireRole("Member"));
-});
 
 builder.Services.AddControllers()
     .AddNewtonsoftJson(options =>
@@ -62,35 +57,6 @@ builder.Services.AddControllers()
         options.SerializerSettings.NullValueHandling = NullValueHandling.Ignore;
         options.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
     });
-
-var jwtSettings = builder.Configuration.GetSection("Jwt");
-var key = Encoding.ASCII.GetBytes(jwtSettings["Key"]);
-
-// Configure JWT authentication
-builder.Services.AddAuthentication(options =>
-{
-    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-})
-.AddJwtBearer(x =>
-{
-    x.RequireHttpsMetadata = false;
-    x.SaveToken = true;
-    x.TokenValidationParameters = new TokenValidationParameters
-    {
-        ValidateIssuerSigningKey = true,
-        IssuerSigningKey = new SymmetricSecurityKey(key),
-        ValidateIssuer = true,
-        ValidateAudience = true,
-        ValidIssuer = jwtSettings["Issuer"],
-        ValidAudience = jwtSettings["Audience"]
-    };
-});
-
-builder.Services.Configure<LibraryManagmentSystem.Domain.Entities.JwtOptions>(options =>
-{
-    options.ExpirationMinutes = jwtSettings.GetValue<int>("ExpirationMinutes");
-});
 
 // Add Cookie authentication
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
@@ -114,9 +80,8 @@ builder.Services.AddScoped<IMemberRepository, MemberRepository>();
 builder.Services.AddScoped<ILoanRepository, LoanRepository>();
 builder.Services.AddScoped<IFineRepository, FineRepository>();
 builder.Services.AddScoped<IReservationRepository, ReservationRepository>();
-builder.Services.AddScoped<IUserRepository, UserRepository>();
-builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IFineCalculationService, FineCalculationService>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUserService, UserService>();
 
 

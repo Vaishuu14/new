@@ -1,0 +1,28 @@
+﻿/* General styles */
+
+input[type="submit"],button,[aria-lable {  
+    cursor: pointer;
+}
+
+/* Edit form styles */
+#editForm {
+    display: none; /* Hidden by default */
+}
+
+/* Table styles */
+table {
+    font-family:Arial,sans-serif;
+    border:1px solid;
+    border-collapse: collapse;
+}
+td {
+    padding: 5px;
+    border: 1px solid ;
+}
+
+th {
+    background-color: #f8f8f8;
+    padding: 5px;
+}
+
+

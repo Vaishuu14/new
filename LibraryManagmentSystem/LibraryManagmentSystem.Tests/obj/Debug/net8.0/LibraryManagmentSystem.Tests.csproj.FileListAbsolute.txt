@@ -540,6 +540,13 @@ C:\Users\Vaishnavi S\Source\Repos\LibrarySystem\LibraryManagmentSystem\LibraryMa
 C:\Users\Vaishnavi S\Source\Repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\obj\Debug\net8.0\LibraryManagmentSystem.Tests.genruntimeconfig.cache
 C:\Users\Vaishnavi S\Source\Repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\obj\Debug\net8.0\ref\LibraryManagmentSystem.Tests.dll
 C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\bin\Debug\net8.0\CoverletSourceRootsMapping_LibraryManagmentSystem.Tests
+C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\obj\Debug\net8.0\LibraryManagmentSystem.Tests.csproj.AssemblyReference.cache
+C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\obj\Debug\net8.0\MvcTestingAppManifest.json
+C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\obj\Debug\net8.0\LibraryManagmentSystem.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\obj\Debug\net8.0\LibraryManagmentSystem.Tests.AssemblyInfoInputs.cache
+C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\obj\Debug\net8.0\LibraryManagmentSystem.Tests.AssemblyInfo.cs
+C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\obj\Debug\net8.0\LibraryManagmentSystem.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\obj\Debug\net8.0\LibraryManagmentSystem.Tests.sourcelink.json
 C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\bin\Debug\net8.0\testhost.dll
 C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\bin\Debug\net8.0\LibraryManagmentSystem.Web.deps.json
 C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\bin\Debug\net8.0\LibraryManagmentSystem.Web.runtimeconfig.json
@@ -865,6 +872,7 @@ C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryMa
 C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\bin\Debug\net8.0\MediatR.dll
 C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\bin\Debug\net8.0\MediatR.Contracts.dll
 C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\bin\Debug\net8.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\bin\Debug\net8.0\System.Web.Cors.dll
 C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\bin\Debug\net8.0\System.Web.Razor.dll
 C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\bin\Debug\net8.0\System.Web.Helpers.dll
 C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\bin\Debug\net8.0\System.Web.WebPages.Deployment.dll
@@ -878,6 +886,7 @@ C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryMa
 C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Testing.dll
+C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\bin\Debug\net8.0\Microsoft.AspNetCore.Owin.dll
 C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\bin\Debug\net8.0\Microsoft.AspNetCore.TestHost.dll
 C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
@@ -905,6 +914,11 @@ C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryMa
 C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\bin\Debug\net8.0\Microsoft.Owin.dll
+C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\bin\Debug\net8.0\Microsoft.Owin.Cors.dll
+C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\bin\Debug\net8.0\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\bin\Debug\net8.0\Microsoft.Owin.Security.dll
+C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\bin\Debug\net8.0\Microsoft.Owin.Security.OAuth.dll
 C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\bin\Debug\net8.0\Microsoft.TestPlatform.CoreUtilities.dll
 C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\bin\Debug\net8.0\Microsoft.TestPlatform.PlatformAbstractions.dll
@@ -920,6 +934,7 @@ C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryMa
 C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
 C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\bin\Debug\net8.0\NuGet.Frameworks.dll
+C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\bin\Debug\net8.0\Owin.dll
 C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\bin\Debug\net8.0\System.CodeDom.dll
 C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\bin\Debug\net8.0\System.Composition.AttributedModel.dll
 C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\bin\Debug\net8.0\System.Composition.Convention.dll
@@ -1075,13 +1090,6 @@ C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryMa
 C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\bin\Debug\net8.0\LibraryManagmentSystem.Domain.pdb
 C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\bin\Debug\net8.0\LibraryManagmentSystem.Infrastructure.pdb
 C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\bin\Debug\net8.0\LibraryManagmentSystem.Web.pdb
-C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\obj\Debug\net8.0\LibraryManagmentSystem.Tests.csproj.AssemblyReference.cache
-C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\obj\Debug\net8.0\MvcTestingAppManifest.json
-C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\obj\Debug\net8.0\LibraryManagmentSystem.Tests.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\obj\Debug\net8.0\LibraryManagmentSystem.Tests.AssemblyInfoInputs.cache
-C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\obj\Debug\net8.0\LibraryManagmentSystem.Tests.AssemblyInfo.cs
-C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\obj\Debug\net8.0\LibraryManagmentSystem.Tests.csproj.CoreCompileInputs.cache
-C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\obj\Debug\net8.0\LibraryManagmentSystem.Tests.sourcelink.json
 C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\obj\Debug\net8.0\LibraryM.D1705341.Up2Date
 C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\obj\Debug\net8.0\LibraryManagmentSystem.Tests.dll
 C:\Users\Austraxpc46\source\repos\LibrarySystem\LibraryManagmentSystem\LibraryManagmentSystem.Tests\obj\Debug\net8.0\refint\LibraryManagmentSystem.Tests.dll

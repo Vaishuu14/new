@@ -43,20 +43,20 @@ namespace LibraryManagmentSystem.Web.Controllers
         }
 
        
-        [HttpPost("Create")]
-        public async Task<IActionResult> Create([FromForm] CreateMemberCommand command)
-        {
-            if (!ModelState.IsValid)
-            {
-                // Return the view with validation errors if model state is invalid
-                return View(command);
-            }
+        //[HttpPost("Create")]
+        //public async Task<IActionResult> Create([FromForm] CreateMemberCommand command)
+        //{
+        //    if (!ModelState.IsValid)
+        //    {
+        //        // Return the view with validation errors if model state is invalid
+        //        return View(command);
+        //    }
 
-            var result = await _mediator.Send(command);
-            TempData["SuccessMessage"] = "Member added successfully!";
-            return RedirectToAction("Create");
-            // return RedirectToAction("Index");
-        }
+        //    var result = await _mediator.Send(command);
+        //    TempData["SuccessMessage"] = "Member added successfully!";
+        //    return RedirectToAction("Create");
+        //    // return RedirectToAction("Index");
+        //}
 
        
         // GET: /Member/Edit/{id}

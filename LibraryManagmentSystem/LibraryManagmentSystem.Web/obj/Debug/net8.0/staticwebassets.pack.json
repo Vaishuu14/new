@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\LibraryManagmentSystem.Web.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\wwwroot\\css\\book.css",
+      "PackagePath": "staticwebassets\\css\\book.css"
+    },
+    {
       "Id": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\wwwroot\\css\\create-member.css",
       "PackagePath": "staticwebassets\\css\\create-member.css"
     },
@@ -43,6 +47,10 @@
     {
       "Id": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\wwwroot\\images\\libraryHome.jpg",
       "PackagePath": "staticwebassets\\images\\libraryHome.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\wwwroot\\js\\book.js",
+      "PackagePath": "staticwebassets\\js\\book.js"
     },
     {
       "Id": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\wwwroot\\js\\site.js",

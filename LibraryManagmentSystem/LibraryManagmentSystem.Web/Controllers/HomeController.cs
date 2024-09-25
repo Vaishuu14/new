@@ -1,5 +1,4 @@
-﻿using LibraryManagmentSystem.Application.Services;
-using LibraryManagmentSystem.Domain.Entities;
+﻿using LibraryManagmentSystem.Domain.Entities;
 using LibraryManagmentSystem.Domain.Interfaces;
 using LibraryManagmentSystem.Web.Models;
 using Microsoft.AspNetCore.Authorization;
@@ -16,18 +15,18 @@ namespace LibraryManagmentSystem.Web.Controllers
         private readonly IUserService _userService;
         private readonly IBookRepository _bookRepository;
         private readonly IMemberRepository _memberRepository;
-        private readonly IAuthService _authService;
+      
 
         public HomeController(
             IUserService userService,
             IBookRepository bookRepository,
-            IMemberRepository memberRepository,
-            IAuthService authService) // Inject IAuthService
+            IMemberRepository memberRepository
+           ) // Inject IAuthService
         {
             _userService = userService;
             _bookRepository = bookRepository;
             _memberRepository = memberRepository;
-            _authService = authService; // Initialize the auth service
+            // Initialize the auth service
         }
 
 
@@ -52,23 +51,23 @@ namespace LibraryManagmentSystem.Web.Controllers
         {
             try
             {
-                var token = await _authService.AuthenticateAsync(model.UserName, model.Password);
+                var user = await _userService.AuthenticateAsync(model.UserName, model.Password);
 
-                if (token == null)
+                if (user == null)
                 {
                     ModelState.AddModelError("", "Invalid username or password.");
                     return View(model);
                 }
 
-                Response.Cookies.Append("AuthToken", token, new CookieOptions
+                // Optionally set a cookie for the logged-in user
+                Response.Cookies.Append("UserId", user.Id.ToString(), new CookieOptions
                 {
                     HttpOnly = true,
                     Secure = true,
                     Expires = DateTimeOffset.UtcNow.AddMinutes(60)
                 });
 
-                var user = await _userService.GetUserByUsernameAsync(model.UserName);
-
+                // Redirect based on user role
                 if (user.Role == "Admin")
                 {
                     return RedirectToAction("AdminDashboard", "Home");
@@ -80,18 +79,12 @@ namespace LibraryManagmentSystem.Web.Controllers
 
                 return RedirectToAction("Index");
             }
-            catch (UnauthorizedAccessException)
-            {
-                ModelState.AddModelError("", "Invalid username or password.");
-                return View(model);
-            }
             catch (Exception ex)
             {
                 ModelState.AddModelError("", "An unexpected error occurred.");
                 return View(model);
             }
         }
-
 
 
 

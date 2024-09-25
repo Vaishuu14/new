@@ -26,32 +26,18 @@ namespace LibraryManagmentSystem.Infrastructure.Repositories
             return await _userRepository.GetUserByUserNameAsync(username);
         }
 
-        public async Task<string> AuthenticateAsync(string username, string password)
+        public async Task<User> AuthenticateAsync(string username, string password)
         {
-            var user = await _userRepository.GetUserByUserNameAndPasswordAsync(username, password);
+            var user = await _userRepository.GetUserByUserNameAsync(username);
 
-            // Return null if user not found
-            if (user == null)
+            // Return null if user not found or password does not match
+            if (user == null || user.Password != password)
                 return null;
 
-            // Authentication successful, generate JWT token
-            var tokenHandler = new JwtSecurityTokenHandler();
-            var key = Encoding.ASCII.GetBytes("F5865B9F-EEF5-41C9-9571-BBF20168DB88");
-            var tokenDescriptor = new SecurityTokenDescriptor
-            {
-                Subject = new ClaimsIdentity(new[] {
-                new Claim(ClaimTypes.Name, user.Id.ToString()),
-                new Claim(ClaimTypes.Role, user.Role)
-            }),
-                Expires = DateTime.UtcNow.AddMinutes(60),
-                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256),
-                Issuer = "http://localhost.com",
-                Audience = "http://localhost.com"
-            };
-
-            var token = tokenHandler.CreateToken(tokenDescriptor);
-            return tokenHandler.WriteToken(token);
+            // Authentication successful, return the user object
+            return user;
         }
+
 
         public async Task<User> RegisterUserAsync(Registration model)
         {

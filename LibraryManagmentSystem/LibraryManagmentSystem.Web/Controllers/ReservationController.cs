@@ -36,19 +36,19 @@ namespace LibraryManagmentSystem.Web.Controllers
             return View();
         }
 
-        [HttpPost("Create")]
-        public async Task<IActionResult> Create([FromForm] CreateReservationCommand command)
-        {
-            if (!ModelState.IsValid)
-            {
-                // Return the view with validation errors if model state is invalid
-                return View(command);
-            }
+        //[HttpPost("Create")]
+        //public async Task<IActionResult> Create([FromForm] CreateReservationCommand command)
+        //{
+        //    if (!ModelState.IsValid)
+        //    {
+        //        // Return the view with validation errors if model state is invalid
+        //        return View(command);
+        //    }
 
-            var result = await _mediator.Send(command);
-            TempData["SuccessMessage"] = "Reservation added successfully!";
-            return RedirectToAction("Create");
-        }
+        //    var result = await _mediator.Send(command);
+        //    TempData["SuccessMessage"] = "Reservation added successfully!";
+        //    return RedirectToAction("Create");
+        //}
 
         [HttpGet("Edit/{id}")]
         public async Task<IActionResult> Edit(int id)

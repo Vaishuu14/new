@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nRzpuZHOD64msFPjV6tNOwsaSIZEec375HpELoxAie0=",
+  "Hash": "tqmgYWJlSEXjHQwTLgr7MWLyDpEWs/LOMPq09VIn/GU=",
   "Source": "LibraryManagmentSystem.Web",
   "BasePath": "_content/LibraryManagmentSystem.Web",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\LibraryManagmentSystem.Web.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\wwwroot\\css\\book.css",
+      "SourceId": "LibraryManagmentSystem.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\wwwroot\\",
+      "BasePath": "_content/LibraryManagmentSystem.Web",
+      "RelativePath": "css/book.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\book.css"
     },
     {
       "Identity": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\wwwroot\\css\\create-member.css",
@@ -243,6 +262,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\libraryHome.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\wwwroot\\js\\book.js",
+      "SourceId": "LibraryManagmentSystem.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\wwwroot\\",
+      "BasePath": "_content/LibraryManagmentSystem.Web",
+      "RelativePath": "js/book.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\book.js"
     },
     {
       "Identity": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\wwwroot\\js\\site.js",

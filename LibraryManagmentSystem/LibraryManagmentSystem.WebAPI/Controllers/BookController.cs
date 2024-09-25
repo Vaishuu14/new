@@ -3,8 +3,8 @@ using LibraryManagmentSystem.Application.Commands.BookCommands;
 using LibraryManagmentSystem.Application.Queries.BookQueries;
 using LibraryManagmentSystem.Domain.Interfaces;
 using MediatR;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
 
 namespace LibraryManagmentSystem.WebAPI.Controllers
 {
@@ -24,7 +24,7 @@ namespace LibraryManagmentSystem.WebAPI.Controllers
         }
 
         [HttpGet]
-        [Route("/book/list")]
+        [Route("list")]
         public async Task<IActionResult> GetBooks()
         {
             var books = await _mediator.Send(new GetBooksQuery());
@@ -32,7 +32,7 @@ namespace LibraryManagmentSystem.WebAPI.Controllers
         }
 
         [HttpGet]
-        [Route("/book/details")]
+        [Route("details/{id}")]
         public async Task<IActionResult> DetailsOfBook(int id)
         {
             var query = new GetBookByIdQuery(id);
@@ -45,42 +45,38 @@ namespace LibraryManagmentSystem.WebAPI.Controllers
         }
 
         [HttpPost]
-        [Route("/book/create")]
-        public async Task<IActionResult> CreateBook([FromForm] CreateBookCommand command)
+        [Route("create")]
+        public async Task<IActionResult> CreateBook([FromBody] CreateBookCommand command)
         {
             if (!ModelState.IsValid)
             {
-                // Return the view with validation errors if model state is invalid
-                return Ok(command);
+                return BadRequest(ModelState);
             }
 
             var result = await _mediator.Send(command);
-           return Ok(result);
-           
+            return CreatedAtAction(nameof(DetailsOfBook), new { id = result.Id }, result);
         }
 
-        // POST: /Book/Edit
         [HttpPut]
-        [Route("/book/update")]
-        public async Task<IActionResult> EditBook(UpdateBookCommand command)
+        [Route("update")]
+        public async Task<IActionResult> EditBook([FromBody] UpdateBookCommand command)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
-                await _mediator.Send(command);
-                return RedirectToAction(nameof(Index));
+                return BadRequest(ModelState);
             }
-            return Ok(command);
-        }
 
-       
+            await _mediator.Send(command);
+            return NoContent();
+        }
 
         [HttpDelete]
-        [Route("/book/delete")]
+        [Route("delete/{id}")]
         public async Task<IActionResult> DeleteBook(int id)
         {
             var command = new DeleteBookCommand(id);
             await _mediator.Send(command);
-            return Ok(command);
+            return NoContent();
         }
     }
 }
