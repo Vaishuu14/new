@@ -3,8 +3,8 @@ using LibraryManagmentSystem.Application.Commands.MemberCommands;
 using LibraryManagmentSystem.Application.Queries.MemberQueries;
 using LibraryManagmentSystem.Domain.Interfaces;
 using MediatR;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
 
 namespace LibraryManagmentSystem.WebAPI.Controllers
 {
@@ -24,60 +24,59 @@ namespace LibraryManagmentSystem.WebAPI.Controllers
         }
 
         [HttpGet]
-        [Route("/member/list")]
-        public async Task<IActionResult> MemberList()
+        [Route("list")]
+        public async Task<IActionResult> GetMembers()
         {
             var members = await _mediator.Send(new GetMembersQuery());
             return Ok(members);
         }
 
         [HttpGet]
-        [Route("/member/details")]
-        public async Task<IActionResult> MemberDetails(int id)
+        [Route("details/{id}")]
+        public async Task<IActionResult> DetailsOfMember(int id)
         {
-            var query = new GetMemberByIdQuery { Id = id };
+            var query = new GetMemberByIdQuery{Id=id};
             var result = await _mediator.Send(query);
             if (result == null)
             {
-                return NotFound(); // Return NotFoundResult if the member does not exist
+                return NotFound(); // Return NotFound if the member doesn't exist
             }
             return Ok(result);
         }
 
         [HttpPost]
-        [Route("/member/create")]
-        public async Task<IActionResult> CreateMember([FromForm] CreateMemberCommand command)
+        [Route("create")]
+        public async Task<IActionResult> CreateMember([FromBody] CreateMemberCommand command)
         {
             if (!ModelState.IsValid)
             {
-                // Return the view with validation errors if model state is invalid
-                return Ok(command);
+                return BadRequest(ModelState);
             }
 
             var result = await _mediator.Send(command);
-            return Ok(result);
+            return CreatedAtAction(nameof(DetailsOfMember), new { id = result.Id }, result);
         }
 
-        // POST: /Member/Edit
         [HttpPut]
-        [Route("/member/update")]
-        public async Task<IActionResult> EditMember(UpdateMemberCommand command)
+        [Route("update")]
+        public async Task<IActionResult> EditMember([FromBody] UpdateMemberCommand command)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
-                await _mediator.Send(command);
-                return RedirectToAction(nameof(Index));
+                return BadRequest(ModelState);
             }
-            return Ok(command);
+
+            await _mediator.Send(command);
+            return NoContent();
         }
 
         [HttpDelete]
-        [Route("/member/delete")]
+        [Route("delete/{id}")]
         public async Task<IActionResult> DeleteMember(int id)
         {
-            var command = new DeleteMemberCommand { Id = id };
+            var command = new DeleteMemberCommand{Id = id};
             await _mediator.Send(command);
-            return Ok(command);
-        }   
+            return NoContent();
+        }
     }
 }

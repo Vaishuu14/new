@@ -3,8 +3,8 @@ using LibraryManagmentSystem.Application.Commands.ReservationCommands;
 using LibraryManagmentSystem.Application.Queries.ReservationQueries;
 using LibraryManagmentSystem.Domain.Interfaces;
 using MediatR;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
 
 namespace LibraryManagmentSystem.WebAPI.Controllers
 {
@@ -24,60 +24,59 @@ namespace LibraryManagmentSystem.WebAPI.Controllers
         }
 
         [HttpGet]
-        [Route("/reservation/list")]
-        public async Task<IActionResult> ReservationList()
+        [Route("list")]
+        public async Task<IActionResult> GetReservations()
         {
             var reservations = await _mediator.Send(new GetReservationsQuery());
             return Ok(reservations);
         }
 
         [HttpGet]
-        [Route("/reservation/details")]
-        public async Task<IActionResult> Details(int id)
+        [Route("details/{id}")]
+        public async Task<IActionResult> DetailsOfReservation(int id)
         {
             var query = new GetReservationByIdQuery(id);
             var result = await _mediator.Send(query);
             if (result == null)
             {
-
-                return NotFound();
+                return NotFound(); // Return NotFound if the reservation doesn't exist
             }
             return Ok(result);
         }
 
         [HttpPost]
-        [Route("/reservation/create")]
-        public async Task<IActionResult> CreateReservation([FromForm] CreateReservationCommand command)
+        [Route("create")]
+        public async Task<IActionResult> CreateReservation([FromBody] CreateReservationCommand command)
         {
             if (!ModelState.IsValid)
             {
-                // Return the view with validation errors if model state is invalid
-                return Ok(command);
+                return BadRequest(ModelState);
             }
 
             var result = await _mediator.Send(command);
-            return Ok(result);
+            return CreatedAtAction(nameof(DetailsOfReservation), new { id = result.Id }, result);
         }
 
         [HttpPut]
-        [Route("/reservation/update")]
-        public async Task<IActionResult> Edit(UpdateReservationCommand command)
+        [Route("update")]
+        public async Task<IActionResult> EditReservation([FromBody] UpdateReservationCommand command)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
-                await _mediator.Send(command);
-                return RedirectToAction(nameof(Index));
+                return BadRequest(ModelState);
             }
-            return Ok(command);
+
+            await _mediator.Send(command);
+            return NoContent();
         }
 
         [HttpDelete]
-        [Route("/reservation/delete")]
-        public async Task<IActionResult> DeleteMember(int id)
+        [Route("delete/{id}")]
+        public async Task<IActionResult> DeleteReservation(int id)
         {
-            var command = new CancelReservationCommand { Id = id };
+            var command = new CancelReservationCommand{Id=id};
             await _mediator.Send(command);
-            return RedirectToAction("Index");
+            return NoContent();
         }
     }
 }

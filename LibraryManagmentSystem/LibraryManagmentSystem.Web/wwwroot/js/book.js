@@ -1,10 +1,10 @@
-﻿const uri = 'https://localhost:7207/api/book';
+﻿const bookUri = 'https://localhost:7207/api/book'; // Update with your actual API endpoint
 let books = [];
 
+// Function to get the list of books
 async function getBooks() {
     try {
-        debugger;
-        const response = await fetch(`${uri}/list`);
+        const response = await fetch(`${bookUri}/list`);
         const data = await response.json();
         books = data;
         _displayBooks(data);
@@ -12,6 +12,8 @@ async function getBooks() {
         console.error('Unable to get books.', error);
     }
 }
+
+// Function to add a new book
 async function addBook() {
     const addTitleTextbox = document.getElementById('add-title');
     const addAuthorTextbox = document.getElementById('add-author');
@@ -24,11 +26,11 @@ async function addBook() {
         author: addAuthorTextbox.value.trim(),
         isbn: addIsbnTextbox.value.trim(),
         publishedDate: addPublishedDateTextbox.value,
-        numberOfCopies: parseInt(addNumberOfCopiesTextbox.value, 10)
+        numberOfCopies: parseInt(addNumberOfCopiesTextbox.value.trim(), 10)
     };
 
     try {
-        const response = await fetch(`${uri}/create`, {
+        const response = await fetch(`${bookUri}/create`, {
             method: 'POST',
             headers: {
                 'Accept': 'application/json',
@@ -54,9 +56,10 @@ async function addBook() {
     }
 }
 
+// Function to delete a book
 async function deleteBook(id) {
     try {
-        const response = await fetch(`${uri}/delete/${id}`, {
+        const response = await fetch(`${bookUri}/delete/${id}`, {
             method: 'DELETE'
         });
 
@@ -70,6 +73,7 @@ async function deleteBook(id) {
     }
 }
 
+// Function to display the edit form
 function displayEditForm(id) {
     const book = books.find(book => book.id === id);
 
@@ -82,25 +86,26 @@ function displayEditForm(id) {
     document.getElementById('editForm').style.display = 'block';
 }
 
+// Function to update a book
 async function updateBook() {
     const bookId = document.getElementById('edit-id').value;
-    const bookTitle = document.getElementById('edit-title').value.trim();
-    const bookAuthor = document.getElementById('edit-author').value.trim();
-    const bookIsbn = document.getElementById('edit-isbn').value.trim();
-    const bookPublishedDate = document.getElementById('edit-publishedDate').value;
-    const bookNumberOfCopies = document.getElementById('edit-numberOfCopies').value;
+    const title = document.getElementById('edit-title').value.trim();
+    const author = document.getElementById('edit-author').value.trim();
+    const isbn = document.getElementById('edit-isbn').value.trim();
+    const publishedDate = document.getElementById('edit-publishedDate').value;
+    const numberOfCopies = document.getElementById('edit-numberOfCopies').value;
 
     const book = {
         id: parseInt(bookId, 10),
-        title: bookTitle,
-        author: bookAuthor,
-        isbn: bookIsbn,
-        publishedDate: new Date(bookPublishedDate).toISOString(),
-        numberOfCopies: parseInt(bookNumberOfCopies, 10)
+        title: title,
+        author: author,
+        isbn: isbn,
+        publishedDate: new Date(publishedDate).toISOString(),
+        numberOfCopies: parseInt(numberOfCopies, 10)
     };
 
     try {
-        const response = await fetch(`${uri}/update`, {
+        const response = await fetch(`${bookUri}/update`, {
             method: 'PUT',
             headers: {
                 'Accept': 'application/json',
@@ -120,10 +125,12 @@ async function updateBook() {
     }
 }
 
+// Function to close the edit form
 function closeInput() {
     document.getElementById('editForm').style.display = 'none';
 }
 
+// Function to display books in the UI
 function _displayBooks(data) {
     const tBody = document.getElementById('books');
     tBody.innerHTML = '';
@@ -168,5 +175,6 @@ function _displayBooks(data) {
     const name = data.length === 1 ? 'book' : 'books';
     counter.innerText = `${data.length} ${name}`;
 }
-getBooks();
 
+// Initial call to fetch and display books
+getBooks();

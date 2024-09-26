@@ -127,32 +127,6 @@ namespace LibraryManagmentSystem.Infrastructure.Migrations
                     b.ToTable("Fines");
                 });
 
-            modelBuilder.Entity("LibraryManagmentSystem.Domain.Entities.IssuedBook", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("BookId")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("IssueDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("BookId");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("IssuedBooks");
-                });
-
             modelBuilder.Entity("LibraryManagmentSystem.Domain.Entities.Loan", b =>
                 {
                     b.Property<int>("Id")
@@ -305,25 +279,6 @@ namespace LibraryManagmentSystem.Infrastructure.Migrations
                         .IsRequired();
 
                     b.Navigation("Loan");
-                });
-
-            modelBuilder.Entity("LibraryManagmentSystem.Domain.Entities.IssuedBook", b =>
-                {
-                    b.HasOne("LibraryManagmentSystem.Domain.Entities.Book", "Book")
-                        .WithMany()
-                        .HasForeignKey("BookId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("LibraryManagmentSystem.Domain.Entities.User", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Book");
-
-                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("LibraryManagmentSystem.Domain.Entities.Loan", b =>

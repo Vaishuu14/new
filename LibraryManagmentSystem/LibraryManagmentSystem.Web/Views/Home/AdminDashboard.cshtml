@@ -171,6 +171,8 @@
                             .then(html => {
                                 document.getElementById(targetId).innerHTML = html;
                                 document.getElementById(targetId).classList.add("active");
+                                 debugger;
+                                $.getScript("/js/member.js");
                             })
                             .catch(error => console.error('Error loading content:', error));
                     } else if (targetId === "reservation-management-content") {
@@ -179,6 +181,8 @@
                             .then(html => {
                                 document.getElementById(targetId).innerHTML = html;
                                 document.getElementById(targetId).classList.add("active");
+                                 debugger;
+                                $.getScript("/js/reservation.js");
                             })
                             .catch(error => console.error('Error loading content:', error));
                     } else if (targetId === "logout-content") {

@@ -1,58 +1,32 @@
-﻿@model IEnumerable<LibraryManagmentSystem.Domain.Entities.Book>
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member Dashboard - Book List</title>
+    <link rel="stylesheet" href="~/css/memberDashboard.css" />
+    <script src="~/js/book.js" defer></script> <!-- Ensure book.js is loaded -->
+</head>
+<body>
+    <h1>Member Dashboard</h1>
 
-@{
-    ViewData["Title"] = "Member Dashboard";
-    Layout = "_LayoutWithoutNavBar";
-}
+    <h3>Available Books</h3>
+    <p id="counter"></p>
+    <table>
+        <thead>
+            <tr>
+                <th>Book Title</th>
+                <th>Author</th>
+                <th>Publication Date</th>
+                <th>Available Copies</th>
+            </tr>
+        </thead>
+        <tbody id="books"></tbody> <!-- This will be populated by book.js -->
+    </table>
 
-<div class="container mt-5">
-    <div class="card shadow-lg">
-        <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
-            <h2 class="mb-0">@ViewData["Title"]</h2>
-            <div class="ms-auto">
-                <form asp-action="Logout" method="post" class="mb-0">
-                    <button type="submit" class="btn btn-danger btn-sm">Logout</button>
-                </form>
-            </div>
-        </div>
-        <div class="card-body">
-            <h3 class="mb-4">Available Books</h3>
-            <table class="table table-hover table-bordered">
-                <thead class="thead-light">
-                    <tr>
-                        <th scope="col">Title</th>
-                        <th scope="col">Author</th>
-                        <th scope="col">Details</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    @if (!Model.Any())
-                    {
-                        <tr>
-                            <td colspan="3" class="text-center">No books available.</td>
-                        </tr>
-                    }
-                    else
-                    {
-                        @foreach (var book in Model)
-                        {
-                            <tr>
-                                <td>@book.Title</td>
-                                <td>@book.Author</td>
-                                <td>
-                                    <a asp-action="MemberBookDetails" asp-route-id="@book.Id" class="btn btn-info btn-sm">View Details</a>
-                                </td>
-                            </tr>
-                        }
-                    }
-                </tbody>
-            </table>
-        </div>
-    </div>
-</div>
-
-@section Scripts {
     <script>
-        // Add any additional scripts if needed
+        // Call to load books when the page is ready
+        getBooks();
     </script>
-}
+</body>
+</html>

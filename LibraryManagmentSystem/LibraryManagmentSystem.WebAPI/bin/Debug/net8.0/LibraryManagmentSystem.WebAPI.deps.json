@@ -1549,7 +1549,10 @@
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
-          "LibraryManagmentSystem.Application.dll": {}
+          "LibraryManagmentSystem.Application.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "LibraryManagmentSystem.Domain/1.0.0": {
@@ -1573,7 +1576,10 @@
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
-          "LibraryManagmentSystem.Domain.dll": {}
+          "LibraryManagmentSystem.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "LibraryManagmentSystem.Infrastructure/1.0.0": {
@@ -1595,7 +1601,10 @@
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
-          "LibraryManagmentSystem.Infrastructure.dll": {}
+          "LibraryManagmentSystem.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "LibraryManagmentSystem.Web/1.0.0": {
@@ -1620,7 +1629,10 @@
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
-          "LibraryManagmentSystem.Web.dll": {}
+          "LibraryManagmentSystem.Web.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

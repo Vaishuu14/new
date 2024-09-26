@@ -124,33 +124,6 @@ namespace LibraryManagmentSystem.Infrastructure.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "IssuedBooks",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    BookId = table.Column<int>(type: "int", nullable: false),
-                    UserId = table.Column<int>(type: "int", nullable: false),
-                    IssueDate = table.Column<DateTime>(type: "datetime2", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_IssuedBooks", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_IssuedBooks_Books_BookId",
-                        column: x => x.BookId,
-                        principalTable: "Books",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_IssuedBooks_Users_UserId",
-                        column: x => x.UserId,
-                        principalTable: "Users",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "Fines",
                 columns: table => new
                 {
@@ -195,16 +168,6 @@ namespace LibraryManagmentSystem.Infrastructure.Migrations
                 column: "LoanId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_IssuedBooks_BookId",
-                table: "IssuedBooks",
-                column: "BookId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_IssuedBooks_UserId",
-                table: "IssuedBooks",
-                column: "UserId");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_Loans_BookId",
                 table: "Loans",
                 column: "BookId");
@@ -232,16 +195,13 @@ namespace LibraryManagmentSystem.Infrastructure.Migrations
                 name: "Fines");
 
             migrationBuilder.DropTable(
-                name: "IssuedBooks");
-
-            migrationBuilder.DropTable(
                 name: "Reservation");
 
             migrationBuilder.DropTable(
-                name: "Loans");
+                name: "Users");
 
             migrationBuilder.DropTable(
-                name: "Users");
+                name: "Loans");
 
             migrationBuilder.DropTable(
                 name: "Books");
